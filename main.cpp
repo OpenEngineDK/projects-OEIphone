@@ -27,7 +27,7 @@
 #include <Scene/MeshNode.h>
 #include <Geometry/Mesh.h>
 #include <Geometry/GeometrySet.h>
-
+#include <Core/EngineEvents.h>
 
 // Game factory
 //#include "GameFactory.h"
@@ -52,6 +52,22 @@ using namespace OpenEngine::Scene;
 //        logger.info << "hmmm" << logger.end;
 //    }
 //};
+
+
+
+class Rotator : public IListener<OpenEngine::Core::ProcessEventArg> {
+public:
+    TransformationNode *node;
+    Rotator(TransformationNode *node) : node(node) {
+    }
+    
+    void Handle(OpenEngine::Core::ProcessEventArg arg) {
+        float dt = arg.approx / 1000000.0;
+        //node->Rotate(dt/2.0, dt,  0.0);
+        node->SetPosition(Vector<3,float>(sin(dt*10), cos(dt*10), 0));
+        //logger.info << "pos: " << dt << " " << node->GetPosition() << logger.end;
+    }
+};
 
 MeshPtr CreateCube(float size, unsigned int detail, Vector<3, float> color){
     unsigned int d = detail + 1;
@@ -133,7 +149,7 @@ MeshPtr CreateCube(float size, unsigned int detail, Vector<3, float> color){
         colors->SetElement(i, color);
     
     IndicesPtr indices = IndicesPtr(new Indices(36 * detail * detail));
-    unsigned int* i = indices->GetData();
+    unsigned short* i = indices->GetData();
     
     // Top side indices
     unsigned int index = 0;
@@ -225,6 +241,9 @@ int main(int argc, char** argv) {
     SceneNode *root = new SceneNode();
     TransformationNode *trans = new TransformationNode();
     root->AddNode(trans);
+    
+    Rotator *r = new Rotator(trans);
+    engine->ProcessEvent().Attach(*r);
     
     MeshPtr mesh = CreateCube(0.5 ,1, Vector<3,float>(0,1,0));
     
