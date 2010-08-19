@@ -28,6 +28,9 @@
 #include <Geometry/Mesh.h>
 #include <Geometry/GeometrySet.h>
 #include <Core/EngineEvents.h>
+#include <Display/Camera.h>
+#include <Display/PerspectiveViewingVolume.h>
+#include <Display/Frustum.h>
 
 // Game factory
 //#include "GameFactory.h"
@@ -63,8 +66,8 @@ public:
     
     void Handle(OpenEngine::Core::ProcessEventArg arg) {
         float dt = arg.approx / 1000000.0;
-        //node->Rotate(dt/2.0, dt,  0.0);
-        node->SetPosition(Vector<3,float>(sin(dt*10), cos(dt*10), 0));
+        node->Rotate(0*dt/2.0, dt,  0.0);
+        //node->SetPosition(Vector<3,float>(sin(dt*10), cos(dt*10), 0));
         //logger.info << "pos: " << dt << " " << node->GetPosition() << logger.end;
     }
 };
@@ -234,7 +237,7 @@ int main(int argc, char** argv) {
     
     renderer->ProcessEvent().Attach(*renderingview);
     renderer->InitializeEvent().Attach(*renderingview);
-    //canvas->SetScene(scene);
+
     frame.SetCanvas(canvas);
 
     // Setup scene
@@ -255,6 +258,13 @@ int main(int argc, char** argv) {
     
     canvas->SetScene(root);
     
+    Camera *cam = new Camera(*(new PerspectiveViewingVolume(0.05, 5.0)));
+    Frustum *f = new Frustum(*cam);
+    
+    canvas->SetViewingVolume(f);
+    
+    cam->SetPosition(Vector<3,float>(0,2,2));
+    cam->LookAt(Vector<3,float>(0,0,0));
     
     
     // IRCClient *client = new IRCClient("irc.freenode.net","oe-ix22","ptx2");
