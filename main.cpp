@@ -31,6 +31,8 @@
 #include <Display/Camera.h>
 #include <Display/PerspectiveViewingVolume.h>
 #include <Display/Frustum.h>
+#include <Devices/iOSTouch.h>
+
 
 // Game factory
 //#include "GameFactory.h"
@@ -42,6 +44,7 @@ using namespace OpenEngine::Logging;
 using namespace OpenEngine::Core;
 using namespace OpenEngine::Utils;
 using namespace OpenEngine::Geometry;
+using namespace OpenEngine::Devices;
 using namespace OpenEngine::Display;
 using namespace OpenEngine::Display::OpenGLES2;
 using namespace OpenEngine::Renderers;
@@ -58,15 +61,17 @@ using namespace OpenEngine::Scene;
 
 
 
-class Rotator : public IListener<OpenEngine::Core::ProcessEventArg> {
+class Rotator : public IListener<TouchMovedEventArg> {
 public:
     TransformationNode *node;
     Rotator(TransformationNode *node) : node(node) {
     }
     
-    void Handle(OpenEngine::Core::ProcessEventArg arg) {
-        float dt = arg.approx / 1000000.0;
-        node->Rotate(0*dt/2.0, dt,  0.0);
+    void Handle(TouchMovedEventArg arg) {
+        
+        float s = 0.01;
+        
+        node->Rotate(arg.dy*s, arg.dx*s, 0.0);
         //node->SetPosition(Vector<3,float>(sin(dt*10), cos(dt*10), 0));
         //logger.info << "pos: " << dt << " " << node->GetPosition() << logger.end;
     }
@@ -246,7 +251,11 @@ int main(int argc, char** argv) {
     root->AddNode(trans);
     
     Rotator *r = new Rotator(trans);
-    engine->ProcessEvent().Attach(*r);
+    
+    iOSTouch *touch = env->GetTouch();    
+    touch->TouchMovedEvent().Attach(*r);
+    
+    //engine->ProcessEvent().Attach(*r);
     
     MeshPtr mesh = CreateCube(0.5 ,1, Vector<3,float>(0,1,0));
     
