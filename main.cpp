@@ -19,6 +19,7 @@
 #include <Display/OpenGLES2/RenderCanvas.h>
 #include <Renderers/OpenGLES2/Renderer.h>
 #include <Renderers/OpenGLES2/RenderingView.h>
+#include <Renderers/TextureLoader.h>
 #include <Resources/ResourceManager.h>
 #include <Resources/OpenGLES2Shader.h>
 #include <Resources/DataBlock.h>
@@ -32,6 +33,9 @@
 #include <Display/PerspectiveViewingVolume.h>
 #include <Display/Frustum.h>
 #include <Devices/iOSTouch.h>
+#include <Utils/MeshCreator.h>
+#include <Resources/OBJResource.h>
+#include <Resources/TGAResource.h>
 
 
 // Game factory
@@ -60,11 +64,10 @@ using namespace OpenEngine::Scene;
 //};
 
 
-
-class Rotator : public IListener<TouchMovedEventArg> {
+class TouchRotator : public IListener<TouchMovedEventArg> {
 public:
     TransformationNode *node;
-    Rotator(TransformationNode *node) : node(node) {
+    TouchRotator(TransformationNode *node) : node(node) {
     }
     
     void Handle(TouchMovedEventArg arg) {
@@ -77,119 +80,23 @@ public:
     }
 };
 
-MeshPtr CreateCube(float size, unsigned int detail, Vector<3, float> color){
-    unsigned int d = detail + 1;
-    float halfSize = size / 2;
-    float unit = size / detail;
-    
-    enum sides {TOP = 0, BOTTOM = 1, LEFT = 2, RIGHT = 3, FRONT = 4, BACK = 5};
-    
-    unsigned int bottomOffset = d * d;
-    unsigned int leftOffset = 2 * d * d;
-    unsigned int rightOffset = 3 * d * d;
-    unsigned int frontOffset = 4 * d * d;
-    unsigned int backOffset = 5 * d * d;
-    
-    unsigned int points = 6 * d * d;
-    
-    Float3DataBlockPtr vertices = Float3DataBlockPtr(new DataBlock<3, float>(points));
-    Float3DataBlockPtr normals = Float3DataBlockPtr(new DataBlock<3, float>(points));
-    Float3DataBlockPtr colors = Float3DataBlockPtr(new DataBlock<3, float>(points));
-    GeometrySetPtr geom = GeometrySetPtr(new GeometrySet(vertices, normals, IDataBlockList(), colors));
-    
-    // Top side geometry
-    for (unsigned int i = 0; i < d; ++i){
-        for (unsigned int j = 0; j < d; ++j){
-            unsigned int index = i + j * d;
-            Vector<3, float> vertex = Vector<3, float>(i * unit - halfSize, halfSize, j * unit - halfSize);
-            vertices->SetElement(index, vertex);
-            normals->SetElement(index, Vector<3, float>(0, 1, 0));
-        }
-    }
-    // Bottom geometry
-    for (unsigned int i = 0; i < d; ++i){
-        for (unsigned int j = 0; j < d; ++j){
-            unsigned int index = bottomOffset + i + j * d;
-            Vector<3, float> vertex = Vector<3, float>(i * unit - halfSize, -halfSize, j * unit - halfSize);
-            vertices->SetElement(index, vertex);
-            normals->SetElement(index, Vector<3, float>(0, -1, 0));
-        }
-    }
-    // Front geometry
-    for (unsigned int i = 0; i < d; ++i){
-        for (unsigned int j = 0; j < d; ++j){
-            unsigned int index = frontOffset + i + j * d;
-            Vector<3, float> vertex = Vector<3, float>(i * unit - halfSize, j * unit - halfSize, halfSize);
-            vertices->SetElement(index, vertex);
-            normals->SetElement(index, Vector<3, float>(0, 0, 1));
-        }
-    }
-    // Back geometry
-    for (unsigned int i = 0; i < d; ++i){
-        for (unsigned int j = 0; j < d; ++j){
-            unsigned int index = backOffset + i + j * d;
-            Vector<3, float> vertex = Vector<3, float>(i * unit - halfSize, j * unit - halfSize, -halfSize);
-            vertices->SetElement(index, vertex);
-            normals->SetElement(index, Vector<3, float>(0, 0, -1));
-        }
-    }
-    // Right side geometry
-    for (unsigned int i = 0; i < d; ++i){
-        for (unsigned int j = 0; j < d; ++j){
-            unsigned int index = rightOffset + i + j * d;
-            Vector<3, float> vertex = Vector<3, float>(halfSize, i * unit - halfSize, j * unit - halfSize);
-            vertices->SetElement(index, vertex);
-            normals->SetElement(index, Vector<3, float>(1, 0, 0));
-        }
-    }
-    // Left side geometry
-    for (unsigned int i = 0; i < d; ++i){
-        for (unsigned int j = 0; j < d; ++j){
-            unsigned int index = leftOffset + i + j * d;
-            Vector<3, float> vertex = Vector<3, float>(-halfSize, i * unit - halfSize, j * unit - halfSize);
-            vertices->SetElement(index, vertex);
-            normals->SetElement(index, Vector<3, float>(-1, 0, 0));
-        }
+class AutoRotator : public IListener<OpenEngine::Core::ProcessEventArg> {
+public:
+    TransformationNode *node;
+    AutoRotator(TransformationNode *node) : node(node) {
     }
     
-    // colors
-    for (unsigned int i = 0; i < colors->GetSize(); ++ i)
-        colors->SetElement(i, color);
-    
-    IndicesPtr indices = IndicesPtr(new Indices(36 * detail * detail));
-    unsigned short* i = indices->GetData();
-    
-    // Top side indices
-    unsigned int index = 0;
-    for (unsigned int k = 0; k < 6; ++k){
-        unsigned int offset = k * d * d;
-        for (unsigned int m = 0; m < detail; ++m){
-            for (unsigned int n = 0; n < detail; ++n){
-                // Index the (i, j)'th quad of 2 triangles
-                if (k == LEFT || k == TOP || k == BACK){
-                    i[index++] = offset + m + n * d;
-                    i[index++] = offset + m + (n+1) * d;
-                    i[index++] = offset + m+1 + n * d;
-                    
-                    i[index++] = offset + m+1 + n * d;
-                    i[index++] = offset + m + (n+1) * d;
-                    i[index++] = offset + m+1 + (n+1) * d;
-                }else{
-                    i[index++] = offset + m + n * d;
-                    i[index++] = offset + m+1 + n * d;
-                    i[index++] = offset + m + (n+1) * d;
-                    
-                    i[index++] = offset + m+1 + n * d;
-                    i[index++] = offset + m+1 + (n+1) * d;
-                    i[index++] = offset + m + (n+1) * d;
-                }
-            }
-        }
+    void Handle(OpenEngine::Core::ProcessEventArg arg) {
+        
+        float s = arg.approx / 1000000.0;
+        
+        node->Rotate(0.0, s, 0.0);
+        //node->SetPosition(Vector<3,float>(sin(dt*10), cos(dt*10), 0));
+        //logger.info << "pos: " << dt << " " << node->GetPosition() << logger.end;
     }
-    
-    return MeshPtr(new Mesh(indices, TRIANGLES, geom, 
-                            MaterialPtr(new Material())));
-}
+};
+
+
 
 
 /**
@@ -222,6 +129,8 @@ int main(int argc, char** argv) {
     
     DirectoryManager::AppendPath(env->GetResourcePath());
     ResourceManager<IShaderResource>::AddPlugin(new GLES2ShaderPlugin());
+    ResourceManager<IModelResource>::AddPlugin(new OBJPlugin());
+    ResourceManager<ITexture2D>::AddPlugin(new TGAPlugin());
 
     IShaderResourcePtr res =  ResourceManager<IShaderResource>::Create("test.glsl");
     //res->Load();
@@ -234,6 +143,7 @@ int main(int argc, char** argv) {
     IRenderCanvas *canvas = new RenderCanvas();
     IRenderer *renderer = new Renderer();
     
+    TextureLoader *tl = new TextureLoader(*renderer, TextureLoader::RELOAD_QUEUED);
     
     canvas->SetRenderer(renderer);
     
@@ -250,31 +160,39 @@ int main(int argc, char** argv) {
     TransformationNode *trans = new TransformationNode();
     root->AddNode(trans);
     
-    Rotator *r = new Rotator(trans);
+    TouchRotator *touchr = new TouchRotator(trans);
+    AutoRotator *autor = new AutoRotator(trans);
     
     iOSTouch *touch = env->GetTouch();    
-    touch->TouchMovedEvent().Attach(*r);
+    touch->TouchMovedEvent().Attach(*touchr);
     
-    //engine->ProcessEvent().Attach(*r);
+    engine->ProcessEvent().Attach(*autor);
     
-    MeshPtr mesh = CreateCube(0.5 ,1, Vector<3,float>(0,1,0));
+    //MeshPtr mesh = MeshCreator::CreateCube(0.5 ,1, Vector<3,float>(0,1,0));
+    
+    IModelResourcePtr mod_res = ResourceManager<IModelResource>::Create("FutureTank/model.obj");
+    mod_res->Load();
+    
+    MeshPtr mesh = MeshCreator::CreateSphere(0.5);
     
     MeshNode *mNode = new MeshNode();
     
     mNode->SetMesh(mesh);
     
-    trans->AddNode(mNode);
+    //trans->AddNode(mNode);
+    trans->AddNode(mod_res->GetSceneNode());
     
     canvas->SetScene(root);
     
-    Camera *cam = new Camera(*(new PerspectiveViewingVolume(0.05, 5.0)));
+    Camera *cam = new Camera(*(new PerspectiveViewingVolume(0.05, 200.0,3.0/4.0)));
     Frustum *f = new Frustum(*cam);
     
     canvas->SetViewingVolume(f);
     
-    cam->SetPosition(Vector<3,float>(0,2,2));
+    cam->SetPosition(Vector<3,float>(60));
     cam->LookAt(Vector<3,float>(0,0,0));
     
+    tl->Load(*root);
     
     // IRCClient *client = new IRCClient("irc.freenode.net","oe-ix22","ptx2");
 

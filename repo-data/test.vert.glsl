@@ -1,37 +1,34 @@
-attribute vec3 vPosition;
+attribute vec3 a_position;
+attribute vec3 a_normal;
+attribute vec2 a_texcoord;
 
 uniform mat4 mv_matrix;
 uniform mat4 proj_matrix;
+uniform mat4 inv_matrix;
 
-mat4 view_frustum(
-    float angle_of_view,
-    float aspect_ratio,
-    float z_near,
-    float z_far) {
-    return mat4(
-        vec4(1.0/tan(angle_of_view),           0.0, 0.0, 0.0),
-        vec4(0.0, aspect_ratio/tan(angle_of_view),  0.0, 0.0),
-        vec4(0.0, 0.0,    (z_far+z_near)/(z_far-z_near), -1.0),
-        vec4(0.0, 0.0, 2.0*z_far*z_near/(z_far-z_near), 0.0)
-    );
-}
 
-mat4 translate(float x, float y, float z)
-{
-    return mat4(
-        vec4(1.0, 0.0, 0.0, 0.0),
-        vec4(0.0, 1.0, 0.0, 0.0),
-        vec4(0.0, 0.0, 1.0, 0.0),
-        vec4(x,   y,   z,   1.0)
-    );
-}
-
+varying vec2 texCoord;
+varying vec3 v_normal;
 
 void main() {
-    vec4 p = mv_matrix * vec4(vPosition, 1.0);
-    mat4 proj = view_frustum(radians(45.0), 4.0/3.0, 0.05, 5.0);
-    proj = proj_matrix;
-    gl_Position = proj *  p;
+//
+//    vec3 lightDir = vec3(10,10,10);
+//    vec4 nLight = normalize(lightDir);
+//    
+    
+
+    vec4 eye = mv_matrix * vec4(a_position, 1.0);
+//    vec3 eyePosWorld = (inv_matrix * eye).xyz;
+    
+    
+    
+    v_normal = mat3(inv_matrix) *  a_normal;
+    //v_normal = a_normal;
+
+    gl_Position = proj_matrix *  eye;
+    texCoord = a_texcoord;
+    
+
 }                          
 
  

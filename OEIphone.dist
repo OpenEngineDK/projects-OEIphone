@@ -20,6 +20,7 @@ darcs-dev /projects/OEIphone fh.daimi.au.dk:/users/cgd/code/projects/OEIphone
 #darcs /extensions/TGAResource            http://openengine.dk/code/extensions/TGAResource
 darcs /extensions/iOS            http://openengine.dk/code/extensions/iOS
 darcs /extensions/IRC            http://openengine.dk/code/extensions/IRC
+darcs /extensions/MeshUtils            http://openengine.dk/code/extensions/MeshUtils
 darcs /extensions/Sockets            http://openengine.dk/code/extensions/Sockets
 darcs /extensions/OBJResource            http://openengine.dk/code/extensions/OBJResource
 darcs /extensions/AccelerationStructures http://openengine.dk/code/extensions/AccelerationStructures
