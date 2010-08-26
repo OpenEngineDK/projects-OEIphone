@@ -19,6 +19,7 @@
 #include <Display/OpenGLES2/RenderCanvas.h>
 #include <Renderers/OpenGLES2/Renderer.h>
 #include <Renderers/OpenGLES2/RenderingView.h>
+#include <Renderers/OpenGLES2/LightRenderer.h>
 #include <Renderers/TextureLoader.h>
 #include <Resources/ResourceManager.h>
 #include <Resources/OpenGLES2Shader.h>
@@ -36,7 +37,7 @@
 #include <Utils/MeshCreator.h>
 #include <Resources/OBJResource.h>
 #include <Resources/TGAResource.h>
-
+#include <Scene/DirectionalLightNode.h>
 
 // Game factory
 //#include "GameFactory.h"
@@ -153,12 +154,21 @@ int main(int argc, char** argv) {
     renderer->ProcessEvent().Attach(*renderingview);
     renderer->InitializeEvent().Attach(*renderingview);
 
+    LightRenderer *lightRenderer = renderingview->GetLightRenderer();
+    renderer->PreProcessEvent().Attach(*lightRenderer);
+
     frame.SetCanvas(canvas);
 
     // Setup scene
     SceneNode *root = new SceneNode();
     TransformationNode *trans = new TransformationNode();
+    TransformationNode *trans1 = new TransformationNode();
+    TransformationNode *trans2 = new TransformationNode();
+    TransformationNode *trans3 = new TransformationNode();
     root->AddNode(trans);
+    trans->AddNode(trans1);
+    trans->AddNode(trans2);    
+    trans->AddNode(trans3);
     
     TouchRotator *touchr = new TouchRotator(trans);
     AutoRotator *autor = new AutoRotator(trans);
@@ -173,14 +183,28 @@ int main(int argc, char** argv) {
     IModelResourcePtr mod_res = ResourceManager<IModelResource>::Create("FutureTank/model.obj");
     mod_res->Load();
     
-    MeshPtr mesh = MeshCreator::CreateSphere(0.5);
+    MeshPtr mesh = MeshCreator::CreateSphere(10.0);
+    MeshPtr mesh2 = MeshCreator::CreateGeodesicSphere(10.0, 2, false);
+    MeshPtr mesh3 = MeshCreator::CreateCube(10.0);
     
-    MeshNode *mNode = new MeshNode();
+    MeshNode *mNode = new MeshNode();    
+    MeshNode *mNode2 = new MeshNode();
+    MeshNode *mNode3 = new MeshNode();
     
     mNode->SetMesh(mesh);
+    mNode2->SetMesh(mesh2);
+    mNode3->SetMesh(mesh3);
     
-    //trans->AddNode(mNode);
-    trans->AddNode(mod_res->GetSceneNode());
+    trans1->AddNode(mNode);
+    trans2->AddNode(mNode2);
+    trans3->AddNode(mNode3);
+    
+    
+    trans1->Move(0, 20, 0);
+    trans2->Move(0, 0, 0);
+    trans3->Move(0, -20, 0);
+    
+    //trans->AddNode(mod_res->GetSceneNode());
     
     canvas->SetScene(root);
     
@@ -193,6 +217,15 @@ int main(int argc, char** argv) {
     cam->LookAt(Vector<3,float>(0,0,0));
     
     tl->Load(*root);
+    
+    
+    DirectionalLightNode *light = new DirectionalLightNode();
+    TransformationNode *lightT = new TransformationNode();
+    lightT->AddNode(light);
+    lightT->Move(5,5,5);
+    root->AddNode(lightT);
+
+    
     
     // IRCClient *client = new IRCClient("irc.freenode.net","oe-ix22","ptx2");
 

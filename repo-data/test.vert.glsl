@@ -10,6 +10,7 @@ uniform mat4 inv_matrix;
 varying vec2 texCoord;
 varying vec3 v_normal;
 
+
 void main() {
 //
 //    vec3 lightDir = vec3(10,10,10);
