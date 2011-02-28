@@ -52,3 +52,4 @@ darwin /libraries http://openengine.dk/data/libraries/pcrecpp-osx-i32.zip
 
 # project data
 
+any /projects/OEIphone/data http://openengine.dk/data/models/FutureTank.zip
