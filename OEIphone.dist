@@ -17,7 +17,7 @@ darcs-dev /projects/OEIphone fh.daimi.au.dk:/users/cgd/code/projects/OEIphone
 #darcs /extensions/SDLImage               http://openengine.dk/code/extensions/SDLImage
 #darcs /extensions/CairoResource          http://openengine.dk/code/extensions/CairoResource
 #darcs /extensions/OpenGLRenderer         http://openengine.dk/code/extensions/OpenGLRenderer
-#darcs /extensions/TGAResource            http://openengine.dk/code/extensions/TGAResource
+darcs /extensions/TGAResource            http://openengine.dk/code/extensions/TGAResource
 darcs /extensions/iOS            http://openengine.dk/code/extensions/iOS
 darcs /extensions/IRC            http://openengine.dk/code/extensions/IRC
 darcs /extensions/MeshUtils            http://openengine.dk/code/branches/ios-MeshUtils
