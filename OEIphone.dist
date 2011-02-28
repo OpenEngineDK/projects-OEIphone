@@ -11,42 +11,26 @@ darcs /projects/OEIphone http://openengine.dk/code/projects/OEIphone
 darcs-dev /projects/OEIphone fh.daimi.au.dk:/users/cgd/code/projects/OEIphone
 
 # required extensions
-#darcs /extensions/SetupHelpers           http://openengine.dk/code/extensions/SetupHelpers
-#darcs /extensions/HUD                    http://openengine.dk/code/extensions/HUD
-#darcs /extensions/SDL                    http://openengine.dk/code/extensions/SDL
-#darcs /extensions/SDLImage               http://openengine.dk/code/extensions/SDLImage
-#darcs /extensions/CairoResource          http://openengine.dk/code/extensions/CairoResource
-#darcs /extensions/OpenGLRenderer         http://openengine.dk/code/extensions/OpenGLRenderer
-darcs /extensions/TGAResource            http://openengine.dk/code/extensions/TGAResource
-darcs /extensions/iOS            http://openengine.dk/code/extensions/iOS
-darcs /extensions/IRC            http://openengine.dk/code/extensions/IRC
-darcs /extensions/MeshUtils            http://openengine.dk/code/branches/ios-MeshUtils
-darcs /extensions/Sockets            http://openengine.dk/code/extensions/Sockets
- darcs /extensions/mesh-OBJResource            http://openengine.dk/code/extensions/mesh-OBJResource
-darcs /extensions/AccelerationStructures http://openengine.dk/code/extensions/AccelerationStructures
+darcs /extensions/TGAResource                  http://openengine.dk/code/extensions/TGAResource
+darcs /extensions/iOS            	       http://openengine.dk/code/extensions/iOS
+darcs /extensions/iOSEnvironment               http://openengine.dk/code/extensions/iOSEnvironment
+darcs /extensions/IRC            	       http://openengine.dk/code/extensions/IRC
+darcs /extensions/MeshUtils            	       http://openengine.dk/code/branches/ios-MeshUtils
+darcs /extensions/Sockets            	       http://openengine.dk/code/extensions/Sockets
+darcs /extensions/mesh-OBJResource             http://openengine.dk/code/extensions/mesh-OBJResource
+darcs /extensions/AccelerationStructures       http://openengine.dk/code/extensions/AccelerationStructures
 
-# darcs-dev /extensions/SetupHelpers           fh.daimi.au.dk:/users/cgd/code/extensions/SetupHelpers
-darcs-dev /extensions/iOS                    fh.daimi.au.dk:/users/cgd/code/extensions/iOS
-darcs-dev /extensions/IRC                    fh.daimi.au.dk:/users/cgd/code/extensions/IRC
-darcs-dev /extensions/MeshUtils            fh.daimi.au.dk:/users/cgd/code/branches/ios-MeshUtils
-# darcs-dev /extensions/HUD                    fh.daimi.au.dk:/users/cgd/code/extensions/HUD
-# darcs-dev /extensions/SDL                    fh.daimi.au.dk:/users/cgd/code/extensions/SDL
-# darcs-dev /extensions/SDLImage               fh.daimi.au.dk:/users/cgd/code/extensions/SDLImage
-# darcs-dev /extensions/CairoResource          fh.daimi.au.dk:/users/cgd/code/extensions/CairoResource
-# darcs-dev /extensions/OpenGLRenderer         fh.daimi.au.dk:/users/cgd/code/extensions/OpenGLRenderer
-darcs-dev /extensions/TGAResource            fh.daimi.au.dk:/users/cgd/code/extensions/TGAResource
-darcs-dev /extensions/mesh-OBJResource            fh.daimi.au.dk:/users/cgd/code/extensions/mesh-OBJResource
-darcs-dev /extensions/AccelerationStructures fh.daimi.au.dk:/users/cgd/code/extensions/AccelerationStructures
+darcs-dev /extensions/iOS                      fh.daimi.au.dk:/users/cgd/code/extensions/iOS
+darcs-dev /extensions/iOSEnvironment	       fh.daimi.au.dk:/users/cgd/code/extensions/iOSEnvironment
+darcs-dev /extensions/IRC                      fh.daimi.au.dk:/users/cgd/code/extensions/IRC
+darcs-dev /extensions/MeshUtils                fh.daimi.au.dk:/users/cgd/code/branches/ios-MeshUtils
+darcs-dev /extensions/TGAResource              fh.daimi.au.dk:/users/cgd/code/extensions/TGAResource
+darcs-dev /extensions/mesh-OBJResource         fh.daimi.au.dk:/users/cgd/code/extensions/mesh-OBJResource
+darcs-dev /extensions/AccelerationStructures   fh.daimi.au.dk:/users/cgd/code/extensions/AccelerationStructures
 
 # windows libraries
-win32 /libraries http://openengine.dk/data/libraries/boost-win32.zip
-win32 /libraries http://openengine.dk/data/libraries/glew-win32.zip
-win32 /libraries http://openengine.dk/data/libraries/sdl-win32.zip
-win32 /libraries http://openengine.dk/data/libraries/dlls-win32.zip
 
 # darwin libraries
-darwin /libraries http://openengine.dk/data/libraries/pcre-osx-i32.zip
-darwin /libraries http://openengine.dk/data/libraries/pcrecpp-osx-i32.zip
 
 # linux libraries
 
