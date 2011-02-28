@@ -12,7 +12,7 @@ darcs-dev /projects/OEIphone fh.daimi.au.dk:/users/cgd/code/projects/OEIphone
 
 # required extensions
 darcs /extensions/TGAResource                  http://openengine.dk/code/extensions/TGAResource
-darcs /extensions/iOS            	       http://openengine.dk/code/extensions/iOS
+darcs /extensions/OpenGLESRenderer             http://openengine.dk/code/extensions/OpenGLESRenderer
 darcs /extensions/iOSEnvironment               http://openengine.dk/code/extensions/iOSEnvironment
 darcs /extensions/IRC            	       http://openengine.dk/code/extensions/IRC
 darcs /extensions/MeshUtils            	       http://openengine.dk/code/branches/ios-MeshUtils
@@ -20,7 +20,7 @@ darcs /extensions/Sockets            	       http://openengine.dk/code/extension
 darcs /extensions/mesh-OBJResource             http://openengine.dk/code/extensions/mesh-OBJResource
 darcs /extensions/AccelerationStructures       http://openengine.dk/code/extensions/AccelerationStructures
 
-darcs-dev /extensions/iOS                      fh.daimi.au.dk:/users/cgd/code/extensions/iOS
+darcs-dev /extensions/OpenGLESRenderer         fh.daimi.au.dk:/users/cgd/code/extensions/OpenGLESRenderer
 darcs-dev /extensions/iOSEnvironment	       fh.daimi.au.dk:/users/cgd/code/extensions/iOSEnvironment
 darcs-dev /extensions/IRC                      fh.daimi.au.dk:/users/cgd/code/extensions/IRC
 darcs-dev /extensions/MeshUtils                fh.daimi.au.dk:/users/cgd/code/branches/ios-MeshUtils
