@@ -12,9 +12,9 @@ void main () {
     float d = dot(normalize(v_normal), normalize(u_dir_light_pos));
 
         
-    //gl_FragColor =  texture2D(texture1, texCoord) * d;
+    gl_FragColor =  texture2D(texture1, texCoord) * d;
     
-    gl_FragColor.rgb = vec3(d);
+    //gl_FragColor.rgb = vec3(d);
     //gl_FragColor.rgb = v_normal;
     
     //gl_FragColor = texture2D(texture1, vec2(0.9, 0.9));

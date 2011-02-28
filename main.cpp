@@ -166,9 +166,9 @@ int main(int argc, char** argv) {
     TransformationNode *trans2 = new TransformationNode();
     TransformationNode *trans3 = new TransformationNode();
     root->AddNode(trans);
-    trans->AddNode(trans1);
-    trans->AddNode(trans2);    
-    trans->AddNode(trans3);
+//    trans->AddNode(trans1);
+//    trans->AddNode(trans2);    
+//    trans->AddNode(trans3);
     
     TouchRotator *touchr = new TouchRotator(trans);
     AutoRotator *autor = new AutoRotator(trans);
@@ -204,7 +204,7 @@ int main(int argc, char** argv) {
     trans2->Move(0, 0, 0);
     trans3->Move(0, -20, 0);
     
-    //trans->AddNode(mod_res->GetSceneNode());
+    trans->AddNode(mod_res->GetSceneNode());
     
     canvas->SetScene(root);
     

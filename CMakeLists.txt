@@ -28,9 +28,12 @@ TARGET_LINK_LIBRARIES(${PROJECT_NAME}
   OpenEngine_Scene
   # Extension dependencies
   Extensions_iOS
+  Extensions_OBJResource
+  Extensions_TGAResource
+  Extensions_MeshUtils
   Extensions_Sockets
   Extensions_IRC
-  "-isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk"
+  "-isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk"
   "-framework UIKit"
   "-framework Foundation"
 
