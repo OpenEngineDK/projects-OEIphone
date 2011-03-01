@@ -93,7 +93,7 @@ public:
         
         node->Rotate(0.0, s, 0.0);
         //node->SetPosition(Vector<3,float>(sin(dt*10), cos(dt*10), 0));
-        //logger.info << "pos: " << dt << " " << node->GetPosition() << logger.end;
+        //logger.info << "pos: " << s << " " << node->GetPosition() << logger.end;
     }
 };
 
@@ -110,8 +110,6 @@ int main(int argc, char** argv) {
     // Setup logging facilities.
     
     Logger::AddLogger(new StreamLogger(&std::cout));
-
-    
     
     // Print usage info.
     logger.info << "========= Running OpenEngine Test Project =========" << logger.end;
@@ -129,11 +127,11 @@ int main(int argc, char** argv) {
     logger.info << "Res path " <<  env->GetResourcePath() << logger.end;
     
     DirectoryManager::AppendPath(env->GetResourcePath());
-    ResourceManager<IShaderResource>::AddPlugin(new GLES2ShaderPlugin());
+    ResourceManager<OpenGLES2Shader>::AddPlugin(new GLES2ShaderPlugin());
     ResourceManager<IModelResource>::AddPlugin(new OBJPlugin());
     ResourceManager<ITexture2D>::AddPlugin(new TGAPlugin());
 
-    IShaderResourcePtr res =  ResourceManager<IShaderResource>::Create("test.glsl");
+    OpenGLES2ShaderPtr res =  ResourceManager<OpenGLES2Shader>::Create("test.glsl");
     //res->Load();
     
     IFrame& frame = env->CreateFrame();
