@@ -1,18 +1,20 @@
 precision mediump float;
 
+uniform sampler2D diffuseMap;
+uniform vec3 u_dir_light_pos;
+uniform bool useLight;
+
 varying vec2 texCoord;
 varying vec3 v_normal;
 
-uniform sampler2D texture1;
-uniform vec3 u_dir_light_pos;
-
 void main () {
 
-    
-    float d = dot(normalize(v_normal), normalize(u_dir_light_pos));
-
-        
-    gl_FragColor =  texture2D(texture1, texCoord) * d;
+    vec4 color = texture2D(diffuseMap, texCoord);
+    if (useLight){
+        float diffuse = dot(normalize(v_normal), normalize(u_dir_light_pos));
+        color *= diffuse;
+    }
+    gl_FragColor = color;
     
     //gl_FragColor.rgb = vec3(d);
     //gl_FragColor.rgb = v_normal;
