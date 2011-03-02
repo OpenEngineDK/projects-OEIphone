@@ -142,8 +142,6 @@ int main(int argc, char** argv) {
     IRenderCanvas *canvas = new RenderCanvas();
     IRenderer *renderer = new Renderer();
     
-    TextureLoader *tl = new TextureLoader(*renderer, TextureLoader::RELOAD_QUEUED);
-    
     canvas->SetRenderer(renderer);
     
     RenderingView *renderingview = new RenderingView();
@@ -174,7 +172,7 @@ int main(int argc, char** argv) {
     iOSTouch *touch = env->GetTouch();    
     touch->TouchMovedEvent().Attach(*touchr);
     
-    engine->ProcessEvent().Attach(*autor);
+    //engine->ProcessEvent().Attach(*autor);
     
     //MeshPtr mesh = MeshCreator::CreateCube(0.5 ,1, Vector<3,float>(0,1,0));
     
@@ -197,7 +195,6 @@ int main(int argc, char** argv) {
     trans2->AddNode(mNode2);
     trans3->AddNode(mNode3);
     
-    
     trans1->Move(0, 20, 0);
     trans2->Move(0, 0, 0);
     trans3->Move(0, -20, 0);
@@ -214,8 +211,8 @@ int main(int argc, char** argv) {
     cam->SetPosition(Vector<3,float>(60));
     cam->LookAt(Vector<3,float>(0,0,0));
     
+    TextureLoader *tl = new TextureLoader(*renderer, TextureLoader::RELOAD_QUEUED);
     tl->Load(*root);
-    
     
     DirectionalLightNode *light = new DirectionalLightNode();
     TransformationNode *lightT = new TransformationNode();

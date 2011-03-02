@@ -19,14 +19,12 @@ darcs /extensions/IRC            	       http://openengine.dk/code/extensions/IR
 darcs /extensions/MeshUtils            	       http://openengine.dk/code/branches/ios-MeshUtils
 darcs /extensions/Sockets            	       http://openengine.dk/code/extensions/Sockets
 darcs /extensions/mesh-OBJResource             http://openengine.dk/code/extensions/mesh-OBJResource
-darcs /extensions/AccelerationStructures       http://openengine.dk/code/extensions/AccelerationStructures
 
 darcs-dev /extensions/iOSEnvironment	       fh.daimi.au.dk:/users/cgd/code/extensions/iOSEnvironment
 darcs-dev /extensions/IRC                      fh.daimi.au.dk:/users/cgd/code/extensions/IRC
 darcs-dev /extensions/MeshUtils                fh.daimi.au.dk:/users/cgd/code/branches/ios-MeshUtils
 darcs-dev /extensions/TGAResource              fh.daimi.au.dk:/users/cgd/code/extensions/TGAResource
 darcs-dev /extensions/mesh-OBJResource         fh.daimi.au.dk:/users/cgd/code/extensions/mesh-OBJResource
-darcs-dev /extensions/AccelerationStructures   fh.daimi.au.dk:/users/cgd/code/extensions/AccelerationStructures
 
 # windows libraries
 

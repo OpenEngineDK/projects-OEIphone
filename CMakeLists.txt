@@ -26,6 +26,7 @@ TARGET_LINK_LIBRARIES(${PROJECT_NAME}
   OpenEngine_Display
   OpenEngine_Devices
   OpenEngine_Scene
+  OpenEngine_Renderers
   # Extension dependencies
   Extensions_OpenGLESRenderer
   Extensions_iOSEnvironment
