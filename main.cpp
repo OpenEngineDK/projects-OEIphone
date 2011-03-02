@@ -22,7 +22,6 @@
 #include <Renderers/OpenGLES2/LightRenderer.h>
 #include <Renderers/TextureLoader.h>
 #include <Resources/ResourceManager.h>
-#include <Resources/OpenGLES2Shader.h>
 #include <Resources/DataBlock.h>
 #include <Scene/SceneNode.h>
 #include <Scene/TransformationNode.h>
@@ -127,13 +126,9 @@ int main(int argc, char** argv) {
     logger.info << "Res path " <<  env->GetResourcePath() << logger.end;
     
     DirectoryManager::AppendPath(env->GetResourcePath());
-    ResourceManager<OpenGLES2Shader>::AddPlugin(new GLES2ShaderPlugin());
     ResourceManager<IModelResource>::AddPlugin(new OBJPlugin());
     ResourceManager<ITexture2D>::AddPlugin(new TGAPlugin());
 
-    OpenGLES2ShaderPtr res =  ResourceManager<OpenGLES2Shader>::Create("test.glsl");
-    //res->Load();
-    
     IFrame& frame = env->CreateFrame();
     engine->InitializeEvent().Attach(*env);
     engine->ProcessEvent().Attach(*env);
@@ -145,7 +140,6 @@ int main(int argc, char** argv) {
     canvas->SetRenderer(renderer);
     
     RenderingView *renderingview = new RenderingView();
-    renderingview->SetMainProgram(res);
     
     renderer->ProcessEvent().Attach(*renderingview);
     renderer->InitializeEvent().Attach(*renderingview);
