@@ -1,0 +1,538 @@
+TExtensions_OpenGLESResources
+v3
+r1
+cCheck dependencies
+cPhaseScriptExecution "CMake ReRun" /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/OpenGLESResources/OpenEngine.build/Debug/Extensions_OpenGLESResources.build/Script-101163510101163510101163.sh
+cCompileC projects/OEIphone/Xcode/OpenGLESResources/OpenEngine.build/Debug/Extensions_OpenGLESResources.build/Objects-normal/x86_64/OpenGLES2Shader.o /Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp normal x86_64 c++ com.apple.compilers.llvmgcc42
+cCompileC projects/OEIphone/Xcode/OpenGLESResources/OpenEngine.build/Debug/Extensions_OpenGLESResources.build/Objects-normal/x86_64/GLES2ShaderPlugin.o /Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/GLES2ShaderPlugin.cpp normal x86_64 c++ com.apple.compilers.llvmgcc42
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004D71671200000000000000EE
+t1299277586
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/math.h
+c000000004AC599B500000000000004F1
+t1254463925
+s1265
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdlib.h
+c000000004BBD2CE90000000000002DF5
+t1270689001
+s11765
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/time.h
+c000000004CC3DE680000000000001E17
+t1287904872
+s7703
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/time.h
+c000000004BBD2CE9000000000000178E
+t1270689001
+s6030
+
+N/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Geometry/NewGeometrySet.cpp
+c000000004D80D9D5000000000000048B
+t1300290005
+s1163
+i<Geometry/NewGeometrySet.h>
+i<Core/Exceptions.h>
+
+N/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Geometry/NewGeometrySet.h
+c000000004D80D9D50000000000000886
+t1300290005
+s2182
+i<Resources/Buffer.h>
+i<map>
+i<string>
+
+N/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Geometry/NewMesh.cpp
+c000000004D80D9D500000000000003BC
+t1300290005
+s956
+i<Geometry/NewMesh.h>
+i<Geometry/NewGeometrySet.h>
+i<Core/Exceptions.h>
+
+N/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Geometry/NewMesh.h
+c000000004D80D9D500000000000008A4
+t1300290005
+s2212
+i<boost/shared_ptr.hpp>
+
+N/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Meta/OpenGLES2.h
+c000000004D80D9D50000000000000327
+t1300290005
+s807
+i<OpenGLES/ES2/gl.h>
+i<OpenGLES/ES2/glext.h>
+i<Core/Exceptions.h>
+i<Utils/Convert.h>
+i<string>
+
+N/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/Buffer.h
+c000000004D80D9D50000000000000BC9
+t1300290005
+s3017
+i<Resources/IBuffer.h>
+i<Core/Exceptions.h>
+i<Utils/Convert.h>
+
+N/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/GLES2ShaderPlugin.cpp
+c000000004D80D9D5000000000000094C
+t1300290005
+s2380
+i<Resources/OpenGLES2Shader.h>
+i<Resources/File.h>
+i<Resources/DirectoryManager.h>
+i<fstream>
+
+N/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/IBuffer.h
+c000000004D80D9D50000000000000556
+t1300290005
+s1366
+i<Math/Vector.h>
+i<Resources/Types/ResourceTypes.h>
+i<string>
+
+N/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp
+c000000004D80D9D50000000000001074
+t1300290005
+s4212
+i"OpenGLES2Shader.h"
+i<Meta/iOS.h>
+i<Resources/File.h>
+i<Resources/DirectoryManager.h>
+i<Logging/Logger.h>
+i<fstream>
+
+N/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.h
+c000000004D80D9D500000000000008BA
+t1300290005
+s2234
+i<Resources/IShaderResource.h>
+i<Resources/IResourcePlugin.h>
+i<Meta/OpenGLES2.h>
+i<Logging/Logger.h>
+
+N/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Scene/NewMeshNode.cpp
+c000000004D80D9D50000000000000432
+t1300290005
+s1074
+i<Scene/NewMeshNode.h>
+i<Geometry/NewMesh.h>
+
+N/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Scene/NewMeshNode.h
+c000000004D80D9D5000000000000050A
+t1300290005
+s1290
+i<Scene/ISceneNode.h>
+i<boost/shared_ptr.hpp>
+
+N/Users/ptx/Projects/OE/OEIphone/extensions/iOSEnvironment/Meta/iOS.h
+c000000004D6BBB9F0000000000000188
+t1298906015
+s392
+i<Core/Exceptions.h>
+i<Utils/Convert.h>
+
+N/Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/OpenGLESResources/Debug/libExtensions_OpenGLESResources.a
+t2
+s0
+
+N/Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/OpenGLESResources/OpenEngine.build/Debug/Extensions_OpenGLESResources.build/Objects-normal/i386/Extensions_OpenGLESResources.LinkFileList
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/OpenGLESResources/OpenEngine.build/Debug/Extensions_OpenGLESResources.build/Objects-normal/i386/GLES2ShaderPlugin.o
+t2
+s0
+
+N/Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/OpenGLESResources/OpenEngine.build/Debug/Extensions_OpenGLESResources.build/Objects-normal/i386/NewGeometrySet.o
+t2
+s0
+
+N/Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/OpenGLESResources/OpenEngine.build/Debug/Extensions_OpenGLESResources.build/Objects-normal/i386/NewMesh.o
+t2
+s0
+
+N/Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/OpenGLESResources/OpenEngine.build/Debug/Extensions_OpenGLESResources.build/Objects-normal/i386/NewMeshNode.o
+t2
+s0
+
+N/Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/OpenGLESResources/OpenEngine.build/Debug/Extensions_OpenGLESResources.build/Objects-normal/i386/OpenGLES2Shader.o
+t2
+s0
+
+N/Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/OpenGLESResources/OpenEngine.build/Debug/Extensions_OpenGLESResources.build/Objects-normal/x86_64/Extensions_OpenGLESResources.LinkFileList
+c000000004D8C8BFE0000000000000351
+t1301056510
+s849
+
+N/Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/OpenGLESResources/OpenEngine.build/Debug/Extensions_OpenGLESResources.build/Objects-normal/x86_64/GLES2ShaderPlugin.o
+t2
+s0
+
+N/Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/OpenGLESResources/OpenEngine.build/Debug/Extensions_OpenGLESResources.build/Objects-normal/x86_64/NewGeometrySet.o
+t2
+s0
+
+N/Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/OpenGLESResources/OpenEngine.build/Debug/Extensions_OpenGLESResources.build/Objects-normal/x86_64/NewMesh.o
+t2
+s0
+
+N/Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/OpenGLESResources/OpenEngine.build/Debug/Extensions_OpenGLESResources.build/Objects-normal/x86_64/NewMeshNode.o
+t2
+s0
+
+N/Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/OpenGLESResources/OpenEngine.build/Debug/Extensions_OpenGLESResources.build/Objects-normal/x86_64/OpenGLES2Shader.o
+t2
+s0
+
+N/Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/OpenGLESResources/OpenEngine.build/Debug/Extensions_OpenGLESResources.build/Script-101163510101163510101163.sh
+c000000004D8C8BFE00000000000000A2
+t1301056510
+s162
+
+N/Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/OpenGLESResources/OpenEngine.build/Debug/Extensions_OpenGLESResources.build/Script-101163F90101163F90101163.sh
+c000000004D8C8BFE00000000000000F9
+t1301056510
+s249
+
+N/Users/ptx/Projects/OE/OEIphone/src/Core/Event.h
+c000000004C68FF570000000000000683
+t1281949527
+s1667
+i<Core/IEvent.h>
+i<Core/IListener.h>
+i<list>
+
+N/Users/ptx/Projects/OE/OEIphone/src/Core/Exceptions.h
+c000000004C68FF5700000000000006B9
+t1281949527
+s1721
+i<stdexcept>
+i<string>
+
+N/Users/ptx/Projects/OE/OEIphone/src/Core/IEvent.h
+c000000004C68FF570000000000000864
+t1281949527
+s2148
+i<Core/IListener.h>
+
+N/Users/ptx/Projects/OE/OEIphone/src/Core/IListener.h
+c000000004C68FF5700000000000007DC
+t1281949527
+s2012
+
+N/Users/ptx/Projects/OE/OEIphone/src/Logging/Logger.h
+c000000004C68FF5800000000000008D1
+t1281949528
+s2257
+i<string>
+i<sstream>
+i<iostream>
+i<list>
+i<Logging/LoggerType.h>
+
+N/Users/ptx/Projects/OE/OEIphone/src/Logging/LoggerType.h
+c000000004C68FF5800000000000002CC
+t1281949528
+s716
+
+N/Users/ptx/Projects/OE/OEIphone/src/Math/Exceptions.h
+c000000004C68FF580000000000000625
+t1281949528
+s1573
+i<Core/Exceptions.h>
+
+N/Users/ptx/Projects/OE/OEIphone/src/Math/Matrix.h
+c000000004D51271E000000000000484A
+t1297164062
+s18506
+i<string>
+i<sstream>
+i<boost/static_assert.hpp>
+i<Math/Vector.h>
+
+N/Users/ptx/Projects/OE/OEIphone/src/Math/Vector.h
+c000000004D51256D00000000000034AB
+t1297163629
+s13483
+i<Math/Exceptions.h>
+i<string>
+i<sstream>
+i<ostream>
+i<math.h>
+i<boost/static_assert.hpp>
+
+N/Users/ptx/Projects/OE/OEIphone/src/Meta/Time.h
+c000000004C68FF590000000000000250
+t1281949529
+s592
+i<time.h>
+i<sys/time.h>
+
+N/Users/ptx/Projects/OE/OEIphone/src/Resources/DirectoryManager.h
+c000000004C68FF59000000000000043E
+t1281949529
+s1086
+i<string>
+i<list>
+i<map>
+i<iostream>
+
+N/Users/ptx/Projects/OE/OEIphone/src/Resources/File.h
+c000000004C68FF5A000000000000078F
+t1281949530
+s1935
+i<Utils/DateTime.h>
+i<string>
+i<iostream>
+i<fstream>
+i<stdlib.h>
+
+N/Users/ptx/Projects/OE/OEIphone/src/Resources/IResource.h
+c000000004C68FF5A0000000000000597
+t1281949530
+s1431
+i<boost/shared_ptr.hpp>
+i<Core/IEvent.h>
+i<Core/Event.h>
+
+N/Users/ptx/Projects/OE/OEIphone/src/Resources/IResourcePlugin.h
+c000000004C68FF5A000000000000070A
+t1281949530
+s1802
+i<string>
+i<list>
+i<boost/shared_ptr.hpp>
+
+N/Users/ptx/Projects/OE/OEIphone/src/Resources/IShaderResource.h
+c000000004D512800000000000000173B
+t1297164288
+s5947
+i<Resources/IResource.h>
+i<Math/Vector.h>
+i<Math/Matrix.h>
+i<string>
+i<vector>
+i<map>
+
+N/Users/ptx/Projects/OE/OEIphone/src/Resources/Types/ResourceTypes.h
+c000000004C68FF5A00000000000009AA
+t1281949530
+s2474
+i<typeinfo>
+i<string>
+
+N/Users/ptx/Projects/OE/OEIphone/src/Scene/ISceneNode.h
+c000000004D5125720000000000001AEC
+t1297163634
+s6892
+i<string>
+i<list>
+i"SceneNodes.def"
+
+N/Users/ptx/Projects/OE/OEIphone/src/Scene/SceneNodes.def
+c000000004D80D9D80000000000000332
+t1300290008
+s818
+
+N/Users/ptx/Projects/OE/OEIphone/src/Utils/Convert.h
+c000000004C68FF5B0000000000000423
+t1281949531
+s1059
+i<sstream>
+i<string>
+
+N/Users/ptx/Projects/OE/OEIphone/src/Utils/DateTime.h
+c000000004C68FF5B0000000000000650
+t1281949531
+s1616
+i<Meta/Time.h>
+i<ostream>
+
+N/usr/local/include/boost/shared_ptr.hpp
+c000000004CEA54D0000000000000021B
+t1290425552
+s539
+
+N/usr/local/include/boost/static_assert.hpp
+c000000004CEA54D000000000000013C5
+t1290425552
+s5061
+
+CBuild AST from /Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Geometry/NewGeometrySet.cpp
+r0
+
+CBuild AST from /Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Geometry/NewMesh.cpp
+r0
+
+CBuild AST from /Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/GLES2ShaderPlugin.cpp
+r0
+
+CBuild AST from /Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp
+r0
+
+CBuild AST from /Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Scene/NewMeshNode.cpp
+r0
+
+CCheck dependencies
+r0
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesc958457ec33cb341^ab968c7ec33cb341^---0#1#0#--18"Check dependencies
+
+CCompileC projects/OEIphone/Xcode/OpenGLESResources/OpenEngine.build/Debug/Extensions_OpenGLESResources.build/Objects-normal/i386/GLES2ShaderPlugin.o /Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/GLES2ShaderPlugin.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+r0
+
+CCompileC projects/OEIphone/Xcode/OpenGLESResources/OpenEngine.build/Debug/Extensions_OpenGLESResources.build/Objects-normal/i386/NewGeometrySet.o /Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Geometry/NewGeometrySet.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+r0
+
+CCompileC projects/OEIphone/Xcode/OpenGLESResources/OpenEngine.build/Debug/Extensions_OpenGLESResources.build/Objects-normal/i386/NewMesh.o /Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Geometry/NewMesh.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+r0
+
+CCompileC projects/OEIphone/Xcode/OpenGLESResources/OpenEngine.build/Debug/Extensions_OpenGLESResources.build/Objects-normal/i386/NewMeshNode.o /Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Scene/NewMeshNode.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+r0
+
+CCompileC projects/OEIphone/Xcode/OpenGLESResources/OpenEngine.build/Debug/Extensions_OpenGLESResources.build/Objects-normal/i386/OpenGLES2Shader.o /Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+r0
+
+CCompileC projects/OEIphone/Xcode/OpenGLESResources/OpenEngine.build/Debug/Extensions_OpenGLESResources.build/Objects-normal/x86_64/GLES2ShaderPlugin.o /Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/GLES2ShaderPlugin.cpp normal x86_64 c++ com.apple.compilers.llvmgcc42
+s322749311.292356
+e322749323.140656
+r0
+xCompileC
+xprojects/OEIphone/Xcode/OpenGLESResources/OpenEngine.build/Debug/Extensions_OpenGLESResources.build/Objects-normal/x86_64/GLES2ShaderPlugin.o
+x/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/GLES2ShaderPlugin.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvmgcc42
+oIn file included from /Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.h:15,
+o                 from /Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/GLES2ShaderPlugin.cpp:10:
+o/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Meta/OpenGLES2.h:4:29: error: OpenGLES/ES2/gl.h: No such file or directory
+o/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Meta/OpenGLES2.h:5:32: error: OpenGLES/ES2/glext.h: No such file or directory
+oIn file included from /Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.h:15,
+o                 from /Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/GLES2ShaderPlugin.cpp:10:
+o/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Meta/OpenGLES2.h: In function 'void CHECK_FOR_GLES2_ERROR(std::string, int)':
+o/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Meta/OpenGLES2.h:20: error: 'GLenum' was not declared in this scope
+o/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Meta/OpenGLES2.h:20: error: expected `;' before 'errorCode'
+o/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Meta/OpenGLES2.h:21: error: 'errorCode' was not declared in this scope
+o/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Meta/OpenGLES2.h:21: error: 'GL_NO_ERROR' was not declared in this scope
+oIn file included from /Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/GLES2ShaderPlugin.cpp:10:
+o/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.h: At global scope:
+o/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.h:29: error: 'GLuint' does not name a type
+o/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.h:30: error: 'GLuint' does not name a type
+o/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.h:39: error: 'GLint' does not name a type
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Compile /Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/GLES2ShaderPlugin.cpp9f1e4b7fc33cb341^80f2238bc33cb341^-2013"In file included from /Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.h:15,                 from /Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/GLES2ShaderPlugin.cpp:10:/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Meta/OpenGLES2.h:4:29: error: OpenGLES/ES2/gl.h: No such file or directory/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Meta/OpenGLES2.h:5:32: error: OpenGLES/ES2/glext.h: No such file or directoryIn file included from /Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.h:15,                 from /Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/GLES2ShaderPlugin.cpp:10:/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Meta/OpenGLES2.h: In function 'void CHECK_FOR_GLES2_ERROR(std::string, int)':/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Meta/OpenGLES2.h:20: error: 'GLenum' was not declared in this scope/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Meta/OpenGLES2.h:20: error: expected `;' before 'errorCode'/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Meta/OpenGLES2.h:21: error: 'errorCode' was not declared in this scope/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Meta/OpenGLES2.h:21: error: 'GL_NO_ERROR' was not declared in this scopeIn file included from /Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/GLES2ShaderPlugin.cpp:10:/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.h: At global scope:/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.h:29: error: 'GLuint' does not name a type/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.h:30: error: 'GLuint' does not name a type/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.h:39: error: 'GLint' does not name a type10(21%IDEActivityLogMessage2@44"OpenGLES/ES2/gl.h: No such file or directory-322749314#234#136#3(36%IDEActivityLogHeaderInclusionMessage3@114"In file included from /Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/GLES2ShaderPlugin.cpp-322749314#18446744073709551615#0#-0#-23%DVTTextDocumentLocation4@108"file://localhost/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/GLES2ShaderPlugin.cpp0000000000000000^9#18446744073709551615#9#18446744073709551615#18446744073709551615#0#---3@110"In file included from /Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.h-322749314#18446744073709551615#0#-0#-4@104"file://localhost/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.h0000000000000000^14#18446744073709551615#14#18446744073709551615#18446744073709551615#0#---2@125"OpenGLES/ES2/gl.h: No such file or directory in /Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Meta/OpenGLES2.h-322749314#18446744073709551615#0#-0#-4@93"file://localhost/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Meta/OpenGLES2.h0000000000000000^3#18446744073709551615#3#18446744073709551615#18446744073709551615#0#---2#-4@93"file://localhost/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Meta/OpenGLES2.h0000000000000000^3#18446744073709551615#3#18446744073709551615#18446744073709551615#0#28"*: No such file or directory--2@47"OpenGLES/ES2/glext.h: No such file or directory-322749314#370#139#3(3@114"In file included from /Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/GLES2ShaderPlugin.cpp-322749314#18446744073709551615#0#-0#-4@108"file://localhost/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/GLES2ShaderPlugin.cpp0000000000000000^9#18446744073709551615#9#18446744073709551615#18446744073709551615#0#---3@110"In file included from /Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.h-322749314#18446744073709551615#0#-0#-4@104"file://localhost/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.h0000000000000000^14#18446744073709551615#14#18446744073709551615#18446744073709551615#0#---2@128"OpenGLES/ES2/glext.h: No such file or directory in /Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Meta/OpenGLES2.h-322749314#18446744073709551615#0#-0#-4@93"file://localhost/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Meta/OpenGLES2.h0000000000000000^4#18446744073709551615#4#18446744073709551615#18446744073709551615#0#---2#-4@93"file://localhost/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Meta/OpenGLES2.h0000000000000000^4#18446744073709551615#4#18446744073709551615#18446744073709551615#0#28"*: No such file or directory--2@39"'GLenum' was not declared in this scope-322749323#882#129#3(3@114"In file included from /Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/GLES2ShaderPlugin.cpp-322749323#18446744073709551615#0#-0#-4@108"file://localhost/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/GLES2ShaderPlugin.cpp0000000000000000^9#18446744073709551615#9#18446744073709551615#18446744073709551615#0#---3@110"In file included from /Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.h-322749323#18446744073709551615#0#-0#-4@104"file://localhost/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.h0000000000000000^14#18446744073709551615#14#18446744073709551615#18446744073709551615#0#---2@120"'GLenum' was not declared in this scope in /Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Meta/OpenGLES2.h-322749323#18446744073709551615#0#-0#-4@93"file://localhost/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Meta/OpenGLES2.h0000000000000000^19#18446744073709551615#19#18446744073709551615#18446744073709551615#0#---2#-4@93"file://localhost/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Meta/OpenGLES2.h0000000000000000^19#18446744073709551615#19#18446744073709551615#18446744073709551615#0#34"'*' was not declared in this scope--2@31"Expected `;' before 'errorCode'-322749323#1011#121#3(3@114"In file included from /Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/GLES2ShaderPlugin.cpp-322749323#18446744073709551615#0#-0#-4@108"file://localhost/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/GLES2ShaderPlugin.cpp0000000000000000^9#18446744073709551615#9#18446744073709551615#18446744073709551615#0#---3@110"In file included from /Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.h-322749323#18446744073709551615#0#-0#-4@104"file://localhost/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.h0000000000000000^14#18446744073709551615#14#18446744073709551615#18446744073709551615#0#---2@112"Expected `;' before 'errorCode' in /Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Meta/OpenGLES2.h-322749323#18446744073709551615#0#-0#-4@93"file://localhost/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Meta/OpenGLES2.h0000000000000000^19#18446744073709551615#19#18446744073709551615#18446744073709551615#0#---2#-4@93"file://localhost/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Meta/OpenGLES2.h0000000000000000^19#18446744073709551615#19#18446744073709551615#18446744073709551615#0#19"Expected * before *--2@42"'errorCode' was not declared in this scope-322749323#1132#132#3(3@114"In file included from /Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/GLES2ShaderPlugin.cpp-322749323#18446744073709551615#0#-0#-4@108"file://localhost/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/GLES2ShaderPlugin.cpp0000000000000000^9#18446744073709551615#9#18446744073709551615#18446744073709551615#0#---3@110"In file included from /Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.h-322749323#18446744073709551615#0#-0#-4@104"file://localhost/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.h0000000000000000^14#18446744073709551615#14#18446744073709551615#18446744073709551615#0#---2@123"'errorCode' was not declared in this scope in /Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Meta/OpenGLES2.h-322749323#18446744073709551615#0#-0#-4@93"file://localhost/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Meta/OpenGLES2.h0000000000000000^20#18446744073709551615#20#18446744073709551615#18446744073709551615#0#---2#-4@93"file://localhost/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Meta/OpenGLES2.h0000000000000000^20#18446744073709551615#20#18446744073709551615#18446744073709551615#0#34"'*' was not declared in this scope--2@44"'GL_NO_ERROR' was not declared in this scope-322749323#1264#134#3(3@114"In file included from /Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/GLES2ShaderPlugin.cpp-322749323#18446744073709551615#0#-0#-4@108"file://localhost/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/GLES2ShaderPlugin.cpp0000000000000000^9#18446744073709551615#9#18446744073709551615#18446744073709551615#0#---3@110"In file included from /Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.h-322749323#18446744073709551615#0#-0#-4@104"file://localhost/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.h0000000000000000^14#18446744073709551615#14#18446744073709551615#18446744073709551615#0#---2@125"'GL_NO_ERROR' was not declared in this scope in /Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Meta/OpenGLES2.h-322749323#18446744073709551615#0#-0#-4@93"file://localhost/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Meta/OpenGLES2.h0000000000000000^20#18446744073709551615#20#18446744073709551615#18446744073709551615#0#---2#-4@93"file://localhost/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Meta/OpenGLES2.h0000000000000000^20#18446744073709551615#20#18446744073709551615#18446744073709551615#0#34"'*' was not declared in this scope--32%IDEActivityLogContextInfoMessage5@16"At global scope:-322749323#1517#107#2(3@114"In file included from /Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/GLES2ShaderPlugin.cpp-322749323#18446744073709551615#0#-0#-4@108"file://localhost/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/GLES2ShaderPlugin.cpp0000000000000000^9#18446744073709551615#9#18446744073709551615#18446744073709551615#0#---2@108"At global scope: in /Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.h-322749323#18446744073709551615#0#-0#-4@104"file://localhost/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.h0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#---0#-4@104"file://localhost/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.h0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#19"LLVM GCC 4.2 Notice--2@29"'GLuint' does not name a type-322749323#1624#130#2(3@114"In file included from /Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/GLES2ShaderPlugin.cpp-322749323#18446744073709551615#0#-0#-4@108"file://localhost/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/GLES2ShaderPlugin.cpp0000000000000000^9#18446744073709551615#9#18446744073709551615#18446744073709551615#0#---2@121"'GLuint' does not name a type in /Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.h-322749323#18446744073709551615#0#-0#-4@104"file://localhost/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.h0000000000000000^28#18446744073709551615#28#18446744073709551615#18446744073709551615#0#---2#-4@104"file://localhost/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.h0000000000000000^28#18446744073709551615#28#18446744073709551615#18446744073709551615#0#24"'*' does not name a type--2@29"'GLuint' does not name a type-322749323#1754#130#2(3@114"In file included from /Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/GLES2ShaderPlugin.cpp-322749323#18446744073709551615#0#-0#-4@108"file://localhost/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/GLES2ShaderPlugin.cpp0000000000000000^9#18446744073709551615#9#18446744073709551615#18446744073709551615#0#---2@121"'GLuint' does not name a type in /Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.h-322749323#18446744073709551615#0#-0#-4@104"file://localhost/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.h0000000000000000^29#18446744073709551615#29#18446744073709551615#18446744073709551615#0#---2#-4@104"file://localhost/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.h0000000000000000^29#18446744073709551615#29#18446744073709551615#18446744073709551615#0#24"'*' does not name a type--2@28"'GLint' does not name a type-322749323#1884#129#2(3@114"In file included from /Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/GLES2ShaderPlugin.cpp-322749323#18446744073709551615#0#-0#-4@108"file://localhost/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/GLES2ShaderPlugin.cpp0000000000000000^9#18446744073709551615#9#18446744073709551615#18446744073709551615#0#---2@120"'GLint' does not name a type in /Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.h-322749323#18446744073709551615#0#-0#-4@104"file://localhost/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.h0000000000000000^38#18446744073709551615#38#18446744073709551615#18446744073709551615#0#---2#-4@104"file://localhost/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.h0000000000000000^38#18446744073709551615#38#18446744073709551615#18446744073709551615#0#24"'*' does not name a type--0#0#0#-19%DVTDocumentLocation6@108"file://localhost/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/GLES2ShaderPlugin.cpp0000000000000000^2030"CompileC projects/OEIphone/Xcode/OpenGLESResources/OpenEngine.build/Debug/Extensions_OpenGLESResources.build/Objects-normal/x86_64/GLES2ShaderPlugin.o extensions/OpenGLESResources/Resources/GLES2ShaderPlugin.cpp normal x86_64 c++ com.apple.compilers.llvmgcc42    cd /Users/ptx/Projects/OE/OEIphone    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -DCMAKE_INTDIR="Debug" -DOE_SAFE=true -DOE_DEBUG_GL=true -D_DEBUG -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/OpenGLESResources/Debug/include -I/Users/ptx/Projects/OE/OEIphone/src -I/usr/local/include -I/Users/ptx/Projects/OE/OEIphone/extensions/AccelerationStructures -I/Users/ptx/Projects/OE/OEIphone/extensions/iOSEnvironment -I/Users/ptx/Projects/OE/OEIphone/extensions/IRC -I/Users/ptx/Projects/OE/OEIphone/extensions/mesh-OBJResource -I/Users/ptx/Projects/OE/OEIphone/extensions/MeshUtils -I/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESRenderer -I/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources -I/Users/ptx/Projects/OE/OEIphone/extensions/Sockets -I/Users/ptx/Projects/OE/OEIphone/extensions/TGAResource -I/Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/OpenGLESResources/OpenEngine.build/Debug/Extensions_OpenGLESResources.build/DerivedSources/x86_64 -I/Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/OpenGLESResources/OpenEngine.build/Debug/Extensions_OpenGLESResources.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/OpenGLESResources/Debug -Wall -Wextra -Wno-unused-parameter -c /Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/GLES2ShaderPlugin.cpp -o /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/OpenGLESResources/OpenEngine.build/Debug/Extensions_OpenGLESResources.build/Objects-normal/x86_64/GLES2ShaderPlugin.o
+
+CCompileC projects/OEIphone/Xcode/OpenGLESResources/OpenEngine.build/Debug/Extensions_OpenGLESResources.build/Objects-normal/x86_64/NewGeometrySet.o /Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Geometry/NewGeometrySet.cpp normal x86_64 c++ com.apple.compilers.llvmgcc42
+r0
+
+CCompileC projects/OEIphone/Xcode/OpenGLESResources/OpenEngine.build/Debug/Extensions_OpenGLESResources.build/Objects-normal/x86_64/NewMesh.o /Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Geometry/NewMesh.cpp normal x86_64 c++ com.apple.compilers.llvmgcc42
+r0
+
+CCompileC projects/OEIphone/Xcode/OpenGLESResources/OpenEngine.build/Debug/Extensions_OpenGLESResources.build/Objects-normal/x86_64/NewMeshNode.o /Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Scene/NewMeshNode.cpp normal x86_64 c++ com.apple.compilers.llvmgcc42
+r0
+
+CCompileC projects/OEIphone/Xcode/OpenGLESResources/OpenEngine.build/Debug/Extensions_OpenGLESResources.build/Objects-normal/x86_64/OpenGLES2Shader.o /Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp normal x86_64 c++ com.apple.compilers.llvmgcc42
+s322749311.290080
+e322749323.269094
+r0
+xCompileC
+xprojects/OEIphone/Xcode/OpenGLESResources/OpenEngine.build/Debug/Extensions_OpenGLESResources.build/Objects-normal/x86_64/OpenGLES2Shader.o
+x/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvmgcc42
+oIn file included from /Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.h:15,
+o                 from /Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp:2:
+o/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Meta/OpenGLES2.h:4:29: error: OpenGLES/ES2/gl.h: No such file or directory
+o/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Meta/OpenGLES2.h:5:32: error: OpenGLES/ES2/glext.h: No such file or directory
+oIn file included from /Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.h:15,
+o                 from /Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp:2:
+o/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Meta/OpenGLES2.h: In function 'void CHECK_FOR_GLES2_ERROR(std::string, int)':
+o/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Meta/OpenGLES2.h:20: error: 'GLenum' was not declared in this scope
+o/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Meta/OpenGLES2.h:20: error: expected `;' before 'errorCode'
+o/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Meta/OpenGLES2.h:21: error: 'errorCode' was not declared in this scope
+o/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Meta/OpenGLES2.h:21: error: 'GL_NO_ERROR' was not declared in this scope
+oIn file included from /Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp:2:
+o/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.h: At global scope:
+o/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.h:29: error: 'GLuint' does not name a type
+o/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.h:30: error: 'GLuint' does not name a type
+o/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.h:39: error: 'GLint' does not name a type
+o/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp: In member function 'void OpenEngine::Resources::OpenGLES2Shader::ApplyShader()':
+o/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp:18: error: 'programID' was not declared in this scope
+o/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp:18: error: 'glUseProgram' was not declared in this scope
+o/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp: In member function 'void OpenEngine::Resources::OpenGLES2Shader::ReleaseShader()':
+o/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp:21: error: 'glUseProgram' was not declared in this scope
+o/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp: At global scope:
+o/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp:24: error: 'GLint' does not name a type
+o/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp: In member function 'void OpenEngine::Resources::OpenGLES2Shader::SetUniform(std::string, int)':
+o/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp:34: error: 'GetUniformLocation' was not declared in this scope
+o/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp:34: error: 'glUniform1i' was not declared in this scope
+o/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp: In member function 'void OpenEngine::Resources::OpenGLES2Shader::SetUniform(std::string, float)':
+o/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp:37: error: 'GetUniformLocation' was not declared in this scope
+o/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp:37: error: 'glUniform1f' was not declared in this scope
+o/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp: In member function 'void OpenEngine::Resources::OpenGLES2Shader::SetUniform(std::string, OpenEngine::Math::Vector<2u, float>)':
+o/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp:40: error: 'GetUniformLocation' was not declared in this scope
+o/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp:40: error: 'glUniform2fv' was not declared in this scope
+o/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp: In member function 'void OpenEngine::Resources::OpenGLES2Shader::SetUniform(std::string, OpenEngine::Math::Vector<3u, float>)':
+o/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp:43: error: 'GetUniformLocation' was not declared in this scope
+o/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp:43: error: 'glUniform3fv' was not declared in this scope
+o/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp: In member function 'void OpenEngine::Resources::OpenGLES2Shader::SetUniform(std::string, OpenEngine::Math::Vector<4u, float>)':
+o/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp:46: error: 'GetUniformLocation' was not declared in this scope
+o/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp:46: error: 'glUniform4fv' was not declared in this scope
+o/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp: In member function 'void OpenEngine::Resources::OpenGLES2Shader::SetUniform(std::string, OpenEngine::Math::Matrix<4u, 4u, float>)':
+o/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp:49: error: 'GetUniformLocation' was not declared in this scope
+o/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp:49: error: 'GL_FALSE' was not declared in this scope
+o/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp:49: error: 'glUniformMatrix4fv' was not declared in this scope
+o/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp: In member function 'void OpenEngine::Resources::OpenGLES2Shader::GetUniform(std::string, int&)':
+o/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp:53: error: 'programID' was not declared in this scope
+o/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp:53: error: 'GetUniformLocation' was not declared in this scope
+o/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp:53: error: 'glGetUniformiv' was not declared in this scope
+o/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp: In member function 'void OpenEngine::Resources::OpenGLES2Shader::BindAttribute(int, std::string)':
+o/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp:63: error: 'programID' was not declared in this scope
+o/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp:63: error: 'glBindAttribLocation' was not declared in this scope
+o/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp: At global scope:
+o/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp:66: error: 'GLint' does not name a type
+o/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp: In member function 'void OpenEngine::Resources::OpenGLES2Shader::Load()':
+o/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp:74: error: 'GLuint' was not declared in this scope
+o/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp:74: error: expected `;' before 'vid'
+o/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp:75: error: expected `;' before 'fid'
+o/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp:77: error: 'programID' was not declared in this scope
+o/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp:77: error: 'glCreateProgram' was not declared in this scope
+o/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp:78: error: 'vid' was not declared in this scope
+o/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp:78: error: 'glAttachShader' was not declared in this scope
+o/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp:79: error: 'fid' was not declared in this scope
+o/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp:81: error: 'glLinkProgram' was not declared in this scope
+o/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp:83: error: 'GLint' was not declared in this scope
+o/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp:83: error: expected `;' before 'linked'
+o/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp:84: error: 'GL_LINK_STATUS' was not declared in this scope
+o/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp:84: error: 'linked' was not declared in this scope
+o/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp:84: error: 'glGetProgramiv' was not declared in this scope
+o/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp: At global scope:
+o/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp:90: error: 'GLuint' does not name a type
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"Compile /Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cppcb9c4a7fc33cb341^f52e468bc33cb341^-10017"In file included from /Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.h:15,                 from /Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp:2:/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Meta/OpenGLES2.h:4:29: error: OpenGLES/ES2/gl.h: No such file or directory/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Meta/OpenGLES2.h:5:32: error: OpenGLES/ES2/glext.h: No such file or directoryIn file included from /Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.h:15,                 from /Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp:2:/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Meta/OpenGLES2.h: In function 'void CHECK_FOR_GLES2_ERROR(std::string, int)':/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Meta/OpenGLES2.h:20: error: 'GLenum' was not declared in this scope/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Meta/OpenGLES2.h:20: error: expected `;' before 'errorCode'/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Meta/OpenGLES2.h:21: error: 'errorCode' was not declared in this scope/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Meta/OpenGLES2.h:21: error: 'GL_NO_ERROR' was not declared in this scopeIn file included from /Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp:2:/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.h: At global scope:/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.h:29: error: 'GLuint' does not name a type/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.h:30: error: 'GLuint' does not name a type/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.h:39: error: 'GLint' does not name a type/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp: In member function 'void OpenEngine::Resources::OpenGLES2Shader::ApplyShader()':/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp:18: error: 'programID' was not declared in this scope/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp:18: error: 'glUseProgram' was not declared in this scope/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp: In member function 'void OpenEngine::Resources::OpenGLES2Shader::ReleaseShader()':/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp:21: error: 'glUseProgram' was not declared in this scope/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp: At global scope:/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp:24: error: 'GLint' does not name a type/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp: In member function 'void OpenEngine::Resources::OpenGLES2Shader::SetUniform(std::string, int)':/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp:34: error: 'GetUniformLocation' was not declared in this scope/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp:34: error: 'glUniform1i' was not declared in this scope/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp: In member function 'void OpenEngine::Resources::OpenGLES2Shader::SetUniform(std::string, float)':/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp:37: error: 'GetUniformLocation' was not declared in this scope/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp:37: error: 'glUniform1f' was not declared in this scope/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp: In member function 'void OpenEngine::Resources::OpenGLES2Shader::SetUniform(std::string, OpenEngine::Math::Vector<2u, float>)':/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp:40: error: 'GetUniformLocation' was not declared in this scope/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp:40: error: 'glUniform2fv' was not declared in this scope/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp: In member function 'void OpenEngine::Resources::OpenGLES2Shader::SetUniform(std::string, OpenEngine::Math::Vector<3u, float>)':/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp:43: error: 'GetUniformLocation' was not declared in this scope/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp:43: error: 'glUniform3fv' was not declared in this scope/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp: In member function 'void OpenEngine::Resources::OpenGLES2Shader::SetUniform(std::string, OpenEngine::Math::Vector<4u, float>)':/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp:46: error: 'GetUniformLocation' was not declared in this scope/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp:46: error: 'glUniform4fv' was not declared in this scope/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp: In member function 'void OpenEngine::Resources::OpenGLES2Shader::SetUniform(std::string, OpenEngine::Math::Matrix<4u, 4u, float>)':/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp:49: error: 'GetUniformLocation' was not declared in this scope/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp:49: error: 'GL_FALSE' was not declared in this scope/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp:49: error: 'glUniformMatrix4fv' was not declared in this scope/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp: In member function 'void OpenEngine::Resources::OpenGLES2Shader::GetUniform(std::string, int&)':/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp:53: error: 'programID' was not declared in this scope/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp:53: error: 'GetUniformLocation' was not declared in this scope/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp:53: error: 'glGetUniformiv' was not declared in this scope/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp: In member function 'void OpenEngine::Resources::OpenGLES2Shader::BindAttribute(int, std::string)':/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp:63: error: 'programID' was not declared in this scope/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp:63: error: 'glBindAttribLocation' was not declared in this scope/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp: At global scope:/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp:66: error: 'GLint' does not name a type/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp: In member function 'void OpenEngine::Resources::OpenGLES2Shader::Load()':/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp:74: error: 'GLuint' was not declared in this scope/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp:74: error: expected `;' before 'vid'/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp:75: error: expected `;' before 'fid'/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp:77: error: 'programID' was not declared in this scope/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp:77: error: 'glCreateProgram' was not declared in this scope/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp:78: error: 'vid' was not declared in this scope/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp:78: error: 'glAttachShader' was not declared in this scope/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp:79: error: 'fid' was not declared in this scope/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp:81: error: 'glLinkProgram' was not declared in this scope/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp:83: error: 'GLint' was not declared in this scope/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp:83: error: expected `;' before 'linked'/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp:84: error: 'GL_LINK_STATUS' was not declared in this scope/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp:84: error: 'linked' was not declared in this scope/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp:84: error: 'glGetProgramiv' was not declared in this scope/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp: At global scope:/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp:90: error: 'GLuint' does not name a type51(21%IDEActivityLogMessage2@44"OpenGLES/ES2/gl.h: No such file or directory-322749314#231#136#3(36%IDEActivityLogHeaderInclusionMessage3@112"In file included from /Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp-322749314#18446744073709551615#0#-0#-23%DVTTextDocumentLocation4@106"file://localhost/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp0000000000000000^1#18446744073709551615#1#18446744073709551615#18446744073709551615#0#---3@110"In file included from /Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.h-322749314#18446744073709551615#0#-0#-4@104"file://localhost/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.h0000000000000000^14#18446744073709551615#14#18446744073709551615#18446744073709551615#0#---2@125"OpenGLES/ES2/gl.h: No such file or directory in /Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Meta/OpenGLES2.h-322749314#18446744073709551615#0#-0#-4@93"file://localhost/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Meta/OpenGLES2.h0000000000000000^3#18446744073709551615#3#18446744073709551615#18446744073709551615#0#---2#-4@93"file://localhost/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Meta/OpenGLES2.h0000000000000000^3#18446744073709551615#3#18446744073709551615#18446744073709551615#0#28"*: No such file or directory--2@47"OpenGLES/ES2/glext.h: No such file or directory-322749314#367#139#3(3@112"In file included from /Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp-322749314#18446744073709551615#0#-0#-4@106"file://localhost/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp0000000000000000^1#18446744073709551615#1#18446744073709551615#18446744073709551615#0#---3@110"In file included from /Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.h-322749314#18446744073709551615#0#-0#-4@104"file://localhost/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.h0000000000000000^14#18446744073709551615#14#18446744073709551615#18446744073709551615#0#---2@128"OpenGLES/ES2/glext.h: No such file or directory in /Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Meta/OpenGLES2.h-322749314#18446744073709551615#0#-0#-4@93"file://localhost/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Meta/OpenGLES2.h0000000000000000^4#18446744073709551615#4#18446744073709551615#18446744073709551615#0#---2#-4@93"file://localhost/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Meta/OpenGLES2.h0000000000000000^4#18446744073709551615#4#18446744073709551615#18446744073709551615#0#28"*: No such file or directory--2@39"'GLenum' was not declared in this scope-322749323#876#129#3(3@112"In file included from /Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp-322749323#18446744073709551615#0#-0#-4@106"file://localhost/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp0000000000000000^1#18446744073709551615#1#18446744073709551615#18446744073709551615#0#---3@110"In file included from /Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.h-322749323#18446744073709551615#0#-0#-4@104"file://localhost/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.h0000000000000000^14#18446744073709551615#14#18446744073709551615#18446744073709551615#0#---2@120"'GLenum' was not declared in this scope in /Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Meta/OpenGLES2.h-322749323#18446744073709551615#0#-0#-4@93"file://localhost/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Meta/OpenGLES2.h0000000000000000^19#18446744073709551615#19#18446744073709551615#18446744073709551615#0#---2#-4@93"file://localhost/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Meta/OpenGLES2.h0000000000000000^19#18446744073709551615#19#18446744073709551615#18446744073709551615#0#34"'*' was not declared in this scope--2@31"Expected `;' before 'errorCode'-322749323#1005#121#3(3@112"In file included from /Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp-322749323#18446744073709551615#0#-0#-4@106"file://localhost/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp0000000000000000^1#18446744073709551615#1#18446744073709551615#18446744073709551615#0#---3@110"In file included from /Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.h-322749323#18446744073709551615#0#-0#-4@104"file://localhost/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.h0000000000000000^14#18446744073709551615#14#18446744073709551615#18446744073709551615#0#---2@112"Expected `;' before 'errorCode' in /Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Meta/OpenGLES2.h-322749323#18446744073709551615#0#-0#-4@93"file://localhost/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Meta/OpenGLES2.h0000000000000000^19#18446744073709551615#19#18446744073709551615#18446744073709551615#0#---2#-4@93"file://localhost/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Meta/OpenGLES2.h0000000000000000^19#18446744073709551615#19#18446744073709551615#18446744073709551615#0#19"Expected * before *--2@42"'errorCode' was not declared in this scope-322749323#1126#132#3(3@112"In file included from /Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp-322749323#18446744073709551615#0#-0#-4@106"file://localhost/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp0000000000000000^1#18446744073709551615#1#18446744073709551615#18446744073709551615#0#---3@110"In file included from /Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.h-322749323#18446744073709551615#0#-0#-4@104"file://localhost/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.h0000000000000000^14#18446744073709551615#14#18446744073709551615#18446744073709551615#0#---2@123"'errorCode' was not declared in this scope in /Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Meta/OpenGLES2.h-322749323#18446744073709551615#0#-0#-4@93"file://localhost/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Meta/OpenGLES2.h0000000000000000^20#18446744073709551615#20#18446744073709551615#18446744073709551615#0#---2#-4@93"file://localhost/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Meta/OpenGLES2.h0000000000000000^20#18446744073709551615#20#18446744073709551615#18446744073709551615#0#34"'*' was not declared in this scope--2@44"'GL_NO_ERROR' was not declared in this scope-322749323#1258#134#3(3@112"In file included from /Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp-322749323#18446744073709551615#0#-0#-4@106"file://localhost/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp0000000000000000^1#18446744073709551615#1#18446744073709551615#18446744073709551615#0#---3@110"In file included from /Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.h-322749323#18446744073709551615#0#-0#-4@104"file://localhost/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.h0000000000000000^14#18446744073709551615#14#18446744073709551615#18446744073709551615#0#---2@125"'GL_NO_ERROR' was not declared in this scope in /Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Meta/OpenGLES2.h-322749323#18446744073709551615#0#-0#-4@93"file://localhost/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Meta/OpenGLES2.h0000000000000000^20#18446744073709551615#20#18446744073709551615#18446744073709551615#0#---2#-4@93"file://localhost/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Meta/OpenGLES2.h0000000000000000^20#18446744073709551615#20#18446744073709551615#18446744073709551615#0#34"'*' was not declared in this scope--32%IDEActivityLogContextInfoMessage5@16"At global scope:-322749323#1508#107#2(3@112"In file included from /Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp-322749323#18446744073709551615#0#-0#-4@106"file://localhost/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp0000000000000000^1#18446744073709551615#1#18446744073709551615#18446744073709551615#0#---2@108"At global scope: in /Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.h-322749323#18446744073709551615#0#-0#-4@104"file://localhost/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.h0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#---0#-4@104"file://localhost/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.h0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#19"LLVM GCC 4.2 Notice--2@29"'GLuint' does not name a type-322749323#1615#130#2(3@112"In file included from /Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp-322749323#18446744073709551615#0#-0#-4@106"file://localhost/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp0000000000000000^1#18446744073709551615#1#18446744073709551615#18446744073709551615#0#---2@121"'GLuint' does not name a type in /Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.h-322749323#18446744073709551615#0#-0#-4@104"file://localhost/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.h0000000000000000^28#18446744073709551615#28#18446744073709551615#18446744073709551615#0#---2#-4@104"file://localhost/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.h0000000000000000^28#18446744073709551615#28#18446744073709551615#18446744073709551615#0#24"'*' does not name a type--2@29"'GLuint' does not name a type-322749323#1745#130#2(3@112"In file included from /Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp-322749323#18446744073709551615#0#-0#-4@106"file://localhost/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp0000000000000000^1#18446744073709551615#1#18446744073709551615#18446744073709551615#0#---2@121"'GLuint' does not name a type in /Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.h-322749323#18446744073709551615#0#-0#-4@104"file://localhost/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.h0000000000000000^29#18446744073709551615#29#18446744073709551615#18446744073709551615#0#---2#-4@104"file://localhost/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.h0000000000000000^29#18446744073709551615#29#18446744073709551615#18446744073709551615#0#24"'*' does not name a type--2@28"'GLint' does not name a type-322749323#1875#129#2(3@112"In file included from /Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp-322749323#18446744073709551615#0#-0#-4@106"file://localhost/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp0000000000000000^1#18446744073709551615#1#18446744073709551615#18446744073709551615#0#---2@120"'GLint' does not name a type in /Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.h-322749323#18446744073709551615#0#-0#-4@104"file://localhost/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.h0000000000000000^38#18446744073709551615#38#18446744073709551615#18446744073709551615#0#---2#-4@104"file://localhost/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.h0000000000000000^38#18446744073709551615#38#18446744073709551615#18446744073709551615#0#24"'*' does not name a type--2@42"'programID' was not declared in this scope-322749323#2177#145#-2#-4@106"file://localhost/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp0000000000000000^17#18446744073709551615#17#18446744073709551615#18446744073709551615#0#34"'*' was not declared in this scope--2@45"'glUseProgram' was not declared in this scope-322749323#2322#148#-2#-4@106"file://localhost/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp0000000000000000^17#18446744073709551615#17#18446744073709551615#18446744073709551615#0#34"'*' was not declared in this scope--2@45"'glUseProgram' was not declared in this scope-322749323#2645#148#-2#-4@106"file://localhost/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp0000000000000000^20#18446744073709551615#20#18446744073709551615#18446744073709551615#0#34"'*' was not declared in this scope--5@16"At global scope:-322749323#2793#109#-0#-4@106"file://localhost/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#19"LLVM GCC 4.2 Notice--2@28"'GLint' does not name a type-322749323#2902#131#-2#-4@106"file://localhost/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp0000000000000000^23#18446744073709551615#23#18446744073709551615#18446744073709551615#0#24"'*' does not name a type--2@51"'GetUniformLocation' was not declared in this scope-322749323#3221#154#-2#-4@106"file://localhost/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp0000000000000000^33#18446744073709551615#33#18446744073709551615#18446744073709551615#0#34"'*' was not declared in this scope--2@44"'glUniform1i' was not declared in this scope-322749323#3375#147#-2#-4@106"file://localhost/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp0000000000000000^33#18446744073709551615#33#18446744073709551615#18446744073709551615#0#34"'*' was not declared in this scope--2@51"'GetUniformLocation' was not declared in this scope-322749323#3712#154#-2#-4@106"file://localhost/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp0000000000000000^36#18446744073709551615#36#18446744073709551615#18446744073709551615#0#34"'*' was not declared in this scope--2@44"'glUniform1f' was not declared in this scope-322749323#3866#147#-2#-4@106"file://localhost/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp0000000000000000^36#18446744073709551615#36#18446744073709551615#18446744073709551615#0#34"'*' was not declared in this scope--2@51"'GetUniformLocation' was not declared in this scope-322749323#4233#154#-2#-4@106"file://localhost/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp0000000000000000^39#18446744073709551615#39#18446744073709551615#18446744073709551615#0#34"'*' was not declared in this scope--2@45"'glUniform2fv' was not declared in this scope-322749323#4387#148#-2#-4@106"file://localhost/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp0000000000000000^39#18446744073709551615#39#18446744073709551615#18446744073709551615#0#34"'*' was not declared in this scope--2@51"'GetUniformLocation' was not declared in this scope-322749323#4755#154#-2#-4@106"file://localhost/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp0000000000000000^42#18446744073709551615#42#18446744073709551615#18446744073709551615#0#34"'*' was not declared in this scope--2@45"'glUniform3fv' was not declared in this scope-322749323#4909#148#-2#-4@106"file://localhost/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp0000000000000000^42#18446744073709551615#42#18446744073709551615#18446744073709551615#0#34"'*' was not declared in this scope--2@51"'GetUniformLocation' was not declared in this scope-322749323#5277#154#-2#-4@106"file://localhost/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp0000000000000000^45#18446744073709551615#45#18446744073709551615#18446744073709551615#0#34"'*' was not declared in this scope--2@45"'glUniform4fv' was not declared in this scope-322749323#5431#148#-2#-4@106"file://localhost/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp0000000000000000^45#18446744073709551615#45#18446744073709551615#18446744073709551615#0#34"'*' was not declared in this scope--2@51"'GetUniformLocation' was not declared in this scope-322749323#5803#154#-2#-4@106"file://localhost/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp0000000000000000^48#18446744073709551615#48#18446744073709551615#18446744073709551615#0#34"'*' was not declared in this scope--2@41"'GL_FALSE' was not declared in this scope-322749323#5957#144#-2#-4@106"file://localhost/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp0000000000000000^48#18446744073709551615#48#18446744073709551615#18446744073709551615#0#34"'*' was not declared in this scope--2@51"'glUniformMatrix4fv' was not declared in this scope-322749323#6101#154#-2#-4@106"file://localhost/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp0000000000000000^48#18446744073709551615#48#18446744073709551615#18446744073709551615#0#34"'*' was not declared in this scope--2@42"'programID' was not declared in this scope-322749323#6444#145#-2#-4@106"file://localhost/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp0000000000000000^52#18446744073709551615#52#18446744073709551615#18446744073709551615#0#34"'*' was not declared in this scope--2@51"'GetUniformLocation' was not declared in this scope-322749323#6589#154#-2#-4@106"file://localhost/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp0000000000000000^52#18446744073709551615#52#18446744073709551615#18446744073709551615#0#34"'*' was not declared in this scope--2@47"'glGetUniformiv' was not declared in this scope-322749323#6743#150#-2#-4@106"file://localhost/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp0000000000000000^52#18446744073709551615#52#18446744073709551615#18446744073709551615#0#34"'*' was not declared in this scope--2@42"'programID' was not declared in this scope-322749323#7084#145#-2#-4@106"file://localhost/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp0000000000000000^62#18446744073709551615#62#18446744073709551615#18446744073709551615#0#34"'*' was not declared in this scope--2@53"'glBindAttribLocation' was not declared in this scope-322749323#7229#156#-2#-4@106"file://localhost/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp0000000000000000^62#18446744073709551615#62#18446744073709551615#18446744073709551615#0#34"'*' was not declared in this scope--5@16"At global scope:-322749323#7385#109#-0#-4@106"file://localhost/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#19"LLVM GCC 4.2 Notice--2@28"'GLint' does not name a type-322749323#7494#131#-2#-4@106"file://localhost/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp0000000000000000^65#18446744073709551615#65#18446744073709551615#18446744073709551615#0#24"'*' does not name a type--2@39"'GLuint' was not declared in this scope-322749323#7791#142#-2#-4@106"file://localhost/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp0000000000000000^73#18446744073709551615#73#18446744073709551615#18446744073709551615#0#34"'*' was not declared in this scope--2@25"Expected `;' before 'vid'-322749323#7933#128#-2#-4@106"file://localhost/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp0000000000000000^73#18446744073709551615#73#18446744073709551615#18446744073709551615#0#19"Expected * before *--2@25"Expected `;' before 'fid'-322749323#8061#128#-2#-4@106"file://localhost/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp0000000000000000^74#18446744073709551615#74#18446744073709551615#18446744073709551615#0#19"Expected * before *--2@42"'programID' was not declared in this scope-322749323#8189#145#-2#-4@106"file://localhost/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp0000000000000000^76#18446744073709551615#76#18446744073709551615#18446744073709551615#0#34"'*' was not declared in this scope--2@48"'glCreateProgram' was not declared in this scope-322749323#8334#151#-2#-4@106"file://localhost/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp0000000000000000^76#18446744073709551615#76#18446744073709551615#18446744073709551615#0#34"'*' was not declared in this scope--2@36"'vid' was not declared in this scope-322749323#8485#139#-2#-4@106"file://localhost/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp0000000000000000^77#18446744073709551615#77#18446744073709551615#18446744073709551615#0#34"'*' was not declared in this scope--2@47"'glAttachShader' was not declared in this scope-322749323#8624#150#-2#-4@106"file://localhost/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp0000000000000000^77#18446744073709551615#77#18446744073709551615#18446744073709551615#0#34"'*' was not declared in this scope--2@36"'fid' was not declared in this scope-322749323#8774#139#-2#-4@106"file://localhost/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp0000000000000000^78#18446744073709551615#78#18446744073709551615#18446744073709551615#0#34"'*' was not declared in this scope--2@46"'glLinkProgram' was not declared in this scope-322749323#8913#149#-2#-4@106"file://localhost/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp0000000000000000^80#18446744073709551615#80#18446744073709551615#18446744073709551615#0#34"'*' was not declared in this scope--2@38"'GLint' was not declared in this scope-322749323#9062#141#-2#-4@106"file://localhost/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp0000000000000000^82#18446744073709551615#82#18446744073709551615#18446744073709551615#0#34"'*' was not declared in this scope--2@28"Expected `;' before 'linked'-322749323#9203#131#-2#-4@106"file://localhost/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp0000000000000000^82#18446744073709551615#82#18446744073709551615#18446744073709551615#0#19"Expected * before *--2@47"'GL_LINK_STATUS' was not declared in this scope-322749323#9334#150#-2#-4@106"file://localhost/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp0000000000000000^83#18446744073709551615#83#18446744073709551615#18446744073709551615#0#34"'*' was not declared in this scope--2@39"'linked' was not declared in this scope-322749323#9484#142#-2#-4@106"file://localhost/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp0000000000000000^83#18446744073709551615#83#18446744073709551615#18446744073709551615#0#34"'*' was not declared in this scope--2@47"'glGetProgramiv' was not declared in this scope-322749323#9626#150#-2#-4@106"file://localhost/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp0000000000000000^83#18446744073709551615#83#18446744073709551615#18446744073709551615#0#34"'*' was not declared in this scope--5@16"At global scope:-322749323#9776#109#-0#-4@106"file://localhost/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#19"LLVM GCC 4.2 Notice--2@29"'GLuint' does not name a type-322749323#9885#132#-2#-4@106"file://localhost/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp0000000000000000^89#18446744073709551615#89#18446744073709551615#18446744073709551615#0#24"'*' does not name a type--0#0#0#-19%DVTDocumentLocation6@106"file://localhost/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp0000000000000000^2022"CompileC projects/OEIphone/Xcode/OpenGLESResources/OpenEngine.build/Debug/Extensions_OpenGLESResources.build/Objects-normal/x86_64/OpenGLES2Shader.o extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp normal x86_64 c++ com.apple.compilers.llvmgcc42    cd /Users/ptx/Projects/OE/OEIphone    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -DCMAKE_INTDIR="Debug" -DOE_SAFE=true -DOE_DEBUG_GL=true -D_DEBUG -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/OpenGLESResources/Debug/include -I/Users/ptx/Projects/OE/OEIphone/src -I/usr/local/include -I/Users/ptx/Projects/OE/OEIphone/extensions/AccelerationStructures -I/Users/ptx/Projects/OE/OEIphone/extensions/iOSEnvironment -I/Users/ptx/Projects/OE/OEIphone/extensions/IRC -I/Users/ptx/Projects/OE/OEIphone/extensions/mesh-OBJResource -I/Users/ptx/Projects/OE/OEIphone/extensions/MeshUtils -I/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESRenderer -I/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources -I/Users/ptx/Projects/OE/OEIphone/extensions/Sockets -I/Users/ptx/Projects/OE/OEIphone/extensions/TGAResource -I/Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/OpenGLESResources/OpenEngine.build/Debug/Extensions_OpenGLESResources.build/DerivedSources/x86_64 -I/Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/OpenGLESResources/OpenEngine.build/Debug/Extensions_OpenGLESResources.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/OpenGLESResources/Debug -Wall -Wextra -Wno-unused-parameter -c /Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources/Resources/OpenGLES2Shader.cpp -o /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/OpenGLESResources/OpenEngine.build/Debug/Extensions_OpenGLESResources.build/Objects-normal/x86_64/OpenGLES2Shader.o
+
+CLibtool /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/OpenGLESResources/Debug/libExtensions_OpenGLESResources.a normal i386
+r0
+
+CLibtool /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/OpenGLESResources/Debug/libExtensions_OpenGLESResources.a normal x86_64
+r0
+
+CPhaseScriptExecution "CMake PostBuild Rules" /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/OpenGLESResources/OpenEngine.build/Debug/Extensions_OpenGLESResources.build/Script-101163F90101163F90101163.sh
+r0
+
+CPhaseScriptExecution "CMake ReRun" /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/OpenGLESResources/OpenEngine.build/Debug/Extensions_OpenGLESResources.build/Script-101163510101163510101163.sh
+s322749310.805382
+e322749311.003352
+r1
+xPhaseScriptExecution
+xCMake ReRun
+x/Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/OpenGLESResources/OpenEngine.build/Debug/Extensions_OpenGLESResources.build/Script-101163510101163510101163.sh
+omake: `CMakeFiles/cmake.check_cache' is up to date.
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Run custom shell script 'CMake ReRun'302bd07ec33cb341^5d8c0d7fc33cb341^-52"make: `CMakeFiles/cmake.check_cache' is up to date.1(21%IDEActivityLogMessage2@52"make: `CMakeFiles/cmake.check_cache' is up to date.-322749311#0#52#-0#-----0#0#0#--17777"PhaseScriptExecution "CMake ReRun" projects/OEIphone/Xcode/OpenGLESResources/OpenEngine.build/Debug/Extensions_OpenGLESResources.build/Script-101163510101163510101163.sh    cd /Users/ptx/Projects/OE/OEIphone    setenv ACTION build    setenv ALTERNATE_GROUP staff    setenv ALTERNATE_MODE u+w,go-w,a+rX    setenv ALTERNATE_OWNER ptx    setenv ALWAYS_SEARCH_USER_PATHS YES    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer    setenv APPLE_INTERNAL_DIR /AppleInternal    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools    setenv APPLY_RULES_IN_COPY_FILES NO    setenv ARCHS x86_64    setenv ARCHS_STANDARD_32_64_BIT "x86_64 i386"    setenv ARCHS_STANDARD_32_BIT i386    setenv ARCHS_STANDARD_64_BIT x86_64    setenv AVAILABLE_PLATFORMS "iphonesimulator macosx iphoneos"    setenv BUILD_COMPONENTS "headers build"    setenv BUILD_DIR /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/OpenGLESResources    setenv BUILD_ROOT /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/OpenGLESResources    setenv BUILD_STYLE Debug    setenv BUILD_VARIANTS normal    setenv BUILT_PRODUCTS_DIR /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/OpenGLESResources/Debug    setenv CACHE_ROOT /var/folders/gI/gIvx07kuEvSzp9XDdvRPC++++TI/-Caches-/com.apple.Xcode.501    setenv CCHROOT /var/folders/gI/gIvx07kuEvSzp9XDdvRPC++++TI/-Caches-/com.apple.Xcode.501    setenv CHMOD /bin/chmod    setenv CHOWN /usr/sbin/chown    setenv CLASS_FILE_DIR /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/OpenGLESResources/OpenEngine.build/Debug/Extensions_OpenGLESResources.build/JavaClasses    setenv CLEAN_PRECOMPS YES    setenv CLONE_HEADERS NO    setenv CODESIGNING_FOLDER_PATH /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/OpenGLESResources/Debug/libExtensions_OpenGLESResources.a    setenv COMBINE_HIDPI_IMAGES NO    setenv COMMAND_MODE legacy    setenv COMPOSITE_SDK_DIRS /var/folders/gI/gIvx07kuEvSzp9XDdvRPC++++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs    setenv CONFIGURATION Debug    setenv CONFIGURATION_BUILD_DIR /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/OpenGLESResources/Debug    setenv CONFIGURATION_TEMP_DIR /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/OpenGLESResources/OpenEngine.build/Debug    setenv COPYING_PRESERVES_HFS_DATA NO    setenv COPY_PHASE_STRIP YES    setenv COPY_RESOURCES_FROM_STATIC_FRAMEWORKS YES    setenv CP /bin/cp    setenv CURRENT_ARCH x86_64    setenv CURRENT_VARIANT normal    setenv DEAD_CODE_STRIPPING NO    setenv DEBUGGING_SYMBOLS YES    setenv DEBUG_INFORMATION_FORMAT dwarf    setenv DEPLOYMENT_LOCATION NO    setenv DEPLOYMENT_POSTPROCESSING NO    setenv DERIVED_FILES_DIR /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/OpenGLESResources/OpenEngine.build/Debug/Extensions_OpenGLESResources.build/DerivedSources    setenv DERIVED_FILE_DIR /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/OpenGLESResources/OpenEngine.build/Debug/Extensions_OpenGLESResources.build/DerivedSources    setenv DERIVED_SOURCES_DIR /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/OpenGLESResources/OpenEngine.build/Debug/Extensions_OpenGLESResources.build/DerivedSources    setenv DEVELOPER_APPLICATIONS_DIR /Developer/Applications    setenv DEVELOPER_BIN_DIR /Developer/usr/bin    setenv DEVELOPER_DIR /Developer    setenv DEVELOPER_FRAMEWORKS_DIR /Developer/Library/Frameworks    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED "\"/Developer/Library/Frameworks\""    setenv DEVELOPER_LIBRARY_DIR /Developer/Library    setenv DEVELOPER_SDK_DIR /Developer/SDKs    setenv DEVELOPER_TOOLS_DIR /Developer/Tools    setenv DEVELOPER_USR_DIR /Developer/usr    setenv DEVELOPMENT_LANGUAGE English    setenv DO_HEADER_SCANNING_IN_JAM NO    setenv DSTROOT /tmp/OpenEngine.dst    setenv DWARF_DSYM_FILE_NAME libExtensions_OpenGLESResources.a.dSYM    setenv DWARF_DSYM_FOLDER_PATH /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/OpenGLESResources/Debug    setenv ENABLE_HEADER_DEPENDENCIES YES    setenv ENABLE_OPENMP_SUPPORT NO    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".svn CVS"    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch (*) CVS .svn .git *.xcodeproj *.xcode *.pbproj *.pbxproj"    setenv EXECUTABLE_EXTENSION a    setenv EXECUTABLE_NAME libExtensions_OpenGLESResources.a    setenv EXECUTABLE_PATH libExtensions_OpenGLESResources.a    setenv EXECUTABLE_PREFIX lib    setenv EXECUTABLE_SUFFIX .a    setenv FILE_LIST /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/OpenGLESResources/OpenEngine.build/Debug/Extensions_OpenGLESResources.build/Objects/LinkFileList    setenv FIXED_FILES_DIR /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/OpenGLESResources/OpenEngine.build/Debug/Extensions_OpenGLESResources.build/FixedFiles    setenv FRAMEWORK_FLAG_PREFIX -framework    setenv FRAMEWORK_SEARCH_PATHS "\"/Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/OpenGLESResources/Debug\" "    setenv FRAMEWORK_VERSION A    setenv FULL_PRODUCT_NAME libExtensions_OpenGLESResources.a    setenv GCC3_VERSION 3.3    setenv GCC_ENABLE_SYMBOL_SEPARATION NO    setenv GCC_GENERATE_DEBUGGING_SYMBOLS YES    setenv GCC_INLINES_ARE_PRIVATE_EXTERN NO    setenv GCC_OPTIMIZATION_LEVEL 0    setenv GCC_PFE_FILE_C_DIALECTS "c objective-c c++ objective-c++"    setenv GCC_PREPROCESSOR_DEFINITIONS "'CMAKE_INTDIR=\"Debug\"' 'OE_SAFE=true' 'OE_DEBUG_GL=true' _DEBUG"    setenv GCC_SYMBOLS_PRIVATE_EXTERN NO    setenv GCC_TREAT_WARNINGS_AS_ERRORS NO    setenv GCC_VERSION com.apple.compilers.llvmgcc42    setenv GENERATE_MASTER_OBJECT_FILE NO    setenv GENERATE_PKGINFO_FILE NO    setenv GENERATE_PROFILING_CODE NO    setenv GID 20    setenv GROUP staff    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES    setenv HEADER_SEARCH_PATHS "\"/Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/OpenGLESResources/Debug/include\" /Users/ptx/Projects/OE/OEIphone/src /usr/local/include /Users/ptx/Projects/OE/OEIphone/extensions/AccelerationStructures /Users/ptx/Projects/OE/OEIphone/extensions/iOSEnvironment /Users/ptx/Projects/OE/OEIphone/extensions/IRC /Users/ptx/Projects/OE/OEIphone/extensions/mesh-OBJResource /Users/ptx/Projects/OE/OEIphone/extensions/MeshUtils /Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESRenderer /Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources /Users/ptx/Projects/OE/OEIphone/extensions/Sockets /Users/ptx/Projects/OE/OEIphone/extensions/TGAResource"    setenv ICONV /usr/bin/iconv    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES    setenv INFOPLIST_OUTPUT_FORMAT same-as-input    setenv INFOPLIST_PREPROCESS NO    setenv INSTALL_DIR /tmp/OpenEngine.dst    setenv INSTALL_GROUP staff    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX    setenv INSTALL_OWNER ptx    setenv INSTALL_ROOT /tmp/OpenEngine.dst    setenv JAVAC_DEFAULT_FLAGS "-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    setenv JAVA_ARCHIVE_CLASSES YES    setenv JAVA_ARCHIVE_TYPE JAR    setenv JAVA_COMPILER /usr/bin/javac    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources    setenv JAVA_JAR_FLAGS cv    setenv JAVA_SOURCE_SUBDIR .    setenv JAVA_USE_DEPENDENCIES YES    setenv JAVA_ZIP_FLAGS -urg    setenv JIKES_DEFAULT_FLAGS "+E +OLDCSO"    setenv KEEP_PRIVATE_EXTERNS NO    setenv LD_GENERATE_MAP_FILE NO    setenv LD_MAP_FILE_PATH /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/OpenGLESResources/OpenEngine.build/Debug/Extensions_OpenGLESResources.build/Extensions_OpenGLESResources-LinkMap-normal-x86_64.txt    setenv LD_OPENMP_FLAGS -fopenmp    setenv LEGACY_DEVELOPER_DIR /Developer/Library/Xcode/PrivatePlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer    setenv LEX /Developer/usr/bin/lex    setenv LIBRARY_FLAG_NOSPACE YES    setenv LIBRARY_FLAG_PREFIX -l    setenv LIBRARY_SEARCH_PATHS "\"/Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/OpenGLESResources/Debug\" "    setenv LIBRARY_STYLE STATIC    setenv LINKER_DISPLAYS_MANGLED_NAMES NO    setenv LINK_FILE_LIST_normal_x86_64 /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/OpenGLESResources/OpenEngine.build/Debug/Extensions_OpenGLESResources.build/Objects-normal/x86_64/Extensions_OpenGLESResources.LinkFileList    setenv LINK_WITH_STANDARD_LIBRARIES YES    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities    setenv LOCAL_APPS_DIR /Applications    setenv LOCAL_DEVELOPER_DIR /Library/Developer    setenv LOCAL_LIBRARY_DIR /Library    setenv MACH_O_TYPE staticlib    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv MAC_OS_X_PRODUCT_BUILD_VERSION 10J869    setenv MAC_OS_X_VERSION_ACTUAL 1067    setenv MAC_OS_X_VERSION_MAJOR 1060    setenv MAC_OS_X_VERSION_MINOR 0607    setenv NATIVE_ARCH i386    setenv NATIVE_ARCH_32_BIT i386    setenv NATIVE_ARCH_64_BIT x86_64    setenv NATIVE_ARCH_ACTUAL x86_64    setenv NO_COMMON YES    setenv OBJECT_FILE_DIR /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/OpenGLESResources/OpenEngine.build/Debug/Extensions_OpenGLESResources.build/Objects    setenv OBJECT_FILE_DIR_normal /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/OpenGLESResources/OpenEngine.build/Debug/Extensions_OpenGLESResources.build/Objects-normal    setenv OBJROOT /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/OpenGLESResources    setenv ONLY_ACTIVE_ARCH NO    setenv OPTIMIZATION_LEVEL 0    setenv OS MACOS    setenv OSAC /usr/bin/osacompile    setenv OTHER_CFLAGS "     -Wall -Wextra -Wno-unused-parameter"    setenv OTHER_CPLUSPLUSFLAGS "     -Wall -Wextra -Wno-unused-parameter"    setenv PACKAGE_TYPE com.apple.package-type.static-library    setenv PASCAL_STRINGS YES    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Developer/Headers /Developer/SDKs /Developer/Platforms"    setenv PFE_FILE_C_DIALECTS c++    setenv PKGINFO_FILE_PATH /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/OpenGLESResources/OpenEngine.build/Debug/Extensions_OpenGLESResources.build/PkgInfo    setenv PLATFORM_DEVELOPER_APPLICATIONS_DIR /Developer/Applications    setenv PLATFORM_DEVELOPER_BIN_DIR /Developer/usr/bin    setenv PLATFORM_DEVELOPER_LIBRARY_DIR /Developer/Library    setenv PLATFORM_DEVELOPER_SDK_DIR /Developer/SDKs    setenv PLATFORM_DEVELOPER_TOOLS_DIR /Developer/Tools    setenv PLATFORM_DEVELOPER_USR_DIR /Developer/usr    setenv PLATFORM_DIR /Developer/Platforms/MacOSX.platform    setenv PLATFORM_NAME macosx    setenv PLATFORM_PREFERRED_ARCH x86_64    setenv PLATFORM_PRODUCT_BUILD_VERSION 4A304a    setenv PLIST_FILE_OUTPUT_FORMAT same-as-input    setenv PREBINDING NO    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR NO    setenv PRECOMP_DESTINATION_DIR /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/OpenGLESResources/OpenEngine.build/Debug/Extensions_OpenGLESResources.build/PrefixHeaders    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO    setenv PRIVATE_HEADERS_FOLDER_PATH /usr/local/include    setenv PRODUCT_NAME Extensions_OpenGLESResources    setenv PRODUCT_SETTINGS_PATH     setenv PRODUCT_TYPE com.apple.product-type.library.static    setenv PROFILING_CODE NO    setenv PROJECT OpenEngine    setenv PROJECT_DERIVED_FILE_DIR /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/OpenGLESResources/OpenEngine.build/DerivedSources    setenv PROJECT_DIR /Users/ptx/Projects/OE/OEIphone    setenv PROJECT_FILE_PATH /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/OpenEngine.xcodeproj    setenv PROJECT_NAME OpenEngine    setenv PROJECT_TEMP_DIR /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/OpenGLESResources/OpenEngine.build    setenv PUBLIC_HEADERS_FOLDER_PATH /usr/local/include    setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES    setenv REMOVE_CVS_FROM_RESOURCES YES    setenv REMOVE_GIT_FROM_RESOURCES YES    setenv REMOVE_SVN_FROM_RESOURCES YES    setenv REZ_COLLECTOR_DIR /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/OpenGLESResources/OpenEngine.build/Debug/Extensions_OpenGLESResources.build/ResourceManagerResources    setenv REZ_EXECUTABLE YES    setenv REZ_OBJECTS_DIR /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/OpenGLESResources/OpenEngine.build/Debug/Extensions_OpenGLESResources.build/ResourceManagerResources/Objects    setenv REZ_SEARCH_PATHS "\"/Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/OpenGLESResources/Debug\" "    setenv RUN_CLANG_STATIC_ANALYZER NO    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES NO    setenv SCRIPT_INPUT_FILE_COUNT 0    setenv SCRIPT_OUTPUT_FILE_COUNT 0    setenv SDKROOT /Developer/SDKs/MacOSX10.6.sdk    setenv SDK_DIR /Developer/SDKs/MacOSX10.6.sdk    setenv SDK_NAME macosx10.6    setenv SDK_PRODUCT_BUILD_VERSION 4A304a    setenv SED /usr/bin/sed    setenv SEPARATE_STRIP YES    setenv SEPARATE_SYMBOL_EDIT NO    setenv SET_DIR_MODE_OWNER_GROUP YES    setenv SET_FILE_MODE_OWNER_GROUP NO    setenv SHARED_DERIVED_FILE_DIR /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/OpenGLESResources/Debug/DerivedSources    setenv SHARED_PRECOMPS_DIR /var/folders/gI/gIvx07kuEvSzp9XDdvRPC++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders    setenv SKIP_INSTALL YES    setenv SOURCE_ROOT /Users/ptx/Projects/OE/OEIphone    setenv SRCROOT /Users/ptx/Projects/OE/OEIphone    setenv STANDARD_C_PLUS_PLUS_LIBRARY_TYPE dynamic    setenv STRINGS_FILE_OUTPUT_ENCODING UTF-16    setenv STRIP_INSTALLED_PRODUCT YES    setenv STRIP_STYLE debugging    setenv SUPPORTED_PLATFORMS macosx    setenv SYMBOL_REPOSITORY_DIR /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/OpenGLESResources/OpenEngine.build/Debug/Extensions_OpenGLESResources.build/SymbolRepositories    setenv SYMROOT /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/OpenGLESResources    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities    setenv SYSTEM_APPS_DIR /Applications    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices    setenv SYSTEM_DEMOS_DIR /Applications/Extras    setenv SYSTEM_DEVELOPER_APPS_DIR /Developer/Applications    setenv SYSTEM_DEVELOPER_BIN_DIR /Developer/usr/bin    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/Developer/Applications/Utilities/Built Examples"    setenv SYSTEM_DEVELOPER_DIR /Developer    setenv SYSTEM_DEVELOPER_DOC_DIR "/Developer/ADC Reference Library"    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/Developer/Applications/Graphics Tools"    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/Developer/Applications/Java Tools"    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/Developer/Applications/Performance Tools"    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes"    setenv SYSTEM_DEVELOPER_TOOLS /Developer/Tools    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/Developer/ADC Reference Library/documentation/DeveloperTools"    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes/DeveloperTools"    setenv SYSTEM_DEVELOPER_USR_DIR /Developer/usr    setenv SYSTEM_DEVELOPER_UTILITIES_DIR /Developer/Applications/Utilities    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation    setenv SYSTEM_LIBRARY_DIR /System/Library    setenv TARGETNAME Extensions_OpenGLESResources    setenv TARGET_BUILD_DIR /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/OpenGLESResources/Debug    setenv TARGET_NAME Extensions_OpenGLESResources    setenv TARGET_TEMP_DIR /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/OpenGLESResources/OpenEngine.build/Debug/Extensions_OpenGLESResources.build    setenv TEMP_DIR /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/OpenGLESResources/OpenEngine.build/Debug/Extensions_OpenGLESResources.build    setenv TEMP_FILES_DIR /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/OpenGLESResources/OpenEngine.build/Debug/Extensions_OpenGLESResources.build    setenv TEMP_FILE_DIR /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/OpenGLESResources/OpenEngine.build/Debug/Extensions_OpenGLESResources.build    setenv TEMP_ROOT /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/OpenGLESResources    setenv TEST_AFTER_BUILD NO    setenv UID 501    setenv UNSTRIPPED_PRODUCT NO    setenv USER ptx    setenv USER_APPS_DIR /Users/ptx/Applications    setenv USER_LIBRARY_DIR /Users/ptx/Library    setenv USE_DYNAMIC_NO_PIC YES    setenv USE_HEADERMAP NO    setenv USE_HEADER_SYMLINKS NO    setenv VALIDATE_PRODUCT NO    setenv VALID_ARCHS "i386 x86_64"    setenv VERBOSE_PBXCP NO    setenv VERSION_INFO_BUILDER ptx    setenv VERSION_INFO_FILE Extensions_OpenGLESResources_vers.c    setenv VERSION_INFO_STRING "\"@(#)PROGRAM:Extensions_OpenGLESResources  PROJECT:OpenEngine-\""    setenv WARNING_CFLAGS "-Wmost -Wno-four-char-constants -Wno-unknown-pragmas"    setenv XCODE_APP_SUPPORT_DIR /Developer/Library/Xcode    setenv XCODE_PRODUCT_BUILD_VERSION 4A304a    setenv XCODE_VERSION_ACTUAL 0400    setenv XCODE_VERSION_MAJOR 0400    setenv XCODE_VERSION_MINOR 0400    setenv YACC /Developer/usr/bin/yacc    /bin/sh -c /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/OpenGLESResources/OpenEngine.build/Debug/Extensions_OpenGLESResources.build/Script-101163510101163510101163.sh
+

@@ -1,0 +1,175 @@
+The system is: Darwin - 10.7.0 - i386
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/gcc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/CMakeFiles/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/g++ 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/CMakeFiles/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/local/Cellar/cmake/2.8.4/bin/cmakexbuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTryCompileExec -configuration Debug
+2011-03-24 19:55:34.289 xcodebuild[81789:80b] WARNING: skipping plug-in at path '/Users/ptx/Library/Application Support/Developer/Shared/Xcode/Plug-ins/NVCuda.pbplugin' because it is not compatible with this version of Xcode.
+=== BUILD NATIVE TARGET cmTryCompileExec OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+Check dependencies
+
+PhaseScriptExecution "CMake ReRun" CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec.build/Script-100604420100604420100604.sh
+    cd /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/CMakeFiles/CMakeTmp
+    /bin/sh -c /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec.build/Script-100604420100604420100604.sh
+make: `CMakeFiles/cmake.check_cache' is up to date.
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec.build/Objects-normal/x86_64/testCCompiler.o testCCompiler.c normal x86_64 c com.apple.compilers.llvmgcc42
+    cd /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/CMakeFiles/CMakeTmp
+    /Developer/usr/bin/llvm-gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -mdynamic-no-pic -DCMAKE_INTDIR="Debug" -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/CMakeFiles/CMakeTmp/Debug/include -I/Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec.build/DerivedSources/x86_64 -I/Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/CMakeFiles/CMakeTmp/Debug -c /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/CMakeFiles/CMakeTmp/testCCompiler.c -o /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec.build/Objects-normal/x86_64/testCCompiler.o
+
+Ld Debug/cmTryCompileExec normal x86_64
+    cd /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/CMakeFiles/CMakeTmp
+    /Developer/usr/bin/llvm-gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/CMakeFiles/CMakeTmp/Debug -F/Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/CMakeFiles/CMakeTmp/Debug -filelist /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec.build/Objects-normal/x86_64/cmTryCompileExec.LinkFileList -mmacosx-version-min=10.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -o /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec
+
+PhaseScriptExecution "CMake PostBuild Rules" CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec.build/Script-100604EF0100604EF0100604.sh
+    cd /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/CMakeFiles/CMakeTmp
+    /bin/sh -c /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec.build/Script-100604EF0100604EF0100604.sh
+echo "Depend check for xcode"
+Depend check for xcode
+cd /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/CMakeFiles/CMakeTmp && make -C /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/CMakeFiles/CMakeTmp -f /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/CMakeFiles/CMakeTmp/CMakeScripts/XCODE_DEPEND_HELPER.make all.Debug
+make[1]: Nothing to be done for `all.Debug'.
+
+
+** BUILD SUCCEEDED **
+
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/local/Cellar/cmake/2.8.4/bin/cmakexbuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTryCompileExec -configuration Debug
+2011-03-24 19:55:38.192 xcodebuild[81853:80b] WARNING: skipping plug-in at path '/Users/ptx/Library/Application Support/Developer/Shared/Xcode/Plug-ins/NVCuda.pbplugin' because it is not compatible with this version of Xcode.
+=== BUILD NATIVE TARGET cmTryCompileExec OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+Check dependencies
+
+PhaseScriptExecution "CMake ReRun" CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec.build/Script-100616970100616970100616.sh
+    cd /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/CMakeFiles/CMakeTmp
+    /bin/sh -c /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec.build/Script-100616970100616970100616.sh
+make: `CMakeFiles/cmake.check_cache' is up to date.
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec.build/Objects-normal/x86_64/CMakeCCompilerABI.o ../../../../../../../../../../usr/local/Cellar/cmake/2.8.4/share/cmake/Modules/CMakeCCompilerABI.c normal x86_64 c com.apple.compilers.llvmgcc42
+    cd /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/CMakeFiles/CMakeTmp
+    /Developer/usr/bin/llvm-gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -mdynamic-no-pic -DCMAKE_INTDIR="Debug" -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/CMakeFiles/CMakeTmp/Debug/include -I/Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec.build/DerivedSources/x86_64 -I/Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/CMakeFiles/CMakeTmp/Debug -c /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/CMakeFiles/CMakeTmp/../../../../../../../../../../usr/local/Cellar/cmake/2.8.4/share/cmake/Modules/CMakeCCompilerABI.c -o /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec.build/Objects-normal/x86_64/CMakeCCompilerABI.o
+
+Ld Debug/cmTryCompileExec normal x86_64
+    cd /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/CMakeFiles/CMakeTmp
+    /Developer/usr/bin/llvm-gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/CMakeFiles/CMakeTmp/Debug -F/Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/CMakeFiles/CMakeTmp/Debug -filelist /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec.build/Objects-normal/x86_64/cmTryCompileExec.LinkFileList -mmacosx-version-min=10.6 -v -Wl,-search_paths_first -Wl,-headerpad_max_install_names -o /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec
+Using built-in specs.
+Target: i686-apple-darwin10
+Configured with: /var/tmp/llvmgcc42/llvmgcc42-2335.9~9/src/configure --disable-checking --enable-werror --prefix=/Developer/usr/llvm-gcc-4.2 --mandir=/share/man --enable-languages=c,objc,c++,obj-c++ --program-prefix=llvm- --program-transform-name=/^[cg][^.-]*$/s/$/-4.2/ --with-slibdir=/usr/lib --build=i686-apple-darwin10 --enable-llvm=/var/tmp/llvmgcc42/llvmgcc42-2335.9~9/dst-llvmCore/Developer/usr/local --program-prefix=i686-apple-darwin10- --host=x86_64-apple-darwin10 --target=i686-apple-darwin10 --with-gxx-include-dir=/usr/include/c++/4.2.1
+Thread model: posix
+gcc version 4.2.1 (Based on Apple Inc. build 5658) (LLVM build 2335.9)
+ /Developer/usr/llvm-gcc-4.2/libexec/gcc/i686-apple-darwin10/4.2.1/collect2 -dynamic -arch x86_64 -macosx_version_min 10.6 -syslibroot /Developer/SDKs/MacOSX10.6.sdk -weak_reference_mismatches non-weak -o /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec -lcrt1.10.6.o -L/Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/CMakeFiles/CMakeTmp/Debug -L/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin10/4.2.1/x86_64 -L/usr/lib/gcc/i686-apple-darwin10/4.2.1/x86_64 -L/Developer/SDKs/MacOSX10.6.sdk/usr/lib/i686-apple-darwin10/4.2.1 -L/Developer/SDKs/MacOSX10.6.sdk/usr/lib -L/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin10/4.2.1 -L/usr/lib/gcc/i686-apple-darwin10/4.2.1 -L/Developer/SDKs/MacOSX10.6.sdk/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin10/4.2.1/../../.. -filelist /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec.build/Objects-normal/x86_64/cmTryCompileExec.LinkFileList -search_paths_first -headerpad_max_install_names -lSystem -lgcc -lSystem -F/Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/CMakeFiles/CMakeTmp/Debug
+
+PhaseScriptExecution "CMake PostBuild Rules" CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec.build/Script-100617440100617440100617.sh
+    cd /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/CMakeFiles/CMakeTmp
+    /bin/sh -c /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec.build/Script-100617440100617440100617.sh
+echo "Depend check for xcode"
+Depend check for xcode
+cd /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/CMakeFiles/CMakeTmp && make -C /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/CMakeFiles/CMakeTmp -f /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/CMakeFiles/CMakeTmp/CMakeScripts/XCODE_DEPEND_HELPER.make all.Debug
+make[1]: Nothing to be done for `all.Debug'.
+
+
+** BUILD SUCCEEDED **
+
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/local/Cellar/cmake/2.8.4/bin/cmakexbuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTryCompileExec -configuration Debug
+2011-03-24 19:55:39.204 xcodebuild[81931:80b] WARNING: skipping plug-in at path '/Users/ptx/Library/Application Support/Developer/Shared/Xcode/Plug-ins/NVCuda.pbplugin' because it is not compatible with this version of Xcode.
+=== BUILD NATIVE TARGET cmTryCompileExec OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+Check dependencies
+
+PhaseScriptExecution "CMake ReRun" CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec.build/Script-1005E91C01005E91C01005E9.sh
+    cd /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/CMakeFiles/CMakeTmp
+    /bin/sh -c /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec.build/Script-1005E91C01005E91C01005E9.sh
+make: `CMakeFiles/cmake.check_cache' is up to date.
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec.build/Objects-normal/x86_64/testCXXCompiler.o testCXXCompiler.cxx normal x86_64 c++ com.apple.compilers.llvmgcc42
+    cd /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/CMakeFiles/CMakeTmp
+    /Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -mdynamic-no-pic -DCMAKE_INTDIR="Debug" -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/CMakeFiles/CMakeTmp/Debug/include -I/Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec.build/DerivedSources/x86_64 -I/Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/CMakeFiles/CMakeTmp/Debug -c /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/CMakeFiles/CMakeTmp/testCXXCompiler.cxx -o /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec.build/Objects-normal/x86_64/testCXXCompiler.o
+
+Ld Debug/cmTryCompileExec normal x86_64
+    cd /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/CMakeFiles/CMakeTmp
+    /Developer/usr/bin/llvm-g++-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/CMakeFiles/CMakeTmp/Debug -F/Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/CMakeFiles/CMakeTmp/Debug -filelist /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec.build/Objects-normal/x86_64/cmTryCompileExec.LinkFileList -mmacosx-version-min=10.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -o /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec
+
+PhaseScriptExecution "CMake PostBuild Rules" CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec.build/Script-1005E9CC01005E9CC01005E9.sh
+    cd /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/CMakeFiles/CMakeTmp
+    /bin/sh -c /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec.build/Script-1005E9CC01005E9CC01005E9.sh
+echo "Depend check for xcode"
+Depend check for xcode
+cd /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/CMakeFiles/CMakeTmp && make -C /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/CMakeFiles/CMakeTmp -f /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/CMakeFiles/CMakeTmp/CMakeScripts/XCODE_DEPEND_HELPER.make all.Debug
+make[1]: Nothing to be done for `all.Debug'.
+
+
+** BUILD SUCCEEDED **
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/local/Cellar/cmake/2.8.4/bin/cmakexbuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTryCompileExec -configuration Debug
+2011-03-24 19:55:40.026 xcodebuild[81999:80b] WARNING: skipping plug-in at path '/Users/ptx/Library/Application Support/Developer/Shared/Xcode/Plug-ins/NVCuda.pbplugin' because it is not compatible with this version of Xcode.
+=== BUILD NATIVE TARGET cmTryCompileExec OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+Check dependencies
+
+PhaseScriptExecution "CMake ReRun" CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec.build/Script-100628860100628860100628.sh
+    cd /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/CMakeFiles/CMakeTmp
+    /bin/sh -c /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec.build/Script-100628860100628860100628.sh
+make: `CMakeFiles/cmake.check_cache' is up to date.
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec.build/Objects-normal/x86_64/CMakeCXXCompilerABI.o ../../../../../../../../../../usr/local/Cellar/cmake/2.8.4/share/cmake/Modules/CMakeCXXCompilerABI.cpp normal x86_64 c++ com.apple.compilers.llvmgcc42
+    cd /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/CMakeFiles/CMakeTmp
+    /Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -mdynamic-no-pic -DCMAKE_INTDIR="Debug" -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/CMakeFiles/CMakeTmp/Debug/include -I/Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec.build/DerivedSources/x86_64 -I/Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/CMakeFiles/CMakeTmp/Debug -c /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/CMakeFiles/CMakeTmp/../../../../../../../../../../usr/local/Cellar/cmake/2.8.4/share/cmake/Modules/CMakeCXXCompilerABI.cpp -o /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec.build/Objects-normal/x86_64/CMakeCXXCompilerABI.o
+
+Ld Debug/cmTryCompileExec normal x86_64
+    cd /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/CMakeFiles/CMakeTmp
+    /Developer/usr/bin/llvm-g++-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/CMakeFiles/CMakeTmp/Debug -F/Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/CMakeFiles/CMakeTmp/Debug -filelist /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec.build/Objects-normal/x86_64/cmTryCompileExec.LinkFileList -mmacosx-version-min=10.6 -v -Wl,-search_paths_first -Wl,-headerpad_max_install_names -o /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec
+Using built-in specs.
+Target: i686-apple-darwin10
+Configured with: /var/tmp/llvmgcc42/llvmgcc42-2335.9~9/src/configure --disable-checking --enable-werror --prefix=/Developer/usr/llvm-gcc-4.2 --mandir=/share/man --enable-languages=c,objc,c++,obj-c++ --program-prefix=llvm- --program-transform-name=/^[cg][^.-]*$/s/$/-4.2/ --with-slibdir=/usr/lib --build=i686-apple-darwin10 --enable-llvm=/var/tmp/llvmgcc42/llvmgcc42-2335.9~9/dst-llvmCore/Developer/usr/local --program-prefix=i686-apple-darwin10- --host=x86_64-apple-darwin10 --target=i686-apple-darwin10 --with-gxx-include-dir=/usr/include/c++/4.2.1
+Thread model: posix
+gcc version 4.2.1 (Based on Apple Inc. build 5658) (LLVM build 2335.9)
+ /Developer/usr/llvm-gcc-4.2/libexec/gcc/i686-apple-darwin10/4.2.1/collect2 -dynamic -arch x86_64 -macosx_version_min 10.6 -syslibroot /Developer/SDKs/MacOSX10.6.sdk -weak_reference_mismatches non-weak -o /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec -lcrt1.10.6.o -L/Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/CMakeFiles/CMakeTmp/Debug -L/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin10/4.2.1/x86_64 -L/usr/lib/gcc/i686-apple-darwin10/4.2.1/x86_64 -L/Developer/SDKs/MacOSX10.6.sdk/usr/lib/i686-apple-darwin10/4.2.1 -L/Developer/SDKs/MacOSX10.6.sdk/usr/lib -L/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin10/4.2.1 -L/usr/lib/gcc/i686-apple-darwin10/4.2.1 -L/Developer/SDKs/MacOSX10.6.sdk/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin10/4.2.1/../../.. -filelist /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec.build/Objects-normal/x86_64/cmTryCompileExec.LinkFileList -search_paths_first -headerpad_max_install_names -lstdc++ -lSystem -lgcc -lSystem -F/Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/CMakeFiles/CMakeTmp/Debug
+
+PhaseScriptExecution "CMake PostBuild Rules" CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec.build/Script-100629320100629320100629.sh
+    cd /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/CMakeFiles/CMakeTmp
+    /bin/sh -c /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec.build/Script-100629320100629320100629.sh
+echo "Depend check for xcode"
+Depend check for xcode
+cd /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/CMakeFiles/CMakeTmp && make -C /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/CMakeFiles/CMakeTmp -f /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/CMakeFiles/CMakeTmp/CMakeScripts/XCODE_DEPEND_HELPER.make all.Debug
+make[1]: Nothing to be done for `all.Debug'.
+
+
+** BUILD SUCCEEDED **
+
+
+
