@@ -1,4 +1,4 @@
-# Install script for directory: /Users/ptx/Projects/OE/OEIphone/src/Logging
+# Install script for directory: ${SRCROOT}/src/Logging
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -1,4 +1,4 @@
-# Install script for directory: /Users/ptx/Projects/OE/OEIphone/extensions/iOSEnvironment
+# Install script for directory: ${SRCROOT}/extensions/iOSEnvironment
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -1,4 +1,4 @@
-# Install script for directory: /Users/ptx/Projects/OE/OEIphone/src
+# Install script for directory: ${SRCROOT}/src
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -29,17 +29,17 @@ ENDIF(NOT CMAKE_INSTALL_COMPONENT)
 
 IF(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  INCLUDE("/Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Core/cmake_install.cmake")
-  INCLUDE("/Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Devices/cmake_install.cmake")
-  INCLUDE("/Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Display/cmake_install.cmake")
-  INCLUDE("/Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Geometry/cmake_install.cmake")
-  INCLUDE("/Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Logging/cmake_install.cmake")
-  INCLUDE("/Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Math/cmake_install.cmake")
-  INCLUDE("/Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Meta/cmake_install.cmake")
-  INCLUDE("/Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Renderers/cmake_install.cmake")
-  INCLUDE("/Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Resources/cmake_install.cmake")
-  INCLUDE("/Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Scene/cmake_install.cmake")
-  INCLUDE("/Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Utils/cmake_install.cmake")
+  INCLUDE("${SRCROOT}/projects/OEIphone/Xcode/src/Core/cmake_install.cmake")
+  INCLUDE("${SRCROOT}/projects/OEIphone/Xcode/src/Devices/cmake_install.cmake")
+  INCLUDE("${SRCROOT}/projects/OEIphone/Xcode/src/Display/cmake_install.cmake")
+  INCLUDE("${SRCROOT}/projects/OEIphone/Xcode/src/Geometry/cmake_install.cmake")
+  INCLUDE("${SRCROOT}/projects/OEIphone/Xcode/src/Logging/cmake_install.cmake")
+  INCLUDE("${SRCROOT}/projects/OEIphone/Xcode/src/Math/cmake_install.cmake")
+  INCLUDE("${SRCROOT}/projects/OEIphone/Xcode/src/Meta/cmake_install.cmake")
+  INCLUDE("${SRCROOT}/projects/OEIphone/Xcode/src/Renderers/cmake_install.cmake")
+  INCLUDE("${SRCROOT}/projects/OEIphone/Xcode/src/Resources/cmake_install.cmake")
+  INCLUDE("${SRCROOT}/projects/OEIphone/Xcode/src/Scene/cmake_install.cmake")
+  INCLUDE("${SRCROOT}/projects/OEIphone/Xcode/src/Utils/cmake_install.cmake")
 
 ENDIF(NOT CMAKE_INSTALL_LOCAL_ONLY)
 

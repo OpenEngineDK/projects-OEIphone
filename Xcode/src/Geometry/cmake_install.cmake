@@ -1,4 +1,4 @@
-# Install script for directory: /Users/ptx/Projects/OE/OEIphone/src/Geometry
+# Install script for directory: ${SRCROOT}/src/Geometry
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)

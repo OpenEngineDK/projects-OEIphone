@@ -7,4 +7,4 @@ all: \
 
 Extensions_OBJResource_buildpart_0: 
 	echo "Depend check for xcode"
-	cd /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode && make -C /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode -f /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/CMakeScripts/XCODE_DEPEND_HELPER.make all.$(CONFIGURATION)
+	cd ${SRCROOT}/projects/OEIphone/Xcode && make -C ${SRCROOT}/projects/OEIphone/Xcode -f ${SRCROOT}/projects/OEIphone/Xcode/CMakeScripts/XCODE_DEPEND_HELPER.make all.$(CONFIGURATION)

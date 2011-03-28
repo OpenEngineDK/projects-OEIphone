@@ -1,4 +1,4 @@
-# Install script for directory: /Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESRenderer
+# Install script for directory: ${SRCROOT}/extensions/OpenGLESRenderer
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)

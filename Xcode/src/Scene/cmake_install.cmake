@@ -1,4 +1,4 @@
-# Install script for directory: /Users/ptx/Projects/OE/OEIphone/src/Scene
+# Install script for directory: ${SRCROOT}/src/Scene
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)

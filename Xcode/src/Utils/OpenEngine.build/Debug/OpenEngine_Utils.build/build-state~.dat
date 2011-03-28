@@ -1,470 +1,0 @@
-TOpenEngine_Utils
-v3
-r1
-cCheck dependencies
-cPhaseScriptExecution "CMake ReRun" /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Utils/OpenEngine.build/Debug/OpenEngine_Utils.build/Script-101357460101357460101357.sh
-cCompileC projects/OEIphone/Xcode/src/Utils/OpenEngine.build/Debug/OpenEngine_Utils.build/Objects-normal/x86_64/Utils.o /Users/ptx/Projects/OE/OEIphone/src/Utils/Utils.cpp normal x86_64 c++ com.apple.compilers.llvmgcc42
-cCompileC projects/OEIphone/Xcode/src/Utils/OpenEngine.build/Debug/OpenEngine_Utils.build/Objects-normal/x86_64/Limits.o /Users/ptx/Projects/OE/OEIphone/src/Utils/Limits.cpp normal x86_64 c++ com.apple.compilers.llvmgcc42
-cCompileC projects/OEIphone/Xcode/src/Utils/OpenEngine.build/Debug/OpenEngine_Utils.build/Objects-normal/x86_64/Timer.o /Users/ptx/Projects/OE/OEIphone/src/Utils/Timer.cpp normal x86_64 c++ com.apple.compilers.llvmgcc42
-cCompileC projects/OEIphone/Xcode/src/Utils/OpenEngine.build/Debug/OpenEngine_Utils.build/Objects-normal/x86_64/Convert.o /Users/ptx/Projects/OE/OEIphone/src/Utils/Convert.cpp normal x86_64 c++ com.apple.compilers.llvmgcc42
-cCompileC projects/OEIphone/Xcode/src/Utils/OpenEngine.build/Debug/OpenEngine_Utils.build/Objects-normal/x86_64/DateTime.o /Users/ptx/Projects/OE/OEIphone/src/Utils/DateTime.cpp normal x86_64 c++ com.apple.compilers.llvmgcc42
-cCompileC projects/OEIphone/Xcode/src/Utils/OpenEngine.build/Debug/OpenEngine_Utils.build/Objects-normal/x86_64/Statistics.o /Users/ptx/Projects/OE/OEIphone/src/Utils/Statistics.cpp normal x86_64 c++ com.apple.compilers.llvmgcc42
-cCompileC projects/OEIphone/Xcode/src/Utils/OpenEngine.build/Debug/OpenEngine_Utils.build/Objects-normal/x86_64/EventProfiler.o /Users/ptx/Projects/OE/OEIphone/src/Utils/EventProfiler.cpp normal x86_64 c++ com.apple.compilers.llvmgcc42
-cLibtool /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Utils/Debug/libOpenEngine_Utils.a normal x86_64
-cPhaseScriptExecution "CMake PostBuild Rules" /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Utils/OpenEngine.build/Debug/OpenEngine_Utils.build/Script-101357EE0101357EE0101357.sh
-
-N/Developer/SDKs/MacOSX10.6.sdk
-c000000004D71671200000000000000EE
-t1299277586
-s238
-
-N/Developer/SDKs/MacOSX10.6.sdk/usr/include/math.h
-c000000004AC599B500000000000004F1
-t1254463925
-s1265
-
-N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdio.h
-c000000004BBD2CE90000000000004174
-t1270689001
-s16756
-
-N/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/time.h
-c000000004CC3DE680000000000001E17
-t1287904872
-s7703
-
-N/Developer/SDKs/MacOSX10.6.sdk/usr/include/time.h
-c000000004BBD2CE9000000000000178E
-t1270689001
-s6030
-
-N/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin10/4.2.1/include/float.h
-c000000004D55C8260000000000001538
-t1297467430
-s5432
-
-N/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin10/4.2.1/include/limits.h
-c000000004D55C8270000000000000D03
-t1297467431
-s3331
-i"syslimits.h"
-
-N/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin10/4.2.1/include/stdint.h
-c000000004D55CD3B000000000000190C
-t1297468731
-s6412
-
-N/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin10/4.2.1/include/syslimits.h
-c000000004D55C5660000000000000155
-t1297466726
-s341
-
-N/Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Utils/Debug/libOpenEngine_Utils.a
-t2
-s0
-
-N/Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Utils/OpenEngine.build/Debug/OpenEngine_Utils.build/Objects-normal/i386/Convert.o
-t2
-s0
-
-N/Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Utils/OpenEngine.build/Debug/OpenEngine_Utils.build/Objects-normal/i386/DateTime.o
-t2
-s0
-
-N/Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Utils/OpenEngine.build/Debug/OpenEngine_Utils.build/Objects-normal/i386/EventProfiler.o
-t2
-s0
-
-N/Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Utils/OpenEngine.build/Debug/OpenEngine_Utils.build/Objects-normal/i386/Limits.o
-t2
-s0
-
-N/Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Utils/OpenEngine.build/Debug/OpenEngine_Utils.build/Objects-normal/i386/OpenEngine_Utils.LinkFileList
-c00000000000000000000000000000000
-t2
-s0
-
-N/Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Utils/OpenEngine.build/Debug/OpenEngine_Utils.build/Objects-normal/i386/Statistics.o
-t2
-s0
-
-N/Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Utils/OpenEngine.build/Debug/OpenEngine_Utils.build/Objects-normal/i386/Timer.o
-t2
-s0
-
-N/Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Utils/OpenEngine.build/Debug/OpenEngine_Utils.build/Objects-normal/i386/Utils.o
-t2
-s0
-
-N/Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Utils/OpenEngine.build/Debug/OpenEngine_Utils.build/Objects-normal/x86_64/Convert.o
-t2
-s0
-
-N/Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Utils/OpenEngine.build/Debug/OpenEngine_Utils.build/Objects-normal/x86_64/DateTime.o
-t2
-s0
-
-N/Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Utils/OpenEngine.build/Debug/OpenEngine_Utils.build/Objects-normal/x86_64/EventProfiler.o
-t2
-s0
-
-N/Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Utils/OpenEngine.build/Debug/OpenEngine_Utils.build/Objects-normal/x86_64/Limits.o
-t2
-s0
-
-N/Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Utils/OpenEngine.build/Debug/OpenEngine_Utils.build/Objects-normal/x86_64/OpenEngine_Utils.LinkFileList
-c000000004D8C8BEB00000000000003F5
-t1301056491
-s1013
-
-N/Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Utils/OpenEngine.build/Debug/OpenEngine_Utils.build/Objects-normal/x86_64/Statistics.o
-t2
-s0
-
-N/Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Utils/OpenEngine.build/Debug/OpenEngine_Utils.build/Objects-normal/x86_64/Timer.o
-t2
-s0
-
-N/Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Utils/OpenEngine.build/Debug/OpenEngine_Utils.build/Objects-normal/x86_64/Utils.o
-t2
-s0
-
-N/Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Utils/OpenEngine.build/Debug/OpenEngine_Utils.build/Script-101357460101357460101357.sh
-c000000004D8C8BEB00000000000000A2
-t1301056491
-s162
-
-N/Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Utils/OpenEngine.build/Debug/OpenEngine_Utils.build/Script-101357EE0101357EE0101357.sh
-c000000004D8C8BEB00000000000000DD
-t1301056491
-s221
-
-N/Users/ptx/Projects/OE/OEIphone/src/Core/EngineEvents.h
-c000000004C68FF570000000000000449
-t1281949527
-s1097
-i<Utils/Timer.h>
-
-N/Users/ptx/Projects/OE/OEIphone/src/Core/Exceptions.h
-c000000004C68FF5700000000000006B9
-t1281949527
-s1721
-i<stdexcept>
-i<string>
-
-N/Users/ptx/Projects/OE/OEIphone/src/Core/IEvent.h
-c000000004C68FF570000000000000864
-t1281949527
-s2148
-i<Core/IListener.h>
-
-N/Users/ptx/Projects/OE/OEIphone/src/Core/IListener.h
-c000000004C68FF5700000000000007DC
-t1281949527
-s2012
-
-N/Users/ptx/Projects/OE/OEIphone/src/Logging/Logger.h
-c000000004C68FF5800000000000008D1
-t1281949528
-s2257
-i<string>
-i<sstream>
-i<iostream>
-i<list>
-i<Logging/LoggerType.h>
-
-N/Users/ptx/Projects/OE/OEIphone/src/Logging/LoggerType.h
-c000000004C68FF5800000000000002CC
-t1281949528
-s716
-
-N/Users/ptx/Projects/OE/OEIphone/src/Meta/Time.h
-c000000004C68FF590000000000000250
-t1281949529
-s592
-i<time.h>
-i<sys/time.h>
-
-N/Users/ptx/Projects/OE/OEIphone/src/Meta/Types.h
-c000000004D51256F0000000000000293
-t1297163631
-s659
-i<stdint.h>
-
-N/Users/ptx/Projects/OE/OEIphone/src/Utils/Convert.cpp
-c000000004C68FF5B000000000000032C
-t1281949531
-s812
-i<Utils/Convert.h>
-
-N/Users/ptx/Projects/OE/OEIphone/src/Utils/Convert.h
-c000000004C68FF5B0000000000000423
-t1281949531
-s1059
-i<sstream>
-i<string>
-
-N/Users/ptx/Projects/OE/OEIphone/src/Utils/DateTime.cpp
-c000000004C68FF5B00000000000004C9
-t1281949531
-s1225
-i<Utils/DateTime.h>
-i<ostream>
-i<iomanip>
-
-N/Users/ptx/Projects/OE/OEIphone/src/Utils/DateTime.h
-c000000004C68FF5B0000000000000650
-t1281949531
-s1616
-i<Meta/Time.h>
-i<ostream>
-
-N/Users/ptx/Projects/OE/OEIphone/src/Utils/EventProfiler.cpp
-c000000004C68FF5B000000000000075A
-t1281949531
-s1882
-i<Utils/EventProfiler.h>
-i<Logging/Logger.h>
-i<string>
-i<math.h>
-
-N/Users/ptx/Projects/OE/OEIphone/src/Utils/EventProfiler.h
-c000000004C68FF5B0000000000000A09
-t1281949531
-s2569
-i<Core/IEvent.h>
-i<Core/IListener.h>
-i<Utils/Timer.h>
-i<string>
-i<list>
-
-N/Users/ptx/Projects/OE/OEIphone/src/Utils/Limits.cpp
-c000000004C68FF5B00000000000005BC
-t1281949531
-s1468
-i<Utils/Limits.h>
-i<limits.h>
-i<float.h>
-
-N/Users/ptx/Projects/OE/OEIphone/src/Utils/Limits.h
-c000000004C68FF5B00000000000005FE
-t1281949531
-s1534
-i<Core/Exceptions.h>
-
-N/Users/ptx/Projects/OE/OEIphone/src/Utils/Statistics.cpp
-c000000004C68FF5B00000000000003DE
-t1281949531
-s990
-i<Utils/Statistics.h>
-i<Logging/Logger.h>
-
-N/Users/ptx/Projects/OE/OEIphone/src/Utils/Statistics.h
-c000000004C68FF5B00000000000004E5
-t1281949531
-s1253
-i<Core/IListener.h>
-i<Core/EngineEvents.h>
-i<Utils/Timer.h>
-
-N/Users/ptx/Projects/OE/OEIphone/src/Utils/Timer.cpp
-c000000004C68FF5B000000000000229C
-t1281949531
-s8860
-i<Utils/Timer.h>
-i<Meta/Time.h>
-i<Core/Exceptions.h>
-i<Utils/Convert.h>
-i<cstring>
-i<stdio.h>
-i<limits.h>
-i<iomanip>
-i<Windows.h>
-i<winbase.h>
-
-N/Users/ptx/Projects/OE/OEIphone/src/Utils/Timer.h
-c000000004C68FF5B00000000000009A1
-t1281949531
-s2465
-i<Meta/Types.h>
-i<string>
-
-N/Users/ptx/Projects/OE/OEIphone/src/Utils/Utils.cpp
-c000000004C68FF5B000000000000025B
-t1281949531
-s603
-
-CBuild AST from /Users/ptx/Projects/OE/OEIphone/src/Utils/Convert.cpp
-r0
-
-CBuild AST from /Users/ptx/Projects/OE/OEIphone/src/Utils/DateTime.cpp
-r0
-
-CBuild AST from /Users/ptx/Projects/OE/OEIphone/src/Utils/EventProfiler.cpp
-r0
-
-CBuild AST from /Users/ptx/Projects/OE/OEIphone/src/Utils/Limits.cpp
-r0
-
-CBuild AST from /Users/ptx/Projects/OE/OEIphone/src/Utils/Statistics.cpp
-r0
-
-CBuild AST from /Users/ptx/Projects/OE/OEIphone/src/Utils/Timer.cpp
-r0
-
-CBuild AST from /Users/ptx/Projects/OE/OEIphone/src/Utils/Utils.cpp
-r0
-
-CCheck dependencies
-r0
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciese90d4f6bc33cb341^f44ea96bc33cb341^---0#1#0#--18"Check dependencies
-
-CCompileC projects/OEIphone/Xcode/src/Utils/OpenEngine.build/Debug/OpenEngine_Utils.build/Objects-normal/i386/Convert.o /Users/ptx/Projects/OE/OEIphone/src/Utils/Convert.cpp normal i386 c++ com.apple.compilers.llvmgcc42
-r0
-
-CCompileC projects/OEIphone/Xcode/src/Utils/OpenEngine.build/Debug/OpenEngine_Utils.build/Objects-normal/i386/DateTime.o /Users/ptx/Projects/OE/OEIphone/src/Utils/DateTime.cpp normal i386 c++ com.apple.compilers.llvmgcc42
-r0
-
-CCompileC projects/OEIphone/Xcode/src/Utils/OpenEngine.build/Debug/OpenEngine_Utils.build/Objects-normal/i386/EventProfiler.o /Users/ptx/Projects/OE/OEIphone/src/Utils/EventProfiler.cpp normal i386 c++ com.apple.compilers.llvmgcc42
-r0
-
-CCompileC projects/OEIphone/Xcode/src/Utils/OpenEngine.build/Debug/OpenEngine_Utils.build/Objects-normal/i386/Limits.o /Users/ptx/Projects/OE/OEIphone/src/Utils/Limits.cpp normal i386 c++ com.apple.compilers.llvmgcc42
-r0
-
-CCompileC projects/OEIphone/Xcode/src/Utils/OpenEngine.build/Debug/OpenEngine_Utils.build/Objects-normal/i386/Statistics.o /Users/ptx/Projects/OE/OEIphone/src/Utils/Statistics.cpp normal i386 c++ com.apple.compilers.llvmgcc42
-r0
-
-CCompileC projects/OEIphone/Xcode/src/Utils/OpenEngine.build/Debug/OpenEngine_Utils.build/Objects-normal/i386/Timer.o /Users/ptx/Projects/OE/OEIphone/src/Utils/Timer.cpp normal i386 c++ com.apple.compilers.llvmgcc42
-r0
-
-CCompileC projects/OEIphone/Xcode/src/Utils/OpenEngine.build/Debug/OpenEngine_Utils.build/Objects-normal/i386/Utils.o /Users/ptx/Projects/OE/OEIphone/src/Utils/Utils.cpp normal i386 c++ com.apple.compilers.llvmgcc42
-r0
-
-CCompileC projects/OEIphone/Xcode/src/Utils/OpenEngine.build/Debug/OpenEngine_Utils.build/Objects-normal/x86_64/Convert.o /Users/ptx/Projects/OE/OEIphone/src/Utils/Convert.cpp normal x86_64 c++ com.apple.compilers.llvmgcc42
-s322749292.351767
-e322749292.887047
-r1
-xCompileC
-xprojects/OEIphone/Xcode/src/Utils/OpenEngine.build/Debug/OpenEngine_Utils.build/Objects-normal/x86_64/Convert.o
-x/Users/ptx/Projects/OE/OEIphone/src/Utils/Convert.cpp
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.llvmgcc42
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"Compile /Users/ptx/Projects/OE/OEIphone/src/Utils/Convert.cpp5b275a6cc33cb341^d235e36cc33cb341^---0#0#0#-19%DVTDocumentLocation2@69"file://localhost/Users/ptx/Projects/OE/OEIphone/src/Utils/Convert.cpp0000000000000000^1836"CompileC projects/OEIphone/Xcode/src/Utils/OpenEngine.build/Debug/OpenEngine_Utils.build/Objects-normal/x86_64/Convert.o src/Utils/Convert.cpp normal x86_64 c++ com.apple.compilers.llvmgcc42    cd /Users/ptx/Projects/OE/OEIphone    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -DCMAKE_INTDIR="Debug" -DOE_SAFE=true -DOE_DEBUG_GL=true -D_DEBUG -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Utils/Debug/include -I/Users/ptx/Projects/OE/OEIphone/src -I/usr/local/include -I/Users/ptx/Projects/OE/OEIphone/extensions/AccelerationStructures -I/Users/ptx/Projects/OE/OEIphone/extensions/iOSEnvironment -I/Users/ptx/Projects/OE/OEIphone/extensions/IRC -I/Users/ptx/Projects/OE/OEIphone/extensions/mesh-OBJResource -I/Users/ptx/Projects/OE/OEIphone/extensions/MeshUtils -I/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESRenderer -I/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources -I/Users/ptx/Projects/OE/OEIphone/extensions/Sockets -I/Users/ptx/Projects/OE/OEIphone/extensions/TGAResource -I/Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Utils/OpenEngine.build/Debug/OpenEngine_Utils.build/DerivedSources/x86_64 -I/Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Utils/OpenEngine.build/Debug/OpenEngine_Utils.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Utils/Debug -Wall -Wextra -Wno-unused-parameter -c /Users/ptx/Projects/OE/OEIphone/src/Utils/Convert.cpp -o /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Utils/OpenEngine.build/Debug/OpenEngine_Utils.build/Objects-normal/x86_64/Convert.o
-
-CCompileC projects/OEIphone/Xcode/src/Utils/OpenEngine.build/Debug/OpenEngine_Utils.build/Objects-normal/x86_64/DateTime.o /Users/ptx/Projects/OE/OEIphone/src/Utils/DateTime.cpp normal x86_64 c++ com.apple.compilers.llvmgcc42
-s322749292.876401
-e322749293.235447
-r1
-xCompileC
-xprojects/OEIphone/Xcode/src/Utils/OpenEngine.build/Debug/OpenEngine_Utils.build/Objects-normal/x86_64/DateTime.o
-x/Users/ptx/Projects/OE/OEIphone/src/Utils/DateTime.cpp
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.llvmgcc42
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Compile /Users/ptx/Projects/OE/OEIphone/src/Utils/DateTime.cpp8e76e06cc33cb341^fe453c6dc33cb341^---0#0#0#-19%DVTDocumentLocation2@70"file://localhost/Users/ptx/Projects/OE/OEIphone/src/Utils/DateTime.cpp0000000000000000^1840"CompileC projects/OEIphone/Xcode/src/Utils/OpenEngine.build/Debug/OpenEngine_Utils.build/Objects-normal/x86_64/DateTime.o src/Utils/DateTime.cpp normal x86_64 c++ com.apple.compilers.llvmgcc42    cd /Users/ptx/Projects/OE/OEIphone    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -DCMAKE_INTDIR="Debug" -DOE_SAFE=true -DOE_DEBUG_GL=true -D_DEBUG -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Utils/Debug/include -I/Users/ptx/Projects/OE/OEIphone/src -I/usr/local/include -I/Users/ptx/Projects/OE/OEIphone/extensions/AccelerationStructures -I/Users/ptx/Projects/OE/OEIphone/extensions/iOSEnvironment -I/Users/ptx/Projects/OE/OEIphone/extensions/IRC -I/Users/ptx/Projects/OE/OEIphone/extensions/mesh-OBJResource -I/Users/ptx/Projects/OE/OEIphone/extensions/MeshUtils -I/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESRenderer -I/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources -I/Users/ptx/Projects/OE/OEIphone/extensions/Sockets -I/Users/ptx/Projects/OE/OEIphone/extensions/TGAResource -I/Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Utils/OpenEngine.build/Debug/OpenEngine_Utils.build/DerivedSources/x86_64 -I/Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Utils/OpenEngine.build/Debug/OpenEngine_Utils.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Utils/Debug -Wall -Wextra -Wno-unused-parameter -c /Users/ptx/Projects/OE/OEIphone/src/Utils/DateTime.cpp -o /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Utils/OpenEngine.build/Debug/OpenEngine_Utils.build/Objects-normal/x86_64/DateTime.o
-
-CCompileC projects/OEIphone/Xcode/src/Utils/OpenEngine.build/Debug/OpenEngine_Utils.build/Objects-normal/x86_64/EventProfiler.o /Users/ptx/Projects/OE/OEIphone/src/Utils/EventProfiler.cpp normal x86_64 c++ com.apple.compilers.llvmgcc42
-s322749293.235614
-e322749293.621737
-r1
-xCompileC
-xprojects/OEIphone/Xcode/src/Utils/OpenEngine.build/Debug/OpenEngine_Utils.build/Objects-normal/x86_64/EventProfiler.o
-x/Users/ptx/Projects/OE/OEIphone/src/Utils/EventProfiler.cpp
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.llvmgcc42
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Compile /Users/ptx/Projects/OE/OEIphone/src/Utils/EventProfiler.cppe8693c6dc33cb341^5d319f6dc33cb341^---0#0#0#-19%DVTDocumentLocation2@75"file://localhost/Users/ptx/Projects/OE/OEIphone/src/Utils/EventProfiler.cpp0000000000000000^1860"CompileC projects/OEIphone/Xcode/src/Utils/OpenEngine.build/Debug/OpenEngine_Utils.build/Objects-normal/x86_64/EventProfiler.o src/Utils/EventProfiler.cpp normal x86_64 c++ com.apple.compilers.llvmgcc42    cd /Users/ptx/Projects/OE/OEIphone    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -DCMAKE_INTDIR="Debug" -DOE_SAFE=true -DOE_DEBUG_GL=true -D_DEBUG -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Utils/Debug/include -I/Users/ptx/Projects/OE/OEIphone/src -I/usr/local/include -I/Users/ptx/Projects/OE/OEIphone/extensions/AccelerationStructures -I/Users/ptx/Projects/OE/OEIphone/extensions/iOSEnvironment -I/Users/ptx/Projects/OE/OEIphone/extensions/IRC -I/Users/ptx/Projects/OE/OEIphone/extensions/mesh-OBJResource -I/Users/ptx/Projects/OE/OEIphone/extensions/MeshUtils -I/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESRenderer -I/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources -I/Users/ptx/Projects/OE/OEIphone/extensions/Sockets -I/Users/ptx/Projects/OE/OEIphone/extensions/TGAResource -I/Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Utils/OpenEngine.build/Debug/OpenEngine_Utils.build/DerivedSources/x86_64 -I/Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Utils/OpenEngine.build/Debug/OpenEngine_Utils.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Utils/Debug -Wall -Wextra -Wno-unused-parameter -c /Users/ptx/Projects/OE/OEIphone/src/Utils/EventProfiler.cpp -o /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Utils/OpenEngine.build/Debug/OpenEngine_Utils.build/Objects-normal/x86_64/EventProfiler.o
-
-CCompileC projects/OEIphone/Xcode/src/Utils/OpenEngine.build/Debug/OpenEngine_Utils.build/Objects-normal/x86_64/Limits.o /Users/ptx/Projects/OE/OEIphone/src/Utils/Limits.cpp normal x86_64 c++ com.apple.compilers.llvmgcc42
-s322749291.888856
-e322749292.351609
-r1
-xCompileC
-xprojects/OEIphone/Xcode/src/Utils/OpenEngine.build/Debug/OpenEngine_Utils.build/Objects-normal/x86_64/Limits.o
-x/Users/ptx/Projects/OE/OEIphone/src/Utils/Limits.cpp
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.llvmgcc42
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection60"Compile /Users/ptx/Projects/OE/OEIphone/src/Utils/Limits.cppca51ec6bc33cb341^c0765c6cc33cb341^---0#0#0#-19%DVTDocumentLocation2@68"file://localhost/Users/ptx/Projects/OE/OEIphone/src/Utils/Limits.cpp0000000000000000^1832"CompileC projects/OEIphone/Xcode/src/Utils/OpenEngine.build/Debug/OpenEngine_Utils.build/Objects-normal/x86_64/Limits.o src/Utils/Limits.cpp normal x86_64 c++ com.apple.compilers.llvmgcc42    cd /Users/ptx/Projects/OE/OEIphone    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -DCMAKE_INTDIR="Debug" -DOE_SAFE=true -DOE_DEBUG_GL=true -D_DEBUG -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Utils/Debug/include -I/Users/ptx/Projects/OE/OEIphone/src -I/usr/local/include -I/Users/ptx/Projects/OE/OEIphone/extensions/AccelerationStructures -I/Users/ptx/Projects/OE/OEIphone/extensions/iOSEnvironment -I/Users/ptx/Projects/OE/OEIphone/extensions/IRC -I/Users/ptx/Projects/OE/OEIphone/extensions/mesh-OBJResource -I/Users/ptx/Projects/OE/OEIphone/extensions/MeshUtils -I/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESRenderer -I/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources -I/Users/ptx/Projects/OE/OEIphone/extensions/Sockets -I/Users/ptx/Projects/OE/OEIphone/extensions/TGAResource -I/Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Utils/OpenEngine.build/Debug/OpenEngine_Utils.build/DerivedSources/x86_64 -I/Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Utils/OpenEngine.build/Debug/OpenEngine_Utils.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Utils/Debug -Wall -Wextra -Wno-unused-parameter -c /Users/ptx/Projects/OE/OEIphone/src/Utils/Limits.cpp -o /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Utils/OpenEngine.build/Debug/OpenEngine_Utils.build/Objects-normal/x86_64/Limits.o
-
-CCompileC projects/OEIphone/Xcode/src/Utils/OpenEngine.build/Debug/OpenEngine_Utils.build/Objects-normal/x86_64/Statistics.o /Users/ptx/Projects/OE/OEIphone/src/Utils/Statistics.cpp normal x86_64 c++ com.apple.compilers.llvmgcc42
-s322749292.887189
-e322749293.244591
-r1
-xCompileC
-xprojects/OEIphone/Xcode/src/Utils/OpenEngine.build/Debug/OpenEngine_Utils.build/Objects-normal/x86_64/Statistics.o
-x/Users/ptx/Projects/OE/OEIphone/src/Utils/Statistics.cpp
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.llvmgcc42
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Compile /Users/ptx/Projects/OE/OEIphone/src/Utils/Statistics.cpp575de36cc33cb341^66a43e6dc33cb341^---0#0#0#-19%DVTDocumentLocation2@72"file://localhost/Users/ptx/Projects/OE/OEIphone/src/Utils/Statistics.cpp0000000000000000^1848"CompileC projects/OEIphone/Xcode/src/Utils/OpenEngine.build/Debug/OpenEngine_Utils.build/Objects-normal/x86_64/Statistics.o src/Utils/Statistics.cpp normal x86_64 c++ com.apple.compilers.llvmgcc42    cd /Users/ptx/Projects/OE/OEIphone    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -DCMAKE_INTDIR="Debug" -DOE_SAFE=true -DOE_DEBUG_GL=true -D_DEBUG -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Utils/Debug/include -I/Users/ptx/Projects/OE/OEIphone/src -I/usr/local/include -I/Users/ptx/Projects/OE/OEIphone/extensions/AccelerationStructures -I/Users/ptx/Projects/OE/OEIphone/extensions/iOSEnvironment -I/Users/ptx/Projects/OE/OEIphone/extensions/IRC -I/Users/ptx/Projects/OE/OEIphone/extensions/mesh-OBJResource -I/Users/ptx/Projects/OE/OEIphone/extensions/MeshUtils -I/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESRenderer -I/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources -I/Users/ptx/Projects/OE/OEIphone/extensions/Sockets -I/Users/ptx/Projects/OE/OEIphone/extensions/TGAResource -I/Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Utils/OpenEngine.build/Debug/OpenEngine_Utils.build/DerivedSources/x86_64 -I/Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Utils/OpenEngine.build/Debug/OpenEngine_Utils.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Utils/Debug -Wall -Wextra -Wno-unused-parameter -c /Users/ptx/Projects/OE/OEIphone/src/Utils/Statistics.cpp -o /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Utils/OpenEngine.build/Debug/OpenEngine_Utils.build/Objects-normal/x86_64/Statistics.o
-
-CCompileC projects/OEIphone/Xcode/src/Utils/OpenEngine.build/Debug/OpenEngine_Utils.build/Objects-normal/x86_64/Timer.o /Users/ptx/Projects/OE/OEIphone/src/Utils/Timer.cpp normal x86_64 c++ com.apple.compilers.llvmgcc42
-s322749291.979283
-e322749292.876043
-r1
-xCompileC
-xprojects/OEIphone/Xcode/src/Utils/OpenEngine.build/Debug/OpenEngine_Utils.build/Objects-normal/x86_64/Timer.o
-x/Users/ptx/Projects/OE/OEIphone/src/Utils/Timer.cpp
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.llvmgcc42
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection59"Compile /Users/ptx/Projects/OE/OEIphone/src/Utils/Timer.cppbebdfb6bc33cb341^594ce06cc33cb341^---0#0#0#-19%DVTDocumentLocation2@67"file://localhost/Users/ptx/Projects/OE/OEIphone/src/Utils/Timer.cpp0000000000000000^1828"CompileC projects/OEIphone/Xcode/src/Utils/OpenEngine.build/Debug/OpenEngine_Utils.build/Objects-normal/x86_64/Timer.o src/Utils/Timer.cpp normal x86_64 c++ com.apple.compilers.llvmgcc42    cd /Users/ptx/Projects/OE/OEIphone    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -DCMAKE_INTDIR="Debug" -DOE_SAFE=true -DOE_DEBUG_GL=true -D_DEBUG -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Utils/Debug/include -I/Users/ptx/Projects/OE/OEIphone/src -I/usr/local/include -I/Users/ptx/Projects/OE/OEIphone/extensions/AccelerationStructures -I/Users/ptx/Projects/OE/OEIphone/extensions/iOSEnvironment -I/Users/ptx/Projects/OE/OEIphone/extensions/IRC -I/Users/ptx/Projects/OE/OEIphone/extensions/mesh-OBJResource -I/Users/ptx/Projects/OE/OEIphone/extensions/MeshUtils -I/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESRenderer -I/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources -I/Users/ptx/Projects/OE/OEIphone/extensions/Sockets -I/Users/ptx/Projects/OE/OEIphone/extensions/TGAResource -I/Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Utils/OpenEngine.build/Debug/OpenEngine_Utils.build/DerivedSources/x86_64 -I/Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Utils/OpenEngine.build/Debug/OpenEngine_Utils.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Utils/Debug -Wall -Wextra -Wno-unused-parameter -c /Users/ptx/Projects/OE/OEIphone/src/Utils/Timer.cpp -o /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Utils/OpenEngine.build/Debug/OpenEngine_Utils.build/Objects-normal/x86_64/Timer.o
-
-CCompileC projects/OEIphone/Xcode/src/Utils/OpenEngine.build/Debug/OpenEngine_Utils.build/Objects-normal/x86_64/Utils.o /Users/ptx/Projects/OE/OEIphone/src/Utils/Utils.cpp normal x86_64 c++ com.apple.compilers.llvmgcc42
-s322749291.888133
-e322749291.977810
-r1
-xCompileC
-xprojects/OEIphone/Xcode/src/Utils/OpenEngine.build/Debug/OpenEngine_Utils.build/Objects-normal/x86_64/Utils.o
-x/Users/ptx/Projects/OE/OEIphone/src/Utils/Utils.cpp
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.llvmgcc42
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection59"Compile /Users/ptx/Projects/OE/OEIphone/src/Utils/Utils.cppa20eeb6bc33cb341^365afa6bc33cb341^---0#0#0#-19%DVTDocumentLocation2@67"file://localhost/Users/ptx/Projects/OE/OEIphone/src/Utils/Utils.cpp0000000000000000^1828"CompileC projects/OEIphone/Xcode/src/Utils/OpenEngine.build/Debug/OpenEngine_Utils.build/Objects-normal/x86_64/Utils.o src/Utils/Utils.cpp normal x86_64 c++ com.apple.compilers.llvmgcc42    cd /Users/ptx/Projects/OE/OEIphone    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -DCMAKE_INTDIR="Debug" -DOE_SAFE=true -DOE_DEBUG_GL=true -D_DEBUG -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Utils/Debug/include -I/Users/ptx/Projects/OE/OEIphone/src -I/usr/local/include -I/Users/ptx/Projects/OE/OEIphone/extensions/AccelerationStructures -I/Users/ptx/Projects/OE/OEIphone/extensions/iOSEnvironment -I/Users/ptx/Projects/OE/OEIphone/extensions/IRC -I/Users/ptx/Projects/OE/OEIphone/extensions/mesh-OBJResource -I/Users/ptx/Projects/OE/OEIphone/extensions/MeshUtils -I/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESRenderer -I/Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources -I/Users/ptx/Projects/OE/OEIphone/extensions/Sockets -I/Users/ptx/Projects/OE/OEIphone/extensions/TGAResource -I/Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Utils/OpenEngine.build/Debug/OpenEngine_Utils.build/DerivedSources/x86_64 -I/Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Utils/OpenEngine.build/Debug/OpenEngine_Utils.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Utils/Debug -Wall -Wextra -Wno-unused-parameter -c /Users/ptx/Projects/OE/OEIphone/src/Utils/Utils.cpp -o /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Utils/OpenEngine.build/Debug/OpenEngine_Utils.build/Objects-normal/x86_64/Utils.o
-
-CLibtool /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Utils/Debug/libOpenEngine_Utils.a normal i386
-r0
-
-CLibtool /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Utils/Debug/libOpenEngine_Utils.a normal x86_64
-s322749293.622518
-e322749293.636273
-r1
-xLibtool
-x/Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Utils/Debug/libOpenEngine_Utils.a
-xnormal
-xx86_64
-o/Developer/usr/bin/libtool: file: /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Utils/OpenEngine.build/Debug/OpenEngine_Utils.build/Objects-normal/x86_64/Utils.o has no symbols
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Libtool projects/OEIphone/Xcode/src/Utils/Debug/libOpenEngine_Utils.a normal x86_643f6e9f6dc33cb341^ebe2a26dc33cb341^-191"/Developer/usr/bin/libtool: file: /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Utils/OpenEngine.build/Debug/OpenEngine_Utils.build/Objects-normal/x86_64/Utils.o has no symbols-0#0#0#--609"Libtool projects/OEIphone/Xcode/src/Utils/Debug/libOpenEngine_Utils.a normal x86_64    cd /Users/ptx/Projects/OE/OEIphone    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/libtool -static -arch_only x86_64 -syslibroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Utils/Debug -filelist /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Utils/OpenEngine.build/Debug/OpenEngine_Utils.build/Objects-normal/x86_64/OpenEngine_Utils.LinkFileList -o /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Utils/Debug/libOpenEngine_Utils.a
-
-CPhaseScriptExecution "CMake PostBuild Rules" /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Utils/OpenEngine.build/Debug/OpenEngine_Utils.build/Script-101357EE0101357EE0101357.sh
-s322749293.637631
-e322749293.702374
-r1
-xPhaseScriptExecution
-xCMake PostBuild Rules
-x/Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Utils/OpenEngine.build/Debug/OpenEngine_Utils.build/Script-101357EE0101357EE0101357.sh
-oecho "Depend check for xcode"
-oDepend check for xcode
-ocd /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode && make -C /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode -f /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/CMakeScripts/XCODE_DEPEND_HELPER.make all.Debug
-o/bin/rm -f /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/OEIphone/Debug/OEIphone
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Run custom shell script 'CMake PostBuild Rules'cc41a46dc33cb341^28d4b36dc33cb341^-377"echo "Depend check for xcode"Depend check for xcodecd /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode && make -C /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode -f /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/CMakeScripts/XCODE_DEPEND_HELPER.make all.Debug/bin/rm -f /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/OEIphone/Debug/OEIphone4(21%IDEActivityLogMessage2@30"echo "Depend check for xcode"-322749293#0#30#-0#-----2@23"Depend check for xcode-322749293#30#23#-0#-----2@233"cd /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode && make -C /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode -f /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/CMakeScripts/XCODE_DEPEND_HELPER.make all.Debug-322749293#53#233#-0#-----2@91"/bin/rm -f /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/OEIphone/Debug/OEIphone-322749293#286#91#-0#-----0#0#0#--17079"PhaseScriptExecution "CMake PostBuild Rules" projects/OEIphone/Xcode/src/Utils/OpenEngine.build/Debug/OpenEngine_Utils.build/Script-101357EE0101357EE0101357.sh    cd /Users/ptx/Projects/OE/OEIphone    setenv ACTION build    setenv ALTERNATE_GROUP staff    setenv ALTERNATE_MODE u+w,go-w,a+rX    setenv ALTERNATE_OWNER ptx    setenv ALWAYS_SEARCH_USER_PATHS YES    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer    setenv APPLE_INTERNAL_DIR /AppleInternal    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools    setenv APPLY_RULES_IN_COPY_FILES NO    setenv ARCHS x86_64    setenv ARCHS_STANDARD_32_64_BIT "x86_64 i386"    setenv ARCHS_STANDARD_32_BIT i386    setenv ARCHS_STANDARD_64_BIT x86_64    setenv AVAILABLE_PLATFORMS "iphonesimulator macosx iphoneos"    setenv BUILD_COMPONENTS "headers build"    setenv BUILD_DIR /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Utils    setenv BUILD_ROOT /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Utils    setenv BUILD_STYLE Debug    setenv BUILD_VARIANTS normal    setenv BUILT_PRODUCTS_DIR /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Utils/Debug    setenv CACHE_ROOT /var/folders/gI/gIvx07kuEvSzp9XDdvRPC++++TI/-Caches-/com.apple.Xcode.501    setenv CCHROOT /var/folders/gI/gIvx07kuEvSzp9XDdvRPC++++TI/-Caches-/com.apple.Xcode.501    setenv CHMOD /bin/chmod    setenv CHOWN /usr/sbin/chown    setenv CLASS_FILE_DIR /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Utils/OpenEngine.build/Debug/OpenEngine_Utils.build/JavaClasses    setenv CLEAN_PRECOMPS YES    setenv CLONE_HEADERS NO    setenv CODESIGNING_FOLDER_PATH /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Utils/Debug/libOpenEngine_Utils.a    setenv COMBINE_HIDPI_IMAGES NO    setenv COMMAND_MODE legacy    setenv COMPOSITE_SDK_DIRS /var/folders/gI/gIvx07kuEvSzp9XDdvRPC++++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs    setenv CONFIGURATION Debug    setenv CONFIGURATION_BUILD_DIR /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Utils/Debug    setenv CONFIGURATION_TEMP_DIR /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Utils/OpenEngine.build/Debug    setenv COPYING_PRESERVES_HFS_DATA NO    setenv COPY_PHASE_STRIP YES    setenv COPY_RESOURCES_FROM_STATIC_FRAMEWORKS YES    setenv CP /bin/cp    setenv CURRENT_ARCH x86_64    setenv CURRENT_VARIANT normal    setenv DEAD_CODE_STRIPPING NO    setenv DEBUGGING_SYMBOLS YES    setenv DEBUG_INFORMATION_FORMAT dwarf    setenv DEPLOYMENT_LOCATION NO    setenv DEPLOYMENT_POSTPROCESSING NO    setenv DERIVED_FILES_DIR /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Utils/OpenEngine.build/Debug/OpenEngine_Utils.build/DerivedSources    setenv DERIVED_FILE_DIR /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Utils/OpenEngine.build/Debug/OpenEngine_Utils.build/DerivedSources    setenv DERIVED_SOURCES_DIR /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Utils/OpenEngine.build/Debug/OpenEngine_Utils.build/DerivedSources    setenv DEVELOPER_APPLICATIONS_DIR /Developer/Applications    setenv DEVELOPER_BIN_DIR /Developer/usr/bin    setenv DEVELOPER_DIR /Developer    setenv DEVELOPER_FRAMEWORKS_DIR /Developer/Library/Frameworks    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED "\"/Developer/Library/Frameworks\""    setenv DEVELOPER_LIBRARY_DIR /Developer/Library    setenv DEVELOPER_SDK_DIR /Developer/SDKs    setenv DEVELOPER_TOOLS_DIR /Developer/Tools    setenv DEVELOPER_USR_DIR /Developer/usr    setenv DEVELOPMENT_LANGUAGE English    setenv DO_HEADER_SCANNING_IN_JAM NO    setenv DSTROOT /tmp/OpenEngine.dst    setenv DWARF_DSYM_FILE_NAME libOpenEngine_Utils.a.dSYM    setenv DWARF_DSYM_FOLDER_PATH /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Utils/Debug    setenv ENABLE_HEADER_DEPENDENCIES YES    setenv ENABLE_OPENMP_SUPPORT NO    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".svn CVS"    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch (*) CVS .svn .git *.xcodeproj *.xcode *.pbproj *.pbxproj"    setenv EXECUTABLE_EXTENSION a    setenv EXECUTABLE_NAME libOpenEngine_Utils.a    setenv EXECUTABLE_PATH libOpenEngine_Utils.a    setenv EXECUTABLE_PREFIX lib    setenv EXECUTABLE_SUFFIX .a    setenv FILE_LIST /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Utils/OpenEngine.build/Debug/OpenEngine_Utils.build/Objects/LinkFileList    setenv FIXED_FILES_DIR /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Utils/OpenEngine.build/Debug/OpenEngine_Utils.build/FixedFiles    setenv FRAMEWORK_FLAG_PREFIX -framework    setenv FRAMEWORK_SEARCH_PATHS "\"/Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Utils/Debug\" "    setenv FRAMEWORK_VERSION A    setenv FULL_PRODUCT_NAME libOpenEngine_Utils.a    setenv GCC3_VERSION 3.3    setenv GCC_ENABLE_SYMBOL_SEPARATION NO    setenv GCC_GENERATE_DEBUGGING_SYMBOLS YES    setenv GCC_INLINES_ARE_PRIVATE_EXTERN NO    setenv GCC_OPTIMIZATION_LEVEL 0    setenv GCC_PFE_FILE_C_DIALECTS "c objective-c c++ objective-c++"    setenv GCC_PREPROCESSOR_DEFINITIONS "'CMAKE_INTDIR=\"Debug\"' 'OE_SAFE=true' 'OE_DEBUG_GL=true' _DEBUG"    setenv GCC_SYMBOLS_PRIVATE_EXTERN NO    setenv GCC_TREAT_WARNINGS_AS_ERRORS NO    setenv GCC_VERSION com.apple.compilers.llvmgcc42    setenv GENERATE_MASTER_OBJECT_FILE NO    setenv GENERATE_PKGINFO_FILE NO    setenv GENERATE_PROFILING_CODE NO    setenv GID 20    setenv GROUP staff    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES    setenv HEADER_SEARCH_PATHS "\"/Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Utils/Debug/include\" /Users/ptx/Projects/OE/OEIphone/src /usr/local/include /Users/ptx/Projects/OE/OEIphone/extensions/AccelerationStructures /Users/ptx/Projects/OE/OEIphone/extensions/iOSEnvironment /Users/ptx/Projects/OE/OEIphone/extensions/IRC /Users/ptx/Projects/OE/OEIphone/extensions/mesh-OBJResource /Users/ptx/Projects/OE/OEIphone/extensions/MeshUtils /Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESRenderer /Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources /Users/ptx/Projects/OE/OEIphone/extensions/Sockets /Users/ptx/Projects/OE/OEIphone/extensions/TGAResource"    setenv ICONV /usr/bin/iconv    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES    setenv INFOPLIST_OUTPUT_FORMAT same-as-input    setenv INFOPLIST_PREPROCESS NO    setenv INSTALL_DIR /tmp/OpenEngine.dst    setenv INSTALL_GROUP staff    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX    setenv INSTALL_OWNER ptx    setenv INSTALL_ROOT /tmp/OpenEngine.dst    setenv JAVAC_DEFAULT_FLAGS "-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    setenv JAVA_ARCHIVE_CLASSES YES    setenv JAVA_ARCHIVE_TYPE JAR    setenv JAVA_COMPILER /usr/bin/javac    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources    setenv JAVA_JAR_FLAGS cv    setenv JAVA_SOURCE_SUBDIR .    setenv JAVA_USE_DEPENDENCIES YES    setenv JAVA_ZIP_FLAGS -urg    setenv JIKES_DEFAULT_FLAGS "+E +OLDCSO"    setenv KEEP_PRIVATE_EXTERNS NO    setenv LD_GENERATE_MAP_FILE NO    setenv LD_MAP_FILE_PATH /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Utils/OpenEngine.build/Debug/OpenEngine_Utils.build/OpenEngine_Utils-LinkMap-normal-x86_64.txt    setenv LD_OPENMP_FLAGS -fopenmp    setenv LEGACY_DEVELOPER_DIR /Developer/Library/Xcode/PrivatePlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer    setenv LEX /Developer/usr/bin/lex    setenv LIBRARY_FLAG_NOSPACE YES    setenv LIBRARY_FLAG_PREFIX -l    setenv LIBRARY_SEARCH_PATHS "\"/Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Utils/Debug\" "    setenv LIBRARY_STYLE STATIC    setenv LINKER_DISPLAYS_MANGLED_NAMES NO    setenv LINK_FILE_LIST_normal_x86_64 /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Utils/OpenEngine.build/Debug/OpenEngine_Utils.build/Objects-normal/x86_64/OpenEngine_Utils.LinkFileList    setenv LINK_WITH_STANDARD_LIBRARIES YES    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities    setenv LOCAL_APPS_DIR /Applications    setenv LOCAL_DEVELOPER_DIR /Library/Developer    setenv LOCAL_LIBRARY_DIR /Library    setenv MACH_O_TYPE staticlib    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv MAC_OS_X_PRODUCT_BUILD_VERSION 10J869    setenv MAC_OS_X_VERSION_ACTUAL 1067    setenv MAC_OS_X_VERSION_MAJOR 1060    setenv MAC_OS_X_VERSION_MINOR 0607    setenv NATIVE_ARCH i386    setenv NATIVE_ARCH_32_BIT i386    setenv NATIVE_ARCH_64_BIT x86_64    setenv NATIVE_ARCH_ACTUAL x86_64    setenv NO_COMMON YES    setenv OBJECT_FILE_DIR /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Utils/OpenEngine.build/Debug/OpenEngine_Utils.build/Objects    setenv OBJECT_FILE_DIR_normal /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Utils/OpenEngine.build/Debug/OpenEngine_Utils.build/Objects-normal    setenv OBJROOT /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Utils    setenv ONLY_ACTIVE_ARCH NO    setenv OPTIMIZATION_LEVEL 0    setenv OS MACOS    setenv OSAC /usr/bin/osacompile    setenv OTHER_CFLAGS "     -Wall -Wextra -Wno-unused-parameter"    setenv OTHER_CPLUSPLUSFLAGS "     -Wall -Wextra -Wno-unused-parameter"    setenv PACKAGE_TYPE com.apple.package-type.static-library    setenv PASCAL_STRINGS YES    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Developer/Headers /Developer/SDKs /Developer/Platforms"    setenv PFE_FILE_C_DIALECTS c++    setenv PKGINFO_FILE_PATH /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Utils/OpenEngine.build/Debug/OpenEngine_Utils.build/PkgInfo    setenv PLATFORM_DEVELOPER_APPLICATIONS_DIR /Developer/Applications    setenv PLATFORM_DEVELOPER_BIN_DIR /Developer/usr/bin    setenv PLATFORM_DEVELOPER_LIBRARY_DIR /Developer/Library    setenv PLATFORM_DEVELOPER_SDK_DIR /Developer/SDKs    setenv PLATFORM_DEVELOPER_TOOLS_DIR /Developer/Tools    setenv PLATFORM_DEVELOPER_USR_DIR /Developer/usr    setenv PLATFORM_DIR /Developer/Platforms/MacOSX.platform    setenv PLATFORM_NAME macosx    setenv PLATFORM_PREFERRED_ARCH x86_64    setenv PLATFORM_PRODUCT_BUILD_VERSION 4A304a    setenv PLIST_FILE_OUTPUT_FORMAT same-as-input    setenv PREBINDING NO    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR NO    setenv PRECOMP_DESTINATION_DIR /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Utils/OpenEngine.build/Debug/OpenEngine_Utils.build/PrefixHeaders    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO    setenv PRIVATE_HEADERS_FOLDER_PATH /usr/local/include    setenv PRODUCT_NAME OpenEngine_Utils    setenv PRODUCT_SETTINGS_PATH     setenv PRODUCT_TYPE com.apple.product-type.library.static    setenv PROFILING_CODE NO    setenv PROJECT OpenEngine    setenv PROJECT_DERIVED_FILE_DIR /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Utils/OpenEngine.build/DerivedSources    setenv PROJECT_DIR /Users/ptx/Projects/OE/OEIphone    setenv PROJECT_FILE_PATH /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/OpenEngine.xcodeproj    setenv PROJECT_NAME OpenEngine    setenv PROJECT_TEMP_DIR /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Utils/OpenEngine.build    setenv PUBLIC_HEADERS_FOLDER_PATH /usr/local/include    setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES    setenv REMOVE_CVS_FROM_RESOURCES YES    setenv REMOVE_GIT_FROM_RESOURCES YES    setenv REMOVE_SVN_FROM_RESOURCES YES    setenv REZ_COLLECTOR_DIR /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Utils/OpenEngine.build/Debug/OpenEngine_Utils.build/ResourceManagerResources    setenv REZ_EXECUTABLE YES    setenv REZ_OBJECTS_DIR /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Utils/OpenEngine.build/Debug/OpenEngine_Utils.build/ResourceManagerResources/Objects    setenv REZ_SEARCH_PATHS "\"/Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Utils/Debug\" "    setenv RUN_CLANG_STATIC_ANALYZER NO    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES NO    setenv SCRIPT_INPUT_FILE_COUNT 0    setenv SCRIPT_OUTPUT_FILE_COUNT 0    setenv SDKROOT /Developer/SDKs/MacOSX10.6.sdk    setenv SDK_DIR /Developer/SDKs/MacOSX10.6.sdk    setenv SDK_NAME macosx10.6    setenv SDK_PRODUCT_BUILD_VERSION 4A304a    setenv SED /usr/bin/sed    setenv SEPARATE_STRIP YES    setenv SEPARATE_SYMBOL_EDIT NO    setenv SET_DIR_MODE_OWNER_GROUP YES    setenv SET_FILE_MODE_OWNER_GROUP NO    setenv SHARED_DERIVED_FILE_DIR /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Utils/Debug/DerivedSources    setenv SHARED_PRECOMPS_DIR /var/folders/gI/gIvx07kuEvSzp9XDdvRPC++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders    setenv SKIP_INSTALL YES    setenv SOURCE_ROOT /Users/ptx/Projects/OE/OEIphone    setenv SRCROOT /Users/ptx/Projects/OE/OEIphone    setenv STANDARD_C_PLUS_PLUS_LIBRARY_TYPE dynamic    setenv STRINGS_FILE_OUTPUT_ENCODING UTF-16    setenv STRIP_INSTALLED_PRODUCT YES    setenv STRIP_STYLE debugging    setenv SUPPORTED_PLATFORMS macosx    setenv SYMBOL_REPOSITORY_DIR /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Utils/OpenEngine.build/Debug/OpenEngine_Utils.build/SymbolRepositories    setenv SYMROOT /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Utils    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities    setenv SYSTEM_APPS_DIR /Applications    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices    setenv SYSTEM_DEMOS_DIR /Applications/Extras    setenv SYSTEM_DEVELOPER_APPS_DIR /Developer/Applications    setenv SYSTEM_DEVELOPER_BIN_DIR /Developer/usr/bin    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/Developer/Applications/Utilities/Built Examples"    setenv SYSTEM_DEVELOPER_DIR /Developer    setenv SYSTEM_DEVELOPER_DOC_DIR "/Developer/ADC Reference Library"    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/Developer/Applications/Graphics Tools"    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/Developer/Applications/Java Tools"    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/Developer/Applications/Performance Tools"    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes"    setenv SYSTEM_DEVELOPER_TOOLS /Developer/Tools    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/Developer/ADC Reference Library/documentation/DeveloperTools"    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes/DeveloperTools"    setenv SYSTEM_DEVELOPER_USR_DIR /Developer/usr    setenv SYSTEM_DEVELOPER_UTILITIES_DIR /Developer/Applications/Utilities    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation    setenv SYSTEM_LIBRARY_DIR /System/Library    setenv TARGETNAME OpenEngine_Utils    setenv TARGET_BUILD_DIR /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Utils/Debug    setenv TARGET_NAME OpenEngine_Utils    setenv TARGET_TEMP_DIR /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Utils/OpenEngine.build/Debug/OpenEngine_Utils.build    setenv TEMP_DIR /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Utils/OpenEngine.build/Debug/OpenEngine_Utils.build    setenv TEMP_FILES_DIR /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Utils/OpenEngine.build/Debug/OpenEngine_Utils.build    setenv TEMP_FILE_DIR /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Utils/OpenEngine.build/Debug/OpenEngine_Utils.build    setenv TEMP_ROOT /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Utils    setenv TEST_AFTER_BUILD NO    setenv UID 501    setenv UNSTRIPPED_PRODUCT NO    setenv USER ptx    setenv USER_APPS_DIR /Users/ptx/Applications    setenv USER_LIBRARY_DIR /Users/ptx/Library    setenv USE_DYNAMIC_NO_PIC YES    setenv USE_HEADERMAP NO    setenv USE_HEADER_SYMLINKS NO    setenv VALIDATE_PRODUCT NO    setenv VALID_ARCHS "i386 x86_64"    setenv VERBOSE_PBXCP NO    setenv VERSION_INFO_BUILDER ptx    setenv VERSION_INFO_FILE OpenEngine_Utils_vers.c    setenv VERSION_INFO_STRING "\"@(#)PROGRAM:OpenEngine_Utils  PROJECT:OpenEngine-\""    setenv WARNING_CFLAGS "-Wmost -Wno-four-char-constants -Wno-unknown-pragmas"    setenv XCODE_APP_SUPPORT_DIR /Developer/Library/Xcode    setenv XCODE_PRODUCT_BUILD_VERSION 4A304a    setenv XCODE_VERSION_ACTUAL 0400    setenv XCODE_VERSION_MAJOR 0400    setenv XCODE_VERSION_MINOR 0400    setenv YACC /Developer/usr/bin/yacc    /bin/sh -c /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Utils/OpenEngine.build/Debug/OpenEngine_Utils.build/Script-101357EE0101357EE0101357.sh
-
-CPhaseScriptExecution "CMake ReRun" /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Utils/OpenEngine.build/Debug/OpenEngine_Utils.build/Script-101357460101357460101357.sh
-s322749291.696160
-e322749291.879623
-r1
-xPhaseScriptExecution
-xCMake ReRun
-x/Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Utils/OpenEngine.build/Debug/OpenEngine_Utils.build/Script-101357460101357460101357.sh
-omake: `CMakeFiles/cmake.check_cache' is up to date.
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Run custom shell script 'CMake ReRun'c618c06bc33cb341^5934e16bc33cb341^-52"make: `CMakeFiles/cmake.check_cache' is up to date.1(21%IDEActivityLogMessage2@52"make: `CMakeFiles/cmake.check_cache' is up to date.-322749291#0#52#-0#-----0#0#0#--17069"PhaseScriptExecution "CMake ReRun" projects/OEIphone/Xcode/src/Utils/OpenEngine.build/Debug/OpenEngine_Utils.build/Script-101357460101357460101357.sh    cd /Users/ptx/Projects/OE/OEIphone    setenv ACTION build    setenv ALTERNATE_GROUP staff    setenv ALTERNATE_MODE u+w,go-w,a+rX    setenv ALTERNATE_OWNER ptx    setenv ALWAYS_SEARCH_USER_PATHS YES    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer    setenv APPLE_INTERNAL_DIR /AppleInternal    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools    setenv APPLY_RULES_IN_COPY_FILES NO    setenv ARCHS x86_64    setenv ARCHS_STANDARD_32_64_BIT "x86_64 i386"    setenv ARCHS_STANDARD_32_BIT i386    setenv ARCHS_STANDARD_64_BIT x86_64    setenv AVAILABLE_PLATFORMS "iphonesimulator macosx iphoneos"    setenv BUILD_COMPONENTS "headers build"    setenv BUILD_DIR /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Utils    setenv BUILD_ROOT /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Utils    setenv BUILD_STYLE Debug    setenv BUILD_VARIANTS normal    setenv BUILT_PRODUCTS_DIR /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Utils/Debug    setenv CACHE_ROOT /var/folders/gI/gIvx07kuEvSzp9XDdvRPC++++TI/-Caches-/com.apple.Xcode.501    setenv CCHROOT /var/folders/gI/gIvx07kuEvSzp9XDdvRPC++++TI/-Caches-/com.apple.Xcode.501    setenv CHMOD /bin/chmod    setenv CHOWN /usr/sbin/chown    setenv CLASS_FILE_DIR /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Utils/OpenEngine.build/Debug/OpenEngine_Utils.build/JavaClasses    setenv CLEAN_PRECOMPS YES    setenv CLONE_HEADERS NO    setenv CODESIGNING_FOLDER_PATH /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Utils/Debug/libOpenEngine_Utils.a    setenv COMBINE_HIDPI_IMAGES NO    setenv COMMAND_MODE legacy    setenv COMPOSITE_SDK_DIRS /var/folders/gI/gIvx07kuEvSzp9XDdvRPC++++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs    setenv CONFIGURATION Debug    setenv CONFIGURATION_BUILD_DIR /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Utils/Debug    setenv CONFIGURATION_TEMP_DIR /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Utils/OpenEngine.build/Debug    setenv COPYING_PRESERVES_HFS_DATA NO    setenv COPY_PHASE_STRIP YES    setenv COPY_RESOURCES_FROM_STATIC_FRAMEWORKS YES    setenv CP /bin/cp    setenv CURRENT_ARCH x86_64    setenv CURRENT_VARIANT normal    setenv DEAD_CODE_STRIPPING NO    setenv DEBUGGING_SYMBOLS YES    setenv DEBUG_INFORMATION_FORMAT dwarf    setenv DEPLOYMENT_LOCATION NO    setenv DEPLOYMENT_POSTPROCESSING NO    setenv DERIVED_FILES_DIR /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Utils/OpenEngine.build/Debug/OpenEngine_Utils.build/DerivedSources    setenv DERIVED_FILE_DIR /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Utils/OpenEngine.build/Debug/OpenEngine_Utils.build/DerivedSources    setenv DERIVED_SOURCES_DIR /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Utils/OpenEngine.build/Debug/OpenEngine_Utils.build/DerivedSources    setenv DEVELOPER_APPLICATIONS_DIR /Developer/Applications    setenv DEVELOPER_BIN_DIR /Developer/usr/bin    setenv DEVELOPER_DIR /Developer    setenv DEVELOPER_FRAMEWORKS_DIR /Developer/Library/Frameworks    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED "\"/Developer/Library/Frameworks\""    setenv DEVELOPER_LIBRARY_DIR /Developer/Library    setenv DEVELOPER_SDK_DIR /Developer/SDKs    setenv DEVELOPER_TOOLS_DIR /Developer/Tools    setenv DEVELOPER_USR_DIR /Developer/usr    setenv DEVELOPMENT_LANGUAGE English    setenv DO_HEADER_SCANNING_IN_JAM NO    setenv DSTROOT /tmp/OpenEngine.dst    setenv DWARF_DSYM_FILE_NAME libOpenEngine_Utils.a.dSYM    setenv DWARF_DSYM_FOLDER_PATH /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Utils/Debug    setenv ENABLE_HEADER_DEPENDENCIES YES    setenv ENABLE_OPENMP_SUPPORT NO    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".svn CVS"    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch (*) CVS .svn .git *.xcodeproj *.xcode *.pbproj *.pbxproj"    setenv EXECUTABLE_EXTENSION a    setenv EXECUTABLE_NAME libOpenEngine_Utils.a    setenv EXECUTABLE_PATH libOpenEngine_Utils.a    setenv EXECUTABLE_PREFIX lib    setenv EXECUTABLE_SUFFIX .a    setenv FILE_LIST /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Utils/OpenEngine.build/Debug/OpenEngine_Utils.build/Objects/LinkFileList    setenv FIXED_FILES_DIR /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Utils/OpenEngine.build/Debug/OpenEngine_Utils.build/FixedFiles    setenv FRAMEWORK_FLAG_PREFIX -framework    setenv FRAMEWORK_SEARCH_PATHS "\"/Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Utils/Debug\" "    setenv FRAMEWORK_VERSION A    setenv FULL_PRODUCT_NAME libOpenEngine_Utils.a    setenv GCC3_VERSION 3.3    setenv GCC_ENABLE_SYMBOL_SEPARATION NO    setenv GCC_GENERATE_DEBUGGING_SYMBOLS YES    setenv GCC_INLINES_ARE_PRIVATE_EXTERN NO    setenv GCC_OPTIMIZATION_LEVEL 0    setenv GCC_PFE_FILE_C_DIALECTS "c objective-c c++ objective-c++"    setenv GCC_PREPROCESSOR_DEFINITIONS "'CMAKE_INTDIR=\"Debug\"' 'OE_SAFE=true' 'OE_DEBUG_GL=true' _DEBUG"    setenv GCC_SYMBOLS_PRIVATE_EXTERN NO    setenv GCC_TREAT_WARNINGS_AS_ERRORS NO    setenv GCC_VERSION com.apple.compilers.llvmgcc42    setenv GENERATE_MASTER_OBJECT_FILE NO    setenv GENERATE_PKGINFO_FILE NO    setenv GENERATE_PROFILING_CODE NO    setenv GID 20    setenv GROUP staff    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES    setenv HEADER_SEARCH_PATHS "\"/Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Utils/Debug/include\" /Users/ptx/Projects/OE/OEIphone/src /usr/local/include /Users/ptx/Projects/OE/OEIphone/extensions/AccelerationStructures /Users/ptx/Projects/OE/OEIphone/extensions/iOSEnvironment /Users/ptx/Projects/OE/OEIphone/extensions/IRC /Users/ptx/Projects/OE/OEIphone/extensions/mesh-OBJResource /Users/ptx/Projects/OE/OEIphone/extensions/MeshUtils /Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESRenderer /Users/ptx/Projects/OE/OEIphone/extensions/OpenGLESResources /Users/ptx/Projects/OE/OEIphone/extensions/Sockets /Users/ptx/Projects/OE/OEIphone/extensions/TGAResource"    setenv ICONV /usr/bin/iconv    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES    setenv INFOPLIST_OUTPUT_FORMAT same-as-input    setenv INFOPLIST_PREPROCESS NO    setenv INSTALL_DIR /tmp/OpenEngine.dst    setenv INSTALL_GROUP staff    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX    setenv INSTALL_OWNER ptx    setenv INSTALL_ROOT /tmp/OpenEngine.dst    setenv JAVAC_DEFAULT_FLAGS "-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    setenv JAVA_ARCHIVE_CLASSES YES    setenv JAVA_ARCHIVE_TYPE JAR    setenv JAVA_COMPILER /usr/bin/javac    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources    setenv JAVA_JAR_FLAGS cv    setenv JAVA_SOURCE_SUBDIR .    setenv JAVA_USE_DEPENDENCIES YES    setenv JAVA_ZIP_FLAGS -urg    setenv JIKES_DEFAULT_FLAGS "+E +OLDCSO"    setenv KEEP_PRIVATE_EXTERNS NO    setenv LD_GENERATE_MAP_FILE NO    setenv LD_MAP_FILE_PATH /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Utils/OpenEngine.build/Debug/OpenEngine_Utils.build/OpenEngine_Utils-LinkMap-normal-x86_64.txt    setenv LD_OPENMP_FLAGS -fopenmp    setenv LEGACY_DEVELOPER_DIR /Developer/Library/Xcode/PrivatePlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer    setenv LEX /Developer/usr/bin/lex    setenv LIBRARY_FLAG_NOSPACE YES    setenv LIBRARY_FLAG_PREFIX -l    setenv LIBRARY_SEARCH_PATHS "\"/Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Utils/Debug\" "    setenv LIBRARY_STYLE STATIC    setenv LINKER_DISPLAYS_MANGLED_NAMES NO    setenv LINK_FILE_LIST_normal_x86_64 /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Utils/OpenEngine.build/Debug/OpenEngine_Utils.build/Objects-normal/x86_64/OpenEngine_Utils.LinkFileList    setenv LINK_WITH_STANDARD_LIBRARIES YES    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities    setenv LOCAL_APPS_DIR /Applications    setenv LOCAL_DEVELOPER_DIR /Library/Developer    setenv LOCAL_LIBRARY_DIR /Library    setenv MACH_O_TYPE staticlib    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv MAC_OS_X_PRODUCT_BUILD_VERSION 10J869    setenv MAC_OS_X_VERSION_ACTUAL 1067    setenv MAC_OS_X_VERSION_MAJOR 1060    setenv MAC_OS_X_VERSION_MINOR 0607    setenv NATIVE_ARCH i386    setenv NATIVE_ARCH_32_BIT i386    setenv NATIVE_ARCH_64_BIT x86_64    setenv NATIVE_ARCH_ACTUAL x86_64    setenv NO_COMMON YES    setenv OBJECT_FILE_DIR /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Utils/OpenEngine.build/Debug/OpenEngine_Utils.build/Objects    setenv OBJECT_FILE_DIR_normal /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Utils/OpenEngine.build/Debug/OpenEngine_Utils.build/Objects-normal    setenv OBJROOT /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Utils    setenv ONLY_ACTIVE_ARCH NO    setenv OPTIMIZATION_LEVEL 0    setenv OS MACOS    setenv OSAC /usr/bin/osacompile    setenv OTHER_CFLAGS "     -Wall -Wextra -Wno-unused-parameter"    setenv OTHER_CPLUSPLUSFLAGS "     -Wall -Wextra -Wno-unused-parameter"    setenv PACKAGE_TYPE com.apple.package-type.static-library    setenv PASCAL_STRINGS YES    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Developer/Headers /Developer/SDKs /Developer/Platforms"    setenv PFE_FILE_C_DIALECTS c++    setenv PKGINFO_FILE_PATH /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Utils/OpenEngine.build/Debug/OpenEngine_Utils.build/PkgInfo    setenv PLATFORM_DEVELOPER_APPLICATIONS_DIR /Developer/Applications    setenv PLATFORM_DEVELOPER_BIN_DIR /Developer/usr/bin    setenv PLATFORM_DEVELOPER_LIBRARY_DIR /Developer/Library    setenv PLATFORM_DEVELOPER_SDK_DIR /Developer/SDKs    setenv PLATFORM_DEVELOPER_TOOLS_DIR /Developer/Tools    setenv PLATFORM_DEVELOPER_USR_DIR /Developer/usr    setenv PLATFORM_DIR /Developer/Platforms/MacOSX.platform    setenv PLATFORM_NAME macosx    setenv PLATFORM_PREFERRED_ARCH x86_64    setenv PLATFORM_PRODUCT_BUILD_VERSION 4A304a    setenv PLIST_FILE_OUTPUT_FORMAT same-as-input    setenv PREBINDING NO    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR NO    setenv PRECOMP_DESTINATION_DIR /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Utils/OpenEngine.build/Debug/OpenEngine_Utils.build/PrefixHeaders    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO    setenv PRIVATE_HEADERS_FOLDER_PATH /usr/local/include    setenv PRODUCT_NAME OpenEngine_Utils    setenv PRODUCT_SETTINGS_PATH     setenv PRODUCT_TYPE com.apple.product-type.library.static    setenv PROFILING_CODE NO    setenv PROJECT OpenEngine    setenv PROJECT_DERIVED_FILE_DIR /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Utils/OpenEngine.build/DerivedSources    setenv PROJECT_DIR /Users/ptx/Projects/OE/OEIphone    setenv PROJECT_FILE_PATH /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/OpenEngine.xcodeproj    setenv PROJECT_NAME OpenEngine    setenv PROJECT_TEMP_DIR /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Utils/OpenEngine.build    setenv PUBLIC_HEADERS_FOLDER_PATH /usr/local/include    setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES    setenv REMOVE_CVS_FROM_RESOURCES YES    setenv REMOVE_GIT_FROM_RESOURCES YES    setenv REMOVE_SVN_FROM_RESOURCES YES    setenv REZ_COLLECTOR_DIR /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Utils/OpenEngine.build/Debug/OpenEngine_Utils.build/ResourceManagerResources    setenv REZ_EXECUTABLE YES    setenv REZ_OBJECTS_DIR /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Utils/OpenEngine.build/Debug/OpenEngine_Utils.build/ResourceManagerResources/Objects    setenv REZ_SEARCH_PATHS "\"/Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Utils/Debug\" "    setenv RUN_CLANG_STATIC_ANALYZER NO    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES NO    setenv SCRIPT_INPUT_FILE_COUNT 0    setenv SCRIPT_OUTPUT_FILE_COUNT 0    setenv SDKROOT /Developer/SDKs/MacOSX10.6.sdk    setenv SDK_DIR /Developer/SDKs/MacOSX10.6.sdk    setenv SDK_NAME macosx10.6    setenv SDK_PRODUCT_BUILD_VERSION 4A304a    setenv SED /usr/bin/sed    setenv SEPARATE_STRIP YES    setenv SEPARATE_SYMBOL_EDIT NO    setenv SET_DIR_MODE_OWNER_GROUP YES    setenv SET_FILE_MODE_OWNER_GROUP NO    setenv SHARED_DERIVED_FILE_DIR /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Utils/Debug/DerivedSources    setenv SHARED_PRECOMPS_DIR /var/folders/gI/gIvx07kuEvSzp9XDdvRPC++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders    setenv SKIP_INSTALL YES    setenv SOURCE_ROOT /Users/ptx/Projects/OE/OEIphone    setenv SRCROOT /Users/ptx/Projects/OE/OEIphone    setenv STANDARD_C_PLUS_PLUS_LIBRARY_TYPE dynamic    setenv STRINGS_FILE_OUTPUT_ENCODING UTF-16    setenv STRIP_INSTALLED_PRODUCT YES    setenv STRIP_STYLE debugging    setenv SUPPORTED_PLATFORMS macosx    setenv SYMBOL_REPOSITORY_DIR /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Utils/OpenEngine.build/Debug/OpenEngine_Utils.build/SymbolRepositories    setenv SYMROOT /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Utils    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities    setenv SYSTEM_APPS_DIR /Applications    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices    setenv SYSTEM_DEMOS_DIR /Applications/Extras    setenv SYSTEM_DEVELOPER_APPS_DIR /Developer/Applications    setenv SYSTEM_DEVELOPER_BIN_DIR /Developer/usr/bin    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/Developer/Applications/Utilities/Built Examples"    setenv SYSTEM_DEVELOPER_DIR /Developer    setenv SYSTEM_DEVELOPER_DOC_DIR "/Developer/ADC Reference Library"    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/Developer/Applications/Graphics Tools"    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/Developer/Applications/Java Tools"    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/Developer/Applications/Performance Tools"    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes"    setenv SYSTEM_DEVELOPER_TOOLS /Developer/Tools    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/Developer/ADC Reference Library/documentation/DeveloperTools"    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes/DeveloperTools"    setenv SYSTEM_DEVELOPER_USR_DIR /Developer/usr    setenv SYSTEM_DEVELOPER_UTILITIES_DIR /Developer/Applications/Utilities    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation    setenv SYSTEM_LIBRARY_DIR /System/Library    setenv TARGETNAME OpenEngine_Utils    setenv TARGET_BUILD_DIR /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Utils/Debug    setenv TARGET_NAME OpenEngine_Utils    setenv TARGET_TEMP_DIR /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Utils/OpenEngine.build/Debug/OpenEngine_Utils.build    setenv TEMP_DIR /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Utils/OpenEngine.build/Debug/OpenEngine_Utils.build    setenv TEMP_FILES_DIR /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Utils/OpenEngine.build/Debug/OpenEngine_Utils.build    setenv TEMP_FILE_DIR /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Utils/OpenEngine.build/Debug/OpenEngine_Utils.build    setenv TEMP_ROOT /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Utils    setenv TEST_AFTER_BUILD NO    setenv UID 501    setenv UNSTRIPPED_PRODUCT NO    setenv USER ptx    setenv USER_APPS_DIR /Users/ptx/Applications    setenv USER_LIBRARY_DIR /Users/ptx/Library    setenv USE_DYNAMIC_NO_PIC YES    setenv USE_HEADERMAP NO    setenv USE_HEADER_SYMLINKS NO    setenv VALIDATE_PRODUCT NO    setenv VALID_ARCHS "i386 x86_64"    setenv VERBOSE_PBXCP NO    setenv VERSION_INFO_BUILDER ptx    setenv VERSION_INFO_FILE OpenEngine_Utils_vers.c    setenv VERSION_INFO_STRING "\"@(#)PROGRAM:OpenEngine_Utils  PROJECT:OpenEngine-\""    setenv WARNING_CFLAGS "-Wmost -Wno-four-char-constants -Wno-unknown-pragmas"    setenv XCODE_APP_SUPPORT_DIR /Developer/Library/Xcode    setenv XCODE_PRODUCT_BUILD_VERSION 4A304a    setenv XCODE_VERSION_ACTUAL 0400    setenv XCODE_VERSION_MAJOR 0400    setenv XCODE_VERSION_MINOR 0400    setenv YACC /Developer/usr/bin/yacc    /bin/sh -c /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Utils/OpenEngine.build/Debug/OpenEngine_Utils.build/Script-101357460101357460101357.sh
-

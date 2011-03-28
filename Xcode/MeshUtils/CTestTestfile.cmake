@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
-# Source directory: /Users/ptx/Projects/OE/OEIphone/extensions/MeshUtils
-# Build directory: /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/MeshUtils
+# Source directory: ${SRCROOT}/extensions/MeshUtils
+# Build directory: ${SRCROOT}/projects/OEIphone/Xcode/MeshUtils
 # 
 # This file includes the relevent testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.

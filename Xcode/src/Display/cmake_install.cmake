@@ -1,4 +1,4 @@
-# Install script for directory: /Users/ptx/Projects/OE/OEIphone/src/Display
+# Install script for directory: ${SRCROOT}/src/Display
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
