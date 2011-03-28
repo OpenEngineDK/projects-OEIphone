@@ -2237,7 +2237,7 @@
 			name = "CMake ReRun";
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "make -C /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode -f /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/CMakeScripts/ReRunCMake.make";
+			shellScript = "make -C ${SRCROOT}/projects/OEIphone/Xcode -f ${SRCROOT}/projects/OEIphone/Xcode/CMakeScripts/ReRunCMake.make";
 		};
 		10107E8B010107E8B010107E /* CMake Rules */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -2247,7 +2247,7 @@
 			name = "CMake Rules";
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "make -C /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode -f /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			shellScript = "make -C ${SRCROOT}/projects/OEIphone/Xcode -f ${SRCROOT}/projects/OEIphone/Xcode/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
 		};
 		10108F13010108F13010108F /* CMake ReRun */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -2257,7 +2257,7 @@
 			name = "CMake ReRun";
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "make -C /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode -f /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/CMakeScripts/ReRunCMake.make";
+			shellScript = "make -C ${SRCROOT}/projects/OEIphone/Xcode -f ${SRCROOT}/projects/OEIphone/Xcode/CMakeScripts/ReRunCMake.make";
 		};
 		10108FC9010108FC9010108F /* CMake PostBuild Rules */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -2267,7 +2267,7 @@
 			name = "CMake PostBuild Rules";
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "make -C /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode -f /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/CMakeScripts/RUN_TESTS_postBuildPhase.make$CONFIGURATION all";
+			shellScript = "make -C ${SRCROOT}/projects/OEIphone/Xcode -f ${SRCROOT}/projects/OEIphone/Xcode/CMakeScripts/RUN_TESTS_postBuildPhase.make$CONFIGURATION all";
 		};
 		10109FD6010109FD6010109F /* CMake ReRun */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -2277,7 +2277,7 @@
 			name = "CMake ReRun";
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "make -C /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode -f /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/CMakeScripts/ReRunCMake.make";
+			shellScript = "make -C ${SRCROOT}/projects/OEIphone/Xcode -f ${SRCROOT}/projects/OEIphone/Xcode/CMakeScripts/ReRunCMake.make";
 		};
 		1010A08601010A08601010A0 /* CMake Rules */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -2287,7 +2287,7 @@
 			name = "CMake Rules";
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "make -C /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode -f /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/CMakeScripts/doc_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			shellScript = "make -C ${SRCROOT}/projects/OEIphone/Xcode -f ${SRCROOT}/projects/OEIphone/Xcode/CMakeScripts/doc_cmakeRulesBuildPhase.make$CONFIGURATION all";
 		};
 		1010B78701010B78701010B7 /* CMake ReRun */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -2297,7 +2297,7 @@
 			name = "CMake ReRun";
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "make -C /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode -f /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/CMakeScripts/ReRunCMake.make";
+			shellScript = "make -C ${SRCROOT}/projects/OEIphone/Xcode -f ${SRCROOT}/projects/OEIphone/Xcode/CMakeScripts/ReRunCMake.make";
 		};
 		1010B82F01010B82F01010B8 /* CMake PostBuild Rules */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -2307,7 +2307,7 @@
 			name = "CMake PostBuild Rules";
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "make -C /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/AccelerationStructures -f /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/AccelerationStructures/CMakeScripts/Extensions_AccelerationStructures_postBuildPhase.make$CONFIGURATION all";
+			shellScript = "make -C ${SRCROOT}/projects/OEIphone/Xcode/AccelerationStructures -f ${SRCROOT}/projects/OEIphone/Xcode/AccelerationStructures/CMakeScripts/Extensions_AccelerationStructures_postBuildPhase.make$CONFIGURATION all";
 		};
 		1010D9AA01010D9AA01010D9 /* CMake ReRun */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -2317,7 +2317,7 @@
 			name = "CMake ReRun";
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "make -C /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode -f /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/CMakeScripts/ReRunCMake.make";
+			shellScript = "make -C ${SRCROOT}/projects/OEIphone/Xcode -f ${SRCROOT}/projects/OEIphone/Xcode/CMakeScripts/ReRunCMake.make";
 		};
 		1010DA5201010DA5201010DA /* CMake PostBuild Rules */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -2327,7 +2327,7 @@
 			name = "CMake PostBuild Rules";
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "make -C /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/iOSEnvironment -f /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/iOSEnvironment/CMakeScripts/Extensions_iOSEnvironment_postBuildPhase.make$CONFIGURATION all";
+			shellScript = "make -C ${SRCROOT}/projects/OEIphone/Xcode/iOSEnvironment -f ${SRCROOT}/projects/OEIphone/Xcode/iOSEnvironment/CMakeScripts/Extensions_iOSEnvironment_postBuildPhase.make$CONFIGURATION all";
 		};
 		1010F38301010F38301010F3 /* CMake ReRun */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -2337,7 +2337,7 @@
 			name = "CMake ReRun";
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "make -C /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode -f /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/CMakeScripts/ReRunCMake.make";
+			shellScript = "make -C ${SRCROOT}/projects/OEIphone/Xcode -f ${SRCROOT}/projects/OEIphone/Xcode/CMakeScripts/ReRunCMake.make";
 		};
 		1010F42B01010F42B01010F4 /* CMake PostBuild Rules */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -2347,7 +2347,7 @@
 			name = "CMake PostBuild Rules";
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "make -C /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/IRC -f /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/IRC/CMakeScripts/Extensions_IRC_postBuildPhase.make$CONFIGURATION all";
+			shellScript = "make -C ${SRCROOT}/projects/OEIphone/Xcode/IRC -f ${SRCROOT}/projects/OEIphone/Xcode/IRC/CMakeScripts/Extensions_IRC_postBuildPhase.make$CONFIGURATION all";
 		};
 		10110C4D010110C4D010110C /* CMake ReRun */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -2357,7 +2357,7 @@
 			name = "CMake ReRun";
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "make -C /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode -f /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/CMakeScripts/ReRunCMake.make";
+			shellScript = "make -C ${SRCROOT}/projects/OEIphone/Xcode -f ${SRCROOT}/projects/OEIphone/Xcode/CMakeScripts/ReRunCMake.make";
 		};
 		10110CF5010110CF5010110C /* CMake PostBuild Rules */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -2367,7 +2367,7 @@
 			name = "CMake PostBuild Rules";
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "make -C /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/mesh-OBJResource -f /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/mesh-OBJResource/CMakeScripts/Extensions_OBJResource_postBuildPhase.make$CONFIGURATION all";
+			shellScript = "make -C ${SRCROOT}/projects/OEIphone/Xcode/mesh-OBJResource -f ${SRCROOT}/projects/OEIphone/Xcode/mesh-OBJResource/CMakeScripts/Extensions_OBJResource_postBuildPhase.make$CONFIGURATION all";
 		};
 		1011283E01011283E0101128 /* CMake ReRun */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -2377,7 +2377,7 @@
 			name = "CMake ReRun";
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "make -C /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode -f /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/CMakeScripts/ReRunCMake.make";
+			shellScript = "make -C ${SRCROOT}/projects/OEIphone/Xcode -f ${SRCROOT}/projects/OEIphone/Xcode/CMakeScripts/ReRunCMake.make";
 		};
 		101128E60101128E60101128 /* CMake PostBuild Rules */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -2387,7 +2387,7 @@
 			name = "CMake PostBuild Rules";
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "make -C /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/MeshUtils -f /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/MeshUtils/CMakeScripts/Extensions_MeshUtils_postBuildPhase.make$CONFIGURATION all";
+			shellScript = "make -C ${SRCROOT}/projects/OEIphone/Xcode/MeshUtils -f ${SRCROOT}/projects/OEIphone/Xcode/MeshUtils/CMakeScripts/Extensions_MeshUtils_postBuildPhase.make$CONFIGURATION all";
 		};
 		1011412D01011412D0101141 /* CMake ReRun */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -2397,7 +2397,7 @@
 			name = "CMake ReRun";
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "make -C /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode -f /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/CMakeScripts/ReRunCMake.make";
+			shellScript = "make -C ${SRCROOT}/projects/OEIphone/Xcode -f ${SRCROOT}/projects/OEIphone/Xcode/CMakeScripts/ReRunCMake.make";
 		};
 		101141CF0101141CF0101141 /* CMake PostBuild Rules */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -2407,7 +2407,7 @@
 			name = "CMake PostBuild Rules";
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "make -C /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/OpenGLESRenderer -f /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/OpenGLESRenderer/CMakeScripts/Extensions_OpenGLESRenderer_postBuildPhase.make$CONFIGURATION all";
+			shellScript = "make -C ${SRCROOT}/projects/OEIphone/Xcode/OpenGLESRenderer -f ${SRCROOT}/projects/OEIphone/Xcode/OpenGLESRenderer/CMakeScripts/Extensions_OpenGLESRenderer_postBuildPhase.make$CONFIGURATION all";
 		};
 		101163510101163510101163 /* CMake ReRun */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -2417,7 +2417,7 @@
 			name = "CMake ReRun";
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "make -C /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode -f /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/CMakeScripts/ReRunCMake.make";
+			shellScript = "make -C ${SRCROOT}/projects/OEIphone/Xcode -f ${SRCROOT}/projects/OEIphone/Xcode/CMakeScripts/ReRunCMake.make";
 		};
 		101163F90101163F90101163 /* CMake PostBuild Rules */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -2427,7 +2427,7 @@
 			name = "CMake PostBuild Rules";
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "make -C /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/OpenGLESResources -f /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/OpenGLESResources/CMakeScripts/Extensions_OpenGLESResources_postBuildPhase.make$CONFIGURATION all";
+			shellScript = "make -C ${SRCROOT}/projects/OEIphone/Xcode/OpenGLESResources -f ${SRCROOT}/projects/OEIphone/Xcode/OpenGLESResources/CMakeScripts/Extensions_OpenGLESResources_postBuildPhase.make$CONFIGURATION all";
 		};
 		10117C3C010117C3C010117C /* CMake ReRun */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -2437,7 +2437,7 @@
 			name = "CMake ReRun";
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "make -C /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode -f /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/CMakeScripts/ReRunCMake.make";
+			shellScript = "make -C ${SRCROOT}/projects/OEIphone/Xcode -f ${SRCROOT}/projects/OEIphone/Xcode/CMakeScripts/ReRunCMake.make";
 		};
 		10117CE4010117CE4010117C /* CMake PostBuild Rules */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -2447,7 +2447,7 @@
 			name = "CMake PostBuild Rules";
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "make -C /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/Sockets -f /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/Sockets/CMakeScripts/Extensions_Sockets_postBuildPhase.make$CONFIGURATION all";
+			shellScript = "make -C ${SRCROOT}/projects/OEIphone/Xcode/Sockets -f ${SRCROOT}/projects/OEIphone/Xcode/Sockets/CMakeScripts/Extensions_Sockets_postBuildPhase.make$CONFIGURATION all";
 		};
 		101191060101191060101191 /* CMake ReRun */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -2457,7 +2457,7 @@
 			name = "CMake ReRun";
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "make -C /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode -f /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/CMakeScripts/ReRunCMake.make";
+			shellScript = "make -C ${SRCROOT}/projects/OEIphone/Xcode -f ${SRCROOT}/projects/OEIphone/Xcode/CMakeScripts/ReRunCMake.make";
 		};
 		101191A80101191A80101191 /* CMake PostBuild Rules */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -2467,7 +2467,7 @@
 			name = "CMake PostBuild Rules";
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "make -C /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/TGAResource -f /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/TGAResource/CMakeScripts/Extensions_TGAResource_postBuildPhase.make$CONFIGURATION all";
+			shellScript = "make -C ${SRCROOT}/projects/OEIphone/Xcode/TGAResource -f ${SRCROOT}/projects/OEIphone/Xcode/TGAResource/CMakeScripts/Extensions_TGAResource_postBuildPhase.make$CONFIGURATION all";
 		};
 		1011A5C701011A5C701011A5 /* CMake ReRun */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -2477,7 +2477,7 @@
 			name = "CMake ReRun";
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "make -C /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode -f /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/CMakeScripts/ReRunCMake.make";
+			shellScript = "make -C ${SRCROOT}/projects/OEIphone/Xcode -f ${SRCROOT}/projects/OEIphone/Xcode/CMakeScripts/ReRunCMake.make";
 		};
 		1011A67201011A67201011A6 /* CMake PostBuild Rules */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -2487,7 +2487,7 @@
 			name = "CMake PostBuild Rules";
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "make -C /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/OEIphone -f /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/OEIphone/CMakeScripts/OEIphone_postBuildPhase.make$CONFIGURATION all";
+			shellScript = "make -C ${SRCROOT}/projects/OEIphone/Xcode/OEIphone -f ${SRCROOT}/projects/OEIphone/Xcode/OEIphone/CMakeScripts/OEIphone_postBuildPhase.make$CONFIGURATION all";
 		};
 		1011CAEE01011CAEE01011CA /* CMake ReRun */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -2497,7 +2497,7 @@
 			name = "CMake ReRun";
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "make -C /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode -f /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/CMakeScripts/ReRunCMake.make";
+			shellScript = "make -C ${SRCROOT}/projects/OEIphone/Xcode -f ${SRCROOT}/projects/OEIphone/Xcode/CMakeScripts/ReRunCMake.make";
 		};
 		1011CB9601011CB9601011CB /* CMake PostBuild Rules */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -2507,7 +2507,7 @@
 			name = "CMake PostBuild Rules";
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "make -C /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Core -f /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Core/CMakeScripts/OpenEngine_Core_postBuildPhase.make$CONFIGURATION all";
+			shellScript = "make -C ${SRCROOT}/projects/OEIphone/Xcode/src/Core -f ${SRCROOT}/projects/OEIphone/Xcode/src/Core/CMakeScripts/OpenEngine_Core_postBuildPhase.make$CONFIGURATION all";
 		};
 		1011E29701011E29701011E2 /* CMake ReRun */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -2517,7 +2517,7 @@
 			name = "CMake ReRun";
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "make -C /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode -f /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/CMakeScripts/ReRunCMake.make";
+			shellScript = "make -C ${SRCROOT}/projects/OEIphone/Xcode -f ${SRCROOT}/projects/OEIphone/Xcode/CMakeScripts/ReRunCMake.make";
 		};
 		1011E33F01011E33F01011E3 /* CMake PostBuild Rules */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -2527,7 +2527,7 @@
 			name = "CMake PostBuild Rules";
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "make -C /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Devices -f /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Devices/CMakeScripts/OpenEngine_Devices_postBuildPhase.make$CONFIGURATION all";
+			shellScript = "make -C ${SRCROOT}/projects/OEIphone/Xcode/src/Devices -f ${SRCROOT}/projects/OEIphone/Xcode/src/Devices/CMakeScripts/OpenEngine_Devices_postBuildPhase.make$CONFIGURATION all";
 		};
 		10121B4B010121B4B010121B /* CMake ReRun */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -2537,7 +2537,7 @@
 			name = "CMake ReRun";
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "make -C /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode -f /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/CMakeScripts/ReRunCMake.make";
+			shellScript = "make -C ${SRCROOT}/projects/OEIphone/Xcode -f ${SRCROOT}/projects/OEIphone/Xcode/CMakeScripts/ReRunCMake.make";
 		};
 		10121BF3010121BF3010121B /* CMake PostBuild Rules */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -2547,7 +2547,7 @@
 			name = "CMake PostBuild Rules";
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "make -C /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Display -f /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Display/CMakeScripts/OpenEngine_Display_postBuildPhase.make$CONFIGURATION all";
+			shellScript = "make -C ${SRCROOT}/projects/OEIphone/Xcode/src/Display -f ${SRCROOT}/projects/OEIphone/Xcode/src/Display/CMakeScripts/OpenEngine_Display_postBuildPhase.make$CONFIGURATION all";
 		};
 		10124A69010124A69010124A /* CMake ReRun */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -2557,7 +2557,7 @@
 			name = "CMake ReRun";
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "make -C /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode -f /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/CMakeScripts/ReRunCMake.make";
+			shellScript = "make -C ${SRCROOT}/projects/OEIphone/Xcode -f ${SRCROOT}/projects/OEIphone/Xcode/CMakeScripts/ReRunCMake.make";
 		};
 		10124B18010124B18010124B /* CMake PostBuild Rules */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -2567,7 +2567,7 @@
 			name = "CMake PostBuild Rules";
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "make -C /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Geometry -f /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Geometry/CMakeScripts/OpenEngine_Geometry_postBuildPhase.make$CONFIGURATION all";
+			shellScript = "make -C ${SRCROOT}/projects/OEIphone/Xcode/src/Geometry -f ${SRCROOT}/projects/OEIphone/Xcode/src/Geometry/CMakeScripts/OpenEngine_Geometry_postBuildPhase.make$CONFIGURATION all";
 		};
 		1012672D01012672D0101267 /* CMake ReRun */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -2577,7 +2577,7 @@
 			name = "CMake ReRun";
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "make -C /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode -f /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/CMakeScripts/ReRunCMake.make";
+			shellScript = "make -C ${SRCROOT}/projects/OEIphone/Xcode -f ${SRCROOT}/projects/OEIphone/Xcode/CMakeScripts/ReRunCMake.make";
 		};
 		101267D50101267D50101267 /* CMake PostBuild Rules */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -2587,7 +2587,7 @@
 			name = "CMake PostBuild Rules";
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "make -C /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Logging -f /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Logging/CMakeScripts/OpenEngine_Logging_postBuildPhase.make$CONFIGURATION all";
+			shellScript = "make -C ${SRCROOT}/projects/OEIphone/Xcode/src/Logging -f ${SRCROOT}/projects/OEIphone/Xcode/src/Logging/CMakeScripts/OpenEngine_Logging_postBuildPhase.make$CONFIGURATION all";
 		};
 		10128BC5010128BC5010128B /* CMake ReRun */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -2597,7 +2597,7 @@
 			name = "CMake ReRun";
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "make -C /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode -f /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/CMakeScripts/ReRunCMake.make";
+			shellScript = "make -C ${SRCROOT}/projects/OEIphone/Xcode -f ${SRCROOT}/projects/OEIphone/Xcode/CMakeScripts/ReRunCMake.make";
 		};
 		10128C6D010128C6D010128C /* CMake PostBuild Rules */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -2607,7 +2607,7 @@
 			name = "CMake PostBuild Rules";
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "make -C /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Math -f /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Math/CMakeScripts/OpenEngine_Math_postBuildPhase.make$CONFIGURATION all";
+			shellScript = "make -C ${SRCROOT}/projects/OEIphone/Xcode/src/Math -f ${SRCROOT}/projects/OEIphone/Xcode/src/Math/CMakeScripts/OpenEngine_Math_postBuildPhase.make$CONFIGURATION all";
 		};
 		1012A17401012A17401012A1 /* CMake ReRun */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -2617,7 +2617,7 @@
 			name = "CMake ReRun";
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "make -C /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode -f /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/CMakeScripts/ReRunCMake.make";
+			shellScript = "make -C ${SRCROOT}/projects/OEIphone/Xcode -f ${SRCROOT}/projects/OEIphone/Xcode/CMakeScripts/ReRunCMake.make";
 		};
 		1012A21C01012A21C01012A2 /* CMake PostBuild Rules */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -2627,7 +2627,7 @@
 			name = "CMake PostBuild Rules";
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "make -C /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Meta -f /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Meta/CMakeScripts/OpenEngine_Meta_postBuildPhase.make$CONFIGURATION all";
+			shellScript = "make -C ${SRCROOT}/projects/OEIphone/Xcode/src/Meta -f ${SRCROOT}/projects/OEIphone/Xcode/src/Meta/CMakeScripts/OpenEngine_Meta_postBuildPhase.make$CONFIGURATION all";
 		};
 		1012BD4501012BD4501012BD /* CMake ReRun */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -2637,7 +2637,7 @@
 			name = "CMake ReRun";
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "make -C /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode -f /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/CMakeScripts/ReRunCMake.make";
+			shellScript = "make -C ${SRCROOT}/projects/OEIphone/Xcode -f ${SRCROOT}/projects/OEIphone/Xcode/CMakeScripts/ReRunCMake.make";
 		};
 		1012BDED01012BDED01012BD /* CMake PostBuild Rules */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -2647,7 +2647,7 @@
 			name = "CMake PostBuild Rules";
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "make -C /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Renderers -f /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Renderers/CMakeScripts/OpenEngine_Renderers_postBuildPhase.make$CONFIGURATION all";
+			shellScript = "make -C ${SRCROOT}/projects/OEIphone/Xcode/src/Renderers -f ${SRCROOT}/projects/OEIphone/Xcode/src/Renderers/CMakeScripts/OpenEngine_Renderers_postBuildPhase.make$CONFIGURATION all";
 		};
 		1012F30801012F30801012F3 /* CMake ReRun */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -2657,7 +2657,7 @@
 			name = "CMake ReRun";
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "make -C /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode -f /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/CMakeScripts/ReRunCMake.make";
+			shellScript = "make -C ${SRCROOT}/projects/OEIphone/Xcode -f ${SRCROOT}/projects/OEIphone/Xcode/CMakeScripts/ReRunCMake.make";
 		};
 		1012F3B701012F3B701012F3 /* CMake PostBuild Rules */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -2667,7 +2667,7 @@
 			name = "CMake PostBuild Rules";
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "make -C /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Resources -f /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Resources/CMakeScripts/OpenEngine_Resources_postBuildPhase.make$CONFIGURATION all";
+			shellScript = "make -C ${SRCROOT}/projects/OEIphone/Xcode/src/Resources -f ${SRCROOT}/projects/OEIphone/Xcode/src/Resources/CMakeScripts/OpenEngine_Resources_postBuildPhase.make$CONFIGURATION all";
 		};
 		101335A70101335A70101335 /* CMake ReRun */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -2677,7 +2677,7 @@
 			name = "CMake ReRun";
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "make -C /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode -f /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/CMakeScripts/ReRunCMake.make";
+			shellScript = "make -C ${SRCROOT}/projects/OEIphone/Xcode -f ${SRCROOT}/projects/OEIphone/Xcode/CMakeScripts/ReRunCMake.make";
 		};
 		1013364F01013364F0101336 /* CMake PostBuild Rules */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -2687,7 +2687,7 @@
 			name = "CMake PostBuild Rules";
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "make -C /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Scene -f /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Scene/CMakeScripts/OpenEngine_Scene_postBuildPhase.make$CONFIGURATION all";
+			shellScript = "make -C ${SRCROOT}/projects/OEIphone/Xcode/src/Scene -f ${SRCROOT}/projects/OEIphone/Xcode/src/Scene/CMakeScripts/OpenEngine_Scene_postBuildPhase.make$CONFIGURATION all";
 		};
 		101357460101357460101357 /* CMake ReRun */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -2697,7 +2697,7 @@
 			name = "CMake ReRun";
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "make -C /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode -f /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/CMakeScripts/ReRunCMake.make";
+			shellScript = "make -C ${SRCROOT}/projects/OEIphone/Xcode -f ${SRCROOT}/projects/OEIphone/Xcode/CMakeScripts/ReRunCMake.make";
 		};
 		101357EE0101357EE0101357 /* CMake PostBuild Rules */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -2707,7 +2707,7 @@
 			name = "CMake PostBuild Rules";
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "make -C /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Utils -f /Users/ptx/Projects/OE/OEIphone/projects/OEIphone/Xcode/src/Utils/CMakeScripts/OpenEngine_Utils_postBuildPhase.make$CONFIGURATION all";
+			shellScript = "make -C ${SRCROOT}/projects/OEIphone/Xcode/src/Utils -f ${SRCROOT}/projects/OEIphone/Xcode/src/Utils/CMakeScripts/OpenEngine_Utils_postBuildPhase.make$CONFIGURATION all";
 		};
 /* End PBXShellScriptBuildPhase section */
 
