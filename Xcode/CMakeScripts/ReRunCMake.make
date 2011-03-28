@@ -10,8 +10,6 @@ ${SRCROOT}/conf/cmake/SetupGCC.cmake\
 ${SRCROOT}/conf/cmake/SetupOEBuild.cmake\
 ${SRCROOT}/conf/cmake/SetupVS.cmake\
 ${SRCROOT}/conf/doxygen/doxygen.cfg\
-${SRCROOT}/extensions/AccelerationStructures/CMakeLists.txt\
-${SRCROOT}/extensions/AccelerationStructures/Setup.cmake\
 ${SRCROOT}/extensions/IRC/CMakeLists.txt\
 ${SRCROOT}/extensions/MeshUtils/CMakeLists.txt\
 ${SRCROOT}/extensions/OpenGLESRenderer/CMakeLists.txt\

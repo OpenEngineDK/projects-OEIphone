@@ -22,7 +22,6 @@
 				10136D09010136D09010136D /* PBXTargetDependency */,
 				10136DC9010136DC9010136D /* PBXTargetDependency */,
 				10136E7F010136E7F010136E /* PBXTargetDependency */,
-				10136F39010136F39010136F /* PBXTargetDependency */,
 				10136FF3010136FF3010136F /* PBXTargetDependency */,
 				101370B50101370B50101370 /* PBXTargetDependency */,
 				101371710101371710101371 /* PBXTargetDependency */,
@@ -63,12 +62,6 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		1010B0A801010B0A801010B0 /* QuadNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1010B00301010B00301010B0 /* QuadNode.cpp */; settings = {COMPILER_FLAGS = ""; }; };
-		1010B1B301010B1B301010B1 /* QuadTransformer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1010B0F001010B0F001010B0 /* QuadTransformer.cpp */; settings = {COMPILER_FLAGS = ""; }; };
-		1010B2BA01010B2BA01010B2 /* BSPNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1010B1FA01010B1FA01010B1 /* BSPNode.cpp */; settings = {COMPILER_FLAGS = ""; }; };
-		1010B3BD01010B3BD01010B3 /* BSPTransformer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1010B30201010B30201010B3 /* BSPTransformer.cpp */; settings = {COMPILER_FLAGS = ""; }; };
-		1010B4C601010B4C601010B4 /* ASDotVisitor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1010B40B01010B40B01010B4 /* ASDotVisitor.cpp */; settings = {COMPILER_FLAGS = ""; }; };
-		1010B59701010B59701010B5 /* AcceleratedRenderingView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1010B51501010B51501010B5 /* AcceleratedRenderingView.cpp */; settings = {COMPILER_FLAGS = ""; }; };
 		1010CBC401010CBC401010CB /* iOSEngine.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1010CB1201010CB1201010CB /* iOSEngine.mm */; settings = {COMPILER_FLAGS = ""; }; };
 		1010CDCC01010CDCC01010CD /* OEDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1010CD1501010CD1501010CD /* OEDelegate.mm */; settings = {COMPILER_FLAGS = ""; }; };
 		1010CFD901010CFD901010CF /* OEViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1010CF1A01010CF1A01010CF /* OEViewController.mm */; settings = {COMPILER_FLAGS = ""; }; };
@@ -202,7 +195,6 @@
 		316C46271340C287002C7124 /* libOpenEngine_Display.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 10122D16010122D16010122D /* libOpenEngine_Display.a */; };
 		316C46281340C287002C7124 /* libOpenEngine_Geometry.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 10125C46010125C46010125C /* libOpenEngine_Geometry.a */; };
 		316C46291340C287002C7124 /* libOpenEngine_Renderers.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1012CF1501012CF1501012CF /* libOpenEngine_Renderers.a */; };
-		316C462A1340C29F002C7124 /* libExtensions_AccelerationStructures.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1010C97001010C97001010C9 /* libExtensions_AccelerationStructures.a */; };
 		316C462B1340C29F002C7124 /* libOpenEngine_Core.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1011DCBB01011DCBB01011DC /* libOpenEngine_Core.a */; };
 		316C462C1340C29F002C7124 /* libOpenEngine_Utils.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 101369190101369190101369 /* libOpenEngine_Utils.a */; };
 		316C462D1340C2B1002C7124 /* libOpenEngine_Math.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 10129D92010129D92010129D /* libOpenEngine_Math.a */; };
@@ -257,13 +249,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = 1013588C01013588C0101358;
 			remoteInfo = OpenEngine_Utils;
-		};
-		10136EC9010136EC9010136E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 10107A53010107A53010107A /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1010B90D01010B90D01010B9;
-			remoteInfo = Extensions_AccelerationStructures;
 		};
 		10136F83010136F83010136F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -327,13 +312,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = 1011A70E01011A70E01011A7;
 			remoteInfo = OEIphone;
-		};
-		101376210101376210101376 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 10107A53010107A53010107A /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 10124BB6010124BB6010124B;
-			remoteInfo = OpenEngine_Geometry;
 		};
 		101380C30101380C30101380 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -493,14 +471,6 @@
 
 /* Begin PBXFileReference section */
 		10108D96010108D96010108D /* CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		1010B00301010B00301010B0 /* QuadNode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = QuadNode.cpp; path = extensions/AccelerationStructures/Scene/QuadNode.cpp; sourceTree = SOURCE_ROOT; };
-		1010B0F001010B0F001010B0 /* QuadTransformer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = QuadTransformer.cpp; path = extensions/AccelerationStructures/Scene/QuadTransformer.cpp; sourceTree = SOURCE_ROOT; };
-		1010B1FA01010B1FA01010B1 /* BSPNode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BSPNode.cpp; path = extensions/AccelerationStructures/Scene/BSPNode.cpp; sourceTree = SOURCE_ROOT; };
-		1010B30201010B30201010B3 /* BSPTransformer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BSPTransformer.cpp; path = extensions/AccelerationStructures/Scene/BSPTransformer.cpp; sourceTree = SOURCE_ROOT; };
-		1010B40B01010B40B01010B4 /* ASDotVisitor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ASDotVisitor.cpp; path = extensions/AccelerationStructures/Scene/ASDotVisitor.cpp; sourceTree = SOURCE_ROOT; };
-		1010B51501010B51501010B5 /* AcceleratedRenderingView.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AcceleratedRenderingView.cpp; path = extensions/AccelerationStructures/Renderers/AcceleratedRenderingView.cpp; sourceTree = SOURCE_ROOT; };
-		1010B61C01010B61C01010B6 /* CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = CMakeLists.txt; path = extensions/AccelerationStructures/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		1010C97001010C97001010C9 /* libExtensions_AccelerationStructures.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libExtensions_AccelerationStructures.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		1010CA1E01010CA1E01010CA /* iOSEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iOSEngine.h; path = extensions/iOSEnvironment/Core/iOSEngine.h; sourceTree = SOURCE_ROOT; };
 		1010CB1201010CB1201010CB /* iOSEngine.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = iOSEngine.mm; path = extensions/iOSEnvironment/Core/iOSEngine.mm; sourceTree = SOURCE_ROOT; };
 		1010CC1101010CC1101010CC /* OEDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OEDelegate.h; path = extensions/iOSEnvironment/Core/OEDelegate.h; sourceTree = SOURCE_ROOT; };
@@ -826,7 +796,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				316C462D1340C2B1002C7124 /* libOpenEngine_Math.a in Frameworks */,
-				316C462A1340C29F002C7124 /* libExtensions_AccelerationStructures.a in Frameworks */,
 				316C462B1340C29F002C7124 /* libOpenEngine_Core.a in Frameworks */,
 				316C462C1340C29F002C7124 /* libOpenEngine_Utils.a in Frameworks */,
 				316C46271340C287002C7124 /* libOpenEngine_Display.a in Frameworks */,
@@ -856,7 +825,6 @@
 			isa = PBXGroup;
 			children = (
 				10129D92010129D92010129D /* libOpenEngine_Math.a */,
-				1010C97001010C97001010C9 /* libExtensions_AccelerationStructures.a */,
 				1011DCBB01011DCBB01011DC /* libOpenEngine_Core.a */,
 				101369190101369190101369 /* libOpenEngine_Utils.a */,
 				10122D16010122D16010122D /* libOpenEngine_Display.a */,
@@ -884,7 +852,6 @@
 			children = (
 				101054910101054910101054 /* ALL_BUILD */,
 				101055900101055900101055 /* doc */,
-				1010567E01010567E0101056 /* Extensions_AccelerationStructures */,
 				101057B70101057B70101057 /* Extensions_iOSEnvironment */,
 				101059740101059740101059 /* Extensions_IRC */,
 				10105AF5010105AF5010105A /* Extensions_OBJResource */,
@@ -956,28 +923,6 @@
 			children = (
 			);
 			name = "CMake Rules";
-			sourceTree = "<group>";
-		};
-		1010567E01010567E0101056 /* Extensions_AccelerationStructures */ = {
-			isa = PBXGroup;
-			children = (
-				101056E00101056E00101056 /* Source Files */,
-				1010B61C01010B61C01010B6 /* CMakeLists.txt */,
-			);
-			name = Extensions_AccelerationStructures;
-			sourceTree = "<group>";
-		};
-		101056E00101056E00101056 /* Source Files */ = {
-			isa = PBXGroup;
-			children = (
-				1010B00301010B00301010B0 /* QuadNode.cpp */,
-				1010B0F001010B0F001010B0 /* QuadTransformer.cpp */,
-				1010B1FA01010B1FA01010B1 /* BSPNode.cpp */,
-				1010B30201010B30201010B3 /* BSPTransformer.cpp */,
-				1010B40B01010B40B01010B4 /* ASDotVisitor.cpp */,
-				1010B51501010B51501010B5 /* AcceleratedRenderingView.cpp */,
-			);
-			name = "Source Files";
 			sourceTree = "<group>";
 		};
 		101057B70101057B70101057 /* Extensions_iOSEnvironment */ = {
@@ -1741,24 +1686,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1010B90D01010B90D01010B9 /* Extensions_AccelerationStructures */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1010B8EA01010B8EA01010B8 /* Build configuration list for PBXNativeTarget "Extensions_AccelerationStructures" */;
-			buildPhases = (
-				1010B78701010B78701010B7 /* CMake ReRun */,
-				1010B71501010B71501010B7 /* Sources */,
-				1010B82F01010B82F01010B8 /* CMake PostBuild Rules */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				101376CB0101376CB0101376 /* PBXTargetDependency */,
-			);
-			name = Extensions_AccelerationStructures;
-			productName = Extensions_AccelerationStructures;
-			productReference = 1010C97001010C97001010C9 /* libExtensions_AccelerationStructures.a */;
-			productType = "com.apple.product-type.library.static";
-		};
 		1010DAEE01010DAEE01010DA /* Extensions_iOSEnvironment */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1010DB4F01010DB4F01010DB /* Build configuration list for PBXNativeTarget "Extensions_iOSEnvironment" */;
@@ -1806,7 +1733,6 @@
 			dependencies = (
 				10136C53010136C53010136C /* PBXTargetDependency */,
 				10136E7F010136E7F010136E /* PBXTargetDependency */,
-				10136F39010136F39010136F /* PBXTargetDependency */,
 			);
 			name = Extensions_OBJResource;
 			productName = Extensions_OBJResource;
@@ -1824,7 +1750,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				10136F39010136F39010136F /* PBXTargetDependency */,
 			);
 			name = Extensions_MeshUtils;
 			productName = Extensions_MeshUtils;
@@ -1916,7 +1841,6 @@
 				10136AE1010136AE1010136A /* PBXTargetDependency */,
 				10136B97010136B97010136B /* PBXTargetDependency */,
 				10136C53010136C53010136C /* PBXTargetDependency */,
-				10136F39010136F39010136F /* PBXTargetDependency */,
 				10136FF3010136FF3010136F /* PBXTargetDependency */,
 				101370B50101370B50101370 /* PBXTargetDependency */,
 				101371710101371710101371 /* PBXTargetDependency */,
@@ -1977,7 +1901,6 @@
 			dependencies = (
 				10136A2B010136A2B010136A /* PBXTargetDependency */,
 				10136D09010136D09010136D /* PBXTargetDependency */,
-				10136F39010136F39010136F /* PBXTargetDependency */,
 			);
 			name = OpenEngine_Display;
 			productName = OpenEngine_Display;
@@ -2188,7 +2111,6 @@
 				10107DA3010107DA3010107D /* ALL_BUILD */,
 				10108EF5010108EF5010108E /* RUN_TESTS */,
 				10109FA2010109FA2010109F /* doc */,
-				1010B90D01010B90D01010B9 /* Extensions_AccelerationStructures */,
 				1010DAEE01010DAEE01010DA /* Extensions_iOSEnvironment */,
 				1010F4C901010F4C901010F4 /* Extensions_IRC */,
 				10110D91010110D91010110D /* Extensions_OBJResource */,
@@ -2288,26 +2210,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "make -C ${SRCROOT}/projects/OEIphone/Xcode -f ${SRCROOT}/projects/OEIphone/Xcode/CMakeScripts/doc_cmakeRulesBuildPhase.make$CONFIGURATION all";
-		};
-		1010B78701010B78701010B7 /* CMake ReRun */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			name = "CMake ReRun";
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "make -C ${SRCROOT}/projects/OEIphone/Xcode -f ${SRCROOT}/projects/OEIphone/Xcode/CMakeScripts/ReRunCMake.make";
-		};
-		1010B82F01010B82F01010B8 /* CMake PostBuild Rules */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			name = "CMake PostBuild Rules";
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "make -C ${SRCROOT}/projects/OEIphone/Xcode/AccelerationStructures -f ${SRCROOT}/projects/OEIphone/Xcode/AccelerationStructures/CMakeScripts/Extensions_AccelerationStructures_postBuildPhase.make$CONFIGURATION all";
 		};
 		1010D9AA01010D9AA01010D9 /* CMake ReRun */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -2712,19 +2614,6 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1010B71501010B71501010B7 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1010B0A801010B0A801010B0 /* QuadNode.cpp in Sources */,
-				1010B1B301010B1B301010B1 /* QuadTransformer.cpp in Sources */,
-				1010B2BA01010B2BA01010B2 /* BSPNode.cpp in Sources */,
-				1010B3BD01010B3BD01010B3 /* BSPTransformer.cpp in Sources */,
-				1010B4C601010B4C601010B4 /* ASDotVisitor.cpp in Sources */,
-				1010B59701010B59701010B5 /* AcceleratedRenderingView.cpp in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		1010D93801010D93801010D9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -3022,11 +2911,6 @@
 			target = 1013588C01013588C0101358 /* OpenEngine_Utils */;
 			targetProxy = 10136E0F010136E0F010136E /* PBXContainerItemProxy */;
 		};
-		10136F39010136F39010136F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 1010B90D01010B90D01010B9 /* Extensions_AccelerationStructures */;
-			targetProxy = 10136EC9010136EC9010136E /* PBXContainerItemProxy */;
-		};
 		10136FF3010136FF3010136F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 1010DAEE01010DAEE01010DA /* Extensions_iOSEnvironment */;
@@ -3071,11 +2955,6 @@
 			isa = PBXTargetDependency;
 			target = 1011A70E01011A70E01011A7 /* OEIphone */;
 			targetProxy = 101375570101375570101375 /* PBXContainerItemProxy */;
-		};
-		101376CB0101376CB0101376 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 10124BB6010124BB6010124B /* OpenEngine_Geometry */;
-			targetProxy = 101376210101376210101376 /* PBXContainerItemProxy */;
 		};
 		101380830101380830101380 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -3667,166 +3546,6 @@
 				OTHER_REZFLAGS = "";
 				PREBINDING = NO;
 				PRODUCT_NAME = doc;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-				);
-			};
-			name = RelWithDebInfo;
-		};
-		1010B98401010B98401010B9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				EXECUTABLE_PREFIX = lib;
-				EXECUTABLE_SUFFIX = .a;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"'CMAKE_INTDIR=\"$(CONFIGURATION)\"'",
-					"'OE_SAFE=true'",
-					"'OE_DEBUG_GL=true'",
-					_DEBUG,
-				);
-				INSTALL_PATH = "";
-				LIBRARY_STYLE = STATIC;
-				OTHER_CFLAGS = (
-					"-Wall",
-					"-Wextra",
-					"-Wno-unused-parameter",
-				);
-				OTHER_CPLUSPLUSFLAGS = (
-					"-Wall",
-					"-Wextra",
-					"-Wno-unused-parameter",
-				);
-				OTHER_REZFLAGS = "";
-				PREBINDING = NO;
-				PRODUCT_NAME = Extensions_AccelerationStructures;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-				);
-			};
-			name = Debug;
-		};
-		1010BD7501010BD7501010BD /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				EXECUTABLE_PREFIX = lib;
-				EXECUTABLE_SUFFIX = .a;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 3;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"'CMAKE_INTDIR=\"$(CONFIGURATION)\"'",
-					"'OE_SAFE=true'",
-					"'OE_DEBUG_GL=true'",
-					_DEBUG,
-				);
-				INSTALL_PATH = "";
-				LIBRARY_STYLE = STATIC;
-				OTHER_CFLAGS = (
-					"-DNDEBUG",
-					"-Wall",
-					"-Wextra",
-					"-Wno-unused-parameter",
-				);
-				OTHER_CPLUSPLUSFLAGS = (
-					"-DNDEBUG",
-					"-Wall",
-					"-Wextra",
-					"-Wno-unused-parameter",
-				);
-				OTHER_REZFLAGS = "";
-				PREBINDING = NO;
-				PRODUCT_NAME = Extensions_AccelerationStructures;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-				);
-			};
-			name = Release;
-		};
-		1010C15801010C15801010C1 /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				EXECUTABLE_PREFIX = lib;
-				EXECUTABLE_SUFFIX = .a;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = s;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"'CMAKE_INTDIR=\"$(CONFIGURATION)\"'",
-					"'OE_SAFE=true'",
-					"'OE_DEBUG_GL=true'",
-					_DEBUG,
-				);
-				INSTALL_PATH = "";
-				LIBRARY_STYLE = STATIC;
-				OTHER_CFLAGS = (
-					"-DNDEBUG",
-					"-Wall",
-					"-Wextra",
-					"-Wno-unused-parameter",
-				);
-				OTHER_CPLUSPLUSFLAGS = (
-					"-DNDEBUG",
-					"-Wall",
-					"-Wextra",
-					"-Wno-unused-parameter",
-				);
-				OTHER_REZFLAGS = "";
-				PREBINDING = NO;
-				PRODUCT_NAME = Extensions_AccelerationStructures;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-				);
-			};
-			name = MinSizeRel;
-		};
-		1010C53E01010C53E01010C5 /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				EXECUTABLE_PREFIX = lib;
-				EXECUTABLE_SUFFIX = .a;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 2;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"'CMAKE_INTDIR=\"$(CONFIGURATION)\"'",
-					"'OE_SAFE=true'",
-					"'OE_DEBUG_GL=true'",
-					_DEBUG,
-				);
-				INSTALL_PATH = "";
-				LIBRARY_STYLE = STATIC;
-				OTHER_CFLAGS = (
-					"-Wall",
-					"-Wextra",
-					"-Wno-unused-parameter",
-				);
-				OTHER_CPLUSPLUSFLAGS = (
-					"-Wall",
-					"-Wextra",
-					"-Wno-unused-parameter",
-				);
-				OTHER_REZFLAGS = "";
-				PREBINDING = NO;
-				PRODUCT_NAME = Extensions_AccelerationStructures;
 				SECTORDER_FLAGS = "";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = (
@@ -7173,17 +6892,6 @@
 				1010A4FE01010A4FE01010A4 /* Release */,
 				1010A86101010A86101010A8 /* MinSizeRel */,
 				1010ABCA01010ABCA01010AB /* RelWithDebInfo */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Debug;
-		};
-		1010B8EA01010B8EA01010B8 /* Build configuration list for PBXNativeTarget "Extensions_AccelerationStructures" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1010B98401010B98401010B9 /* Debug */,
-				1010BD7501010BD7501010BD /* Release */,
-				1010C15801010C15801010C1 /* MinSizeRel */,
-				1010C53E01010C53E01010C5 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;

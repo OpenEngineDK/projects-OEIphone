@@ -13,9 +13,10 @@ darcs-dev /projects/OEIphone fh.daimi.au.dk:/users/cgd/code/projects/OEIphone
 dist /extensions/OpenGLESRenderer/OpenGLESRenderer.dist http://openengine.dk/code/extensions/OpenGLESRenderer/OpenGLESRenderer.dist
 
 # required extensions
+
 darcs /extensions/TGAResource                  http://openengine.dk/code/extensions/TGAResource
 darcs /extensions/iOSEnvironment               http://openengine.dk/code/extensions/iOSEnvironment
-darcs /extensions/IRC            	       http://openengine.dk/code/extensions/IRC
+darcs /extensions/IRC            	           http://openengine.dk/code/extensions/IRC
 darcs /extensions/MeshUtils            	       http://openengine.dk/code/branches/ios-MeshUtils
 darcs /extensions/Sockets            	       http://openengine.dk/code/extensions/Sockets
 darcs /extensions/mesh-OBJResource             http://openengine.dk/code/extensions/mesh-OBJResource
